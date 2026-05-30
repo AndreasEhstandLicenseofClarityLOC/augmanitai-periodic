@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "AUGMANITAI Periodic Table of AI-Human Interaction Phenomena (Wave 2)"
+abstract: "100-term descriptive terminology dataset arranged in a periodic-table-style classification by discipline and period. Documents AI-human interaction phenomena across cognition, memory, trust dynamics, decision-making, self-reference, creativity-emergence, governance, humor-affect, and interaction-phenomenology. Inspired by ISO 704 principles."
+authors:
+  - family-names: Ehstand
+    given-names: Andreas
+    orcid: "https://orcid.org/0009-0006-3773-7796"
+    affiliation: "Independent Researcher"
+version: "2.0"
+date-released: "2026-05-28"
+license: "CC-BY-ND-4.0"
+repository-code: "https://github.com/AndreasEhstandLicenseOfClarityLOC/augmanitai-periodic"
+url: "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/"
+keywords:
+  - "AUGMANITAI"
+  - "periodic table"
+  - "AI-human interaction"
+  - "phenomenology"
+  - "ISO 704"
+  - "SKOS"
+  - "Croissant"
+  - "descriptive terminology"
+identifiers:
+  - type: other
+    value: "https://orcid.org/0009-0006-3773-7796"
+    description: ORCID identifier of the author

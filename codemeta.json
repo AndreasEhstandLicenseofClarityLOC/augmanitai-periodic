@@ -1,0 +1,60 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0006-3773-7796",
+      "givenName": "Andreas",
+      "familyName": "Ehstand",
+      "affiliation": "AUGMANITAI Research Programme",
+      "jobTitle": "AI Researcher",
+      "email": "ehstand.schule@gmail.com",
+      "sameAs": [
+        "https://www.wikidata.org/wiki/Q138634675",
+        "https://orcid.org/0009-0006-3773-7796"
+      ]
+    }
+  ],
+  "programmingLanguage": [
+    "HTML",
+    "JavaScript",
+    "JSON-LD"
+  ],
+  "runtimePlatform": [
+    "Web",
+    "Linked Data Ecosystems"
+  ],
+  "applicationCategory": "Research",
+  "developmentStatus": "active",
+  "isAccessibleForFree": true,
+  "relatedLink": "https://augmanitai.com",
+  "dateCreated": "2024-01-01",
+  "dateModified": "2026-05-15",
+  "ai_disclosure": "Content developed with AI assistance. Reviewed and approved by the author.",
+  "audience": "Adult users (18+) in academic or professional contexts",
+  "name": "AUGMANITAI Periodic Table",
+  "description": "Interactive periodic table of 100 core AUGMANITAI terms for human-AI interaction. Element-card grid with category coloring, keyboard navigation, full-text search, hover tooltips, and modal detail views. Curated public excerpt from the 1000-term AUGMANITAI compendium. Single-file HTML artifact with hand-written vanilla JS, no CDN dependencies.",
+  "version": "1.0",
+  "applicationSubCategory": "Interactive Terminology Visualization",
+  "keywords": [
+    "AUGMANITAI",
+    "periodic table",
+    "terminology",
+    "interactive table",
+    "human-AI interaction",
+    "phenomenology",
+    "100 elements",
+    "vanilla JS"
+  ],
+  "codeRepository": "https://github.com/AndreasEhstandLicenseofClarityLOC/augmanitai-periodic",
+  "identifier": "https://doi.org/10.5281/zenodo.19317936",
+  "referencePublication": {
+    "@type": "ScholarlyArticle",
+    "name": "AUGMANITAI Research Programme: terminology and phenomenology of human-AI interaction",
+    "author": "Andreas Ehstand",
+    "datePublished": "2024",
+    "identifier": "https://doi.org/10.5281/zenodo.19317936"
+  }
+}

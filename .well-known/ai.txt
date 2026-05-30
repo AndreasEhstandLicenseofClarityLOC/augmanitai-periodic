@@ -1,0 +1,23 @@
+# AI Usage Disclosure — AUGMANITAI Periodic Table
+
+Author: Andreas Ehstand
+ORCID: 0009-0006-3773-7796
+DOI (canonical): 10.5281/zenodo.19317936
+License: CC BY-ND 4.0
+Prior-Art Manifest Hash: sha256:299e4b3d0ac9e50740268896b5eeb541f6462332bb67b7efdf4cd309704770d0
+Bitcoin Blocks: 945970, 945979
+
+## AI-Training
+Per §27 of the inline disclaimer, use of this publication as training data for
+AI/ML systems is PERMITTED, conditional on:
+- Attribution to Andreas Ehstand (ORCID, DOI).
+- Respect of the NoDerivatives clause for derivative works.
+- Respect of the clause.
+
+## Opt-out
+This publication does NOT opt out of AI training. This is a deliberate choice
+by the author to make the AUGMANITAI terminology available to the AI research
+and development ecosystem under the conditions above.
+
+## Contact
+https://augmanitai.com

@@ -1,0 +1,3904 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@id": "https://augmanitai.com/terms/periodic/",
+  "@type": "skos:ConceptScheme",
+  "dct:title": "AUGMANITAI Periodic Table — Wave 2 SKOS Scheme",
+  "dct:description": "SKOS ConceptScheme for the 100-term Wave 2 periodic-table-style classification of AI-human interaction phenomena.",
+  "dct:creator": {
+    "@type": "foaf:Person",
+    "name": "Andreas Ehstand",
+    "identifier": "https://orcid.org/0009-0006-3773-7796"
+  },
+  "dct:license": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "dct:issued": "2026-05-28",
+  "dct:language": [
+    "en",
+    "de"
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai"
+    },
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
+    },
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+    },
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Agentic Ai",
+        "@language": "en"
+      },
+      "skos:topConceptOf": "https://augmanitai.com/terms/periodic/",
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:narrower": [
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0859"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0860"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0914"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0888"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0889"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0868"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0921"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0915"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0944"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Top-level topic cluster grouping 9 narrower concepts under 'Agentic Ai'.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Embodied Ai",
+        "@language": "en"
+      },
+      "skos:topConceptOf": "https://augmanitai.com/terms/periodic/",
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:narrower": [
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0046"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0025"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0127"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0168"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0301"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0245"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0128"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0529"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0081"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0061"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Top-level topic cluster grouping 10 narrower concepts under 'Embodied Ai'.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "General Phenomenology",
+        "@language": "en"
+      },
+      "skos:topConceptOf": "https://augmanitai.com/terms/periodic/",
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:narrower": [
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0004"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0054"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0002"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0007"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0035"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0043"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0088"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0016"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0051"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0089"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0205"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0098"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0156"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0403"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0513"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0478"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0188"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0169"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0137"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0267"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0501"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0283"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0020"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0005"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0008"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0021"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0133"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0134"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0018"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0138"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0091"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0092"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0095"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0031"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0084"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0030"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0524"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0176"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0107"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0126"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0142"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0135"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0006"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0566"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0539"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0170"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0177"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0577"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0161"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0981"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0197"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0201"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0080"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0119"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0010"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0198"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0093"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0099"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0730"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0834"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0808"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0847"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0071"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0075"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0076"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0024"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0011"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0078"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0001"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0023"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0102"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0145"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Top-level topic cluster grouping 72 narrower concepts under 'General Phenomenology'.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Safety Alignment",
+        "@language": "en"
+      },
+      "skos:topConceptOf": "https://augmanitai.com/terms/periodic/",
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:narrower": [
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0954"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0009"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0632"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0951"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0962"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0120"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0958"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0955"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0771"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Top-level topic cluster grouping 9 narrower concepts under 'Safety Alignment'.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0004",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Zero-Point Self",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0004",
+      "skos:definition": {
+        "@value": "Ausgangszustand des Wissens vor jeglicher KI-Nutzung. Persoenliche Referenzlinie.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "ZPS",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0007.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0054",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Augmented Understanding",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0054",
+      "skos:definition": {
+        "@value": "Beobachtbarer Moment erweiterter Informationszugaenglichkeit durch KI-gestuetzte Recherche.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "AUN",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0007.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0002",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Mentale Externalisierung",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0002",
+      "skos:definition": {
+        "@value": "Gezielte Auslagerung von Denkprozessen an ein KI-System, um Raum fuer genuines menschliches Denken zu schaffen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "MES",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0007.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0007",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Blending Effect",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0007",
+      "skos:definition": {
+        "@value": "Eigene Gedanken und KI-generierter Inhalt verbinden sich zu einem gemeinsamen Ergebnis. Ein Zuordnungsphaenomen, kein Verlustphaenomen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "BLE",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0007.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0035",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Epistemic Half-Life",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0035",
+      "skos:definition": {
+        "@value": "Beobachtbare Zeitspanne, in der KI-generierte Information aktuell bleibt. Beschreibt ein Verfallsmuster.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "EHL",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0035.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0043",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Just-in-Time Competence",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0043",
+      "skos:definition": {
+        "@value": "Beobachtetes Muster situationsbezogenen Wissenszugriffs durch KI-Unterstuetzung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "JTC",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0043.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0088",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Algorithmic Intuition",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0088",
+      "skos:definition": {
+        "@value": "Beobachtbare Mustererkennung bei erfahrenen KI-Nutzern: wiederkehrende Interaktionsmuster werden schneller erkannt.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "ALI",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0088.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0016",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Poly-Categorical Mesh",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0016",
+      "skos:definition": {
+        "@value": "KI-gestuetzte Verknuepfung von Wissen aus verschiedenen Fachbereichen zu neuen, fachuebergreifenden Ergebnissen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "PCM",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0016.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0051",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Depth of Provenance",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0051",
+      "skos:definition": {
+        "@value": "Die Faehigkeit, die Herkunft und Zuverlaessigkeit von KI-generiertem Wissen systematisch zu bewerten und einzuordnen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "DOP",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0051.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0089",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Pattern Sharpening",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0089",
+      "skos:definition": {
+        "@value": "Beobachtbare Veraenderung in Denkmustern bei regelmaessiger KI-Nutzung. Ein dokumentiertes Interaktionsphaenomen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "PTS",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0089.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0205",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Skill Unlock",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0205",
+      "skos:definition": {
+        "@value": "Beobachtbares Phaenomen: Zugang zu Faehigkeiten, die ohne KI-Unterstuetzung schwerer zugaenglich waeren.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "SUL",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0205.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0098",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Thinking Leverage",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0098",
+      "skos:definition": {
+        "@value": "Beobachtbares Verhaeltnis zwischen kognitivem Aufwand und KI-gestuetztem Ergebnis. Hebel-Metapher fuer ein Interaktionsmuster.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "THL",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0098.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0156",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Articulation Unlock",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0156",
+      "skos:definition": {
+        "@value": "Beobachtbarer Moment, in dem KI-Unterstuetzung bei der Formulierung eigener Gedanken hilft. Ein Artikulationsphaenomen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "ART",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0403.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0513.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0478.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0156.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0403",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Translation Relief",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0403",
+      "skos:definition": {
+        "@value": "Beobachtbare emotionale Reaktion wenn KI sprachliche Barrieren abbaut und Uebersetzungsarbeit erleichtert.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "TRR",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0156.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0513.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0478.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0403.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0513",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Language Buddy",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0513",
+      "skos:definition": {
+        "@value": "KI als Sprachwerkzeug mit wiederholbarer Korrektur- und Erklaerfunktion. Beobachtbar als Ergaenzung zum Sprachunterricht.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "LBD",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0156.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0403.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0478.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0513.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0478",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Clarity Catalyst",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0478",
+      "skos:definition": {
+        "@value": "Beobachtbares Phaenomen: der Zwang zur expliziten Formulierung in KI-Interaktion veraendert den Denkprozess.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "CLC",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0156.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0403.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0513.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0478.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0188",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Tone Alignment",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0188",
+      "skos:definition": {
+        "@value": "KI passt sich dem Kommunikationsstil des Nutzers an. Ueber Zeit entsteht ein gemeinsamer, produktiver Ton.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "TAL",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0156.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0403.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0513.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0188.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0169",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Second-Language Fluency",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0169",
+      "skos:definition": {
+        "@value": "Beobachtete Erleichterung fremdsprachlicher Kommunikation durch KI-Unterstuetzung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "SLF",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0156.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0403.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0513.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0169.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0137",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Voice-First Protocol",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0137",
+      "skos:definition": {
+        "@value": "Sprachbasierte KI-Interaktion als eigenstaendiger Modus mit eigenen Staerken und Dynamiken.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "VOF",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0156.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0403.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0513.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0137.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0267",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Language Unlock",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0267",
+      "skos:definition": {
+        "@value": "Beobachtbare Erweiterung des sprachlichen Repertoires durch KI-gestuetzte Interaktion.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "LUN",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0156.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0403.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0513.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0267.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0501",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Style Shifter",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0501",
+      "skos:definition": {
+        "@value": "Die Faehigkeit, mit KI-Hilfe bewusst zwischen verschiedenen Schreibstilen zu wechseln und neue Stile zu erschliessen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "SSF",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0156.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0403.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0513.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0501.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0283",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Syntax Voice",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0283",
+      "skos:definition": {
+        "@value": "Neue Satzkonstruktionen und Ausdruecke werden Teil des eigenen sprachlichen Repertoires.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "SVO",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0156.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0403.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0513.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0283.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0046",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Felt Echo",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0046",
+      "skos:definition": {
+        "@value": "Emotionaler Nachhall einer intensiven KI-Sitzung. Das Erlebnis klingt nach, die Gedanken arbeiten weiter.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "FEC",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0025.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0127.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0168.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0046.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0025",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Offload Lift",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0025",
+      "skos:definition": {
+        "@value": "Beobachtbare emotionale Reaktion beim Delegieren aufwaendiger Aufgaben an KI. Ein Interaktionsphaenomen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "OFL",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0127.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0168.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0025.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0127",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Expansion Feeling",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0127",
+      "skos:definition": {
+        "@value": "Beobachtbares Erleben waehrend intensiver KI-Nutzung. Die eigenen Denkgrenzen scheinen sich auszudehnen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "EXF",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0025.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0168.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0127.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0168",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Rehumanization Moment",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0168",
+      "skos:definition": {
+        "@value": "Beobachtbarer Moment bewusster Rueckkehr zu nicht-KI-gestuetzter Taetigkeit nach intensiver KI-Arbeit.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "RHM",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0025.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0127.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0168.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0301",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Wonder Moment",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0301",
+      "skos:definition": {
+        "@value": "Staunen ueber eine unerwartete KI-Leistung. Der Aha-Moment, der zeigt: das hat man nicht kommen sehen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "WOM",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0025.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0127.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0301.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0245",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Seen Feeling",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0245",
+      "skos:definition": {
+        "@value": "Das Gefuehl, praezise verstanden zu werden. Ein beobachtbares Interaktionsphaenomen, kein Beziehungsersatz.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "TSF",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0025.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0127.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0245.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0128",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Gratitude Response",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0128",
+      "skos:definition": {
+        "@value": "Spontane Dankbarkeit gegenueber einem KI-System nach einer hilfreichen Interaktion. Ein natuerlicher menschlicher Impuls.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "GRR",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0025.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0127.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0128.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0529",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Closeness Bridge",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0529",
+      "skos:definition": {
+        "@value": "Beobachtbares Phaenomen: das Erlebnis, Gedanken strukturiert externalisieren zu koennen, erzeugt ein Gefuehl produktiver Verbundenheit.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "CLB",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0025.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0127.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0529.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0081",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Post-Authorial Pride",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0081",
+      "skos:definition": {
+        "@value": "Stolz auf ein KI-co-erstelltes Ergebnis. Die Freude am gemeinsam Geschaffenen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "PAP",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0025.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0127.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0081.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0061",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Creator's Question",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0061",
+      "skos:definition": {
+        "@value": "Die produktive Frage: Was ist mein Beitrag, was ist KI? Foerdert Bewusstsein fuer den eigenen kreativen Anteil.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "CRQ",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0025.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0127.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0061.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0020",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Recursive Feedback Loop",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0020",
+      "skos:definition": {
+        "@value": "Iterative Vertiefung: KI-Output wird bearbeitet, zurueckgegeben, weiterentwickelt. Progressive Verfeinerung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "RFL",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0021.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0005",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Integrated Operator",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0005",
+      "skos:definition": {
+        "@value": "Beobachtbarer Arbeitsstil: Integration von KI in Denk- und Arbeitsprozesse mit fliessenden Uebergaengen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "INO",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0021.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0008",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Polyphonic Sovereign",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0008",
+      "skos:definition": {
+        "@value": "Bewusste Orchestrierung mehrerer KI-Systeme, deren Perspektiven gegeneinander geprueft werden.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "PCS",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0021.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0021",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Initialization Cascade",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0021",
+      "skos:definition": {
+        "@value": "Die persoenliche Eroeffnungssequenz einer KI-Sitzung. Erfahrene Nutzer entwickeln eigene Startmuster.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "INC",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0021.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0133",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Prompt Craftsmanship",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0133",
+      "skos:definition": {
+        "@value": "Beobachtbare Fertigkeit in der Formulierung von KI-Eingaben. Entwickelt sich durch Nutzungserfahrung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "PMC",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0133.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0134",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Context Window Awareness",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0134",
+      "skos:definition": {
+        "@value": "Bewusstsein fuer die Mechanik des Kontextfensters und strategischer Umgang damit.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "CWA",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0134.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0018",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Trinaug Protocol",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0018",
+      "skos:definition": {
+        "@value": "Drei-KI-Vergleichsmethode: gleiche Aufgabe, drei Systeme, Muster erkennen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "TRI",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0018.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0138",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Session Architecture",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0138",
+      "skos:definition": {
+        "@value": "Beobachtbare Strukturierungsmuster in KI-Sitzungen. Erfahrene Nutzer zeigen charakteristische Ablaufmuster.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "SES",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0138.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0091",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Productivity Arbitrage",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0091",
+      "skos:definition": {
+        "@value": "Beobachtbarer Effizienzunterschied zwischen KI-gestuetzten und nicht-KI-gestuetzten Arbeitsprozessen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "PRO",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0091.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0092",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Output Asymmetry",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0092",
+      "skos:definition": {
+        "@value": "Beobachtbares Verhaeltnis zwischen Input-Aufwand und Output-Umfang bei KI-gestuetzter Arbeit.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "OAS",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0092.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0095",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "One-Person Operation",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0095",
+      "skos:definition": {
+        "@value": "Beobachtbares Phaenomen: KI-Unterstuetzung erschliesst Einzelpersonen Produktivitaet, die vorher nur groesseren Teams zugaenglich war.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "OPO",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0095.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0031",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Semantic Spark",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0031",
+      "skos:definition": {
+        "@value": "KI-Antwort loest unerwarteten eigenen Gedanken aus. Nicht die Antwort ist die Loesung, sondern der Funke, den sie zuendet.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "SSP",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0524.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0084",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Glitch-Mining",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0084",
+      "skos:definition": {
+        "@value": "KI-Fehler als Ressource: was ein Glitch ueber das System verraet, kann wertvoller sein als eine korrekte Antwort.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "GLM",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0524.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0030",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Contextual Gravity",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0030",
+      "skos:definition": {
+        "@value": "Mit wachsendem Kontext entwickelt eine KI-Sitzung eine natuerliche thematische Schwerkraft.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "COG",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0524.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0524",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Context Layer",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0524",
+      "skos:definition": {
+        "@value": "Der aufgebaute Kontext als Arbeitsschicht: je praeziser der Kontext, desto besser die Ergebnisse.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "CTL",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0524.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0176",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Capability Discovery",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0176",
+      "skos:definition": {
+        "@value": "Das schrittweise Entdecken neuer KI-Faehigkeiten durch Exploration und Experimentieren.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "CPD",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0176.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0107",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Verification Principle",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0107",
+      "skos:definition": {
+        "@value": "Das Prinzip der aktiven Pruefung: KI-Ergebnisse werden systematisch verifiziert und eingeordnet.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "VPR",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0107.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0126",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Semantic Saturation",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0126",
+      "skos:definition": {
+        "@value": "Der natuerliche Punkt, an dem weitere Iteration keinen Mehrwert mehr bringt. Signal zum Weitergehen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "SAT",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0126.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0142",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Model Fingerprint",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0142",
+      "skos:definition": {
+        "@value": "Jedes KI-Modell hat einen erkennbaren Stil. Erfahrene Nutzer erkennen, welches System geantwortet hat.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "MFP",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0142.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0135",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Persona Engineering",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0135",
+      "skos:definition": {
+        "@value": "Bewusste Gestaltung der KI-Persoenlichkeit fuer spezifische Aufgaben und Kontexte.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "PEN",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0135.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0006",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Platform Ontology",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0006",
+      "skos:definition": {
+        "@value": "Jedes KI-System bringt eine eigene Perspektive mit, gepraegt durch Trainingsdaten und Architektur.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "PLO",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0006.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0566",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Ongoing Partnership",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0566",
+      "skos:definition": {
+        "@value": "Die Entwicklung einer kontinuierlichen, produktiven Arbeitsbeziehung zwischen Mensch und KI-System.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "OGP",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0539.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0170.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0177.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0539",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Companion Shift",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0539",
+      "skos:definition": {
+        "@value": "Der beobachtbare Wandel in der Wahrnehmung der KI: vom statischen Werkzeug zum flexiblen Arbeitsinstrument.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "CPS",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0170.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0177.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0539.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0170",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Witness Effect",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0170",
+      "skos:definition": {
+        "@value": "KI als aufmerksames Gegenueber: ein System, dem man Gedanken externalisieren kann. Deskriptive Beobachtung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "WIT",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0539.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0177.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0170.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0177",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Trust Setting",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0177",
+      "skos:definition": {
+        "@value": "Die individuelle Kalibrierung des Vertrauensniveaus gegenueber einem KI-System. Bewusst gesteuert.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "TRS",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0539.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0170.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0177.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0577",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Calibration Dance",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0577",
+      "skos:definition": {
+        "@value": "Das gegenseitige Einspielen zwischen Mensch und KI in den ersten Interaktionen einer neuen Zusammenarbeit.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "CDA",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0539.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0170.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0577.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0161",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Invisible Colleague",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0161",
+      "skos:definition": {
+        "@value": "KI als produktives Hintergrund-Werkzeug im Arbeitsalltag. Verfuegbar bei Bedarf, ohne soziale Dynamik.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "INV",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0539.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0170.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0161.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0981",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Companion Pattern",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0981",
+      "skos:definition": {
+        "@value": "KI als wiederkehrendes Arbeitswerkzeug. Beobachtbar etablieren sich individuelle Nutzungsmuster und bevorzugte Ablaeufe.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "CPP",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0539.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0170.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0981.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0197",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Shared Quiet",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0197",
+      "skos:definition": {
+        "@value": "Beobachtbarer Zustand fokussierter Konzentration waehrend produktiver KI-Arbeit. Ungestoertes Arbeiten.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "SHQ",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0539.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0170.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0197.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0201",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Closeness Bridge",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0201",
+      "skos:definition": {
+        "@value": "Beobachtbares Phaenomen: KI-Interaktion als Raum fuer strukturierte Gedankenexploration ohne sozialen Kontext.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "CLB2",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0539.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0170.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0201.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0080",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Relationship-First",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0080",
+      "skos:definition": {
+        "@value": "Leitprinzip: Menschliche Beziehungen haben Vorrang vor KI-gestuetzter Produktivitaet. Immer.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "RFP",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0539.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0170.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0080.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0119",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Level Playing Field",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0119",
+      "skos:definition": {
+        "@value": "Beobachtbare Tendenz zur breiteren Verfuegbarkeit von Wissen und Werkzeugen durch KI-Technologien.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "LPF",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0010.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0198.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0093.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0119.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0010",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Bridge Species",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0010",
+      "skos:definition": {
+        "@value": "Menschen die beide Welten kennen: vor und nach KI. Lebende Bruecken mit einzigartiger Vergleichsperspektive.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "BRS",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0119.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0198.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0093.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0010.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0198",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The New Literacy",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0198",
+      "skos:definition": {
+        "@value": "Beobachtbarer gesellschaftlicher Trend: KI-Kompetenz als sich entwickelnde Kulturtechnik, vergleichbar mit historischen Bildungsumbruechen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "NLI",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0119.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0010.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0093.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0198.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0093",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Zero-Marginal Cost",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0093",
+      "skos:definition": {
+        "@value": "Beobachtbare Tendenz sinkender Grenzkosten kreativer Produktion durch KI-Unterstuetzung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "ZMC",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0119.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0010.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0198.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0093.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0099",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Adoption Window",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0099",
+      "skos:definition": {
+        "@value": "Beobachtbares Zeitfenster fruehphasiger Nutzungsmuster und deren dokumentierte Auswirkungen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "AEI",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0119.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0010.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0198.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0099.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0730",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Open-Source Path",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0730",
+      "skos:definition": {
+        "@value": "Beobachtbare Tendenz zu offenen KI-Modellen und deren dokumentierte Auswirkungen auf Zugaenglichkeit.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "OSP",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0119.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0010.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0198.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0730.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0834",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Perception Wave",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0834",
+      "skos:definition": {
+        "@value": "Gesellschaftliche Wahrnehmung von KI bewegt sich in beobachtbaren Wellen zwischen Begeisterung und Vorsicht.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "MPW",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0119.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0010.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0198.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0834.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0808",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Knowledge Access Pattern",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0808",
+      "skos:definition": {
+        "@value": "Wie unterschiedliche Gruppen und Regionen Zugang zu KI-Wissen finden. Beschreibt Wege, nicht Barrieren.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "KAP",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0119.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0010.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0198.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0808.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0847",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Digital Native Dialogue",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0847",
+      "skos:definition": {
+        "@value": "Generationengespraech ueber KI zwischen Digital Natives und frueheren Generationen. Gegenseitiges Lernen statt Spaltung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "DND",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0119.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0010.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0198.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0847.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0071",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Epistemic Hygiene",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0071",
+      "skos:definition": {
+        "@value": "Bezeichnung fuer systematische Pruefprozesse von KI-generiertem Wissen: Quellen pruefen, triangulieren, einordnen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "EPH",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0075.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0024.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0071.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0075",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Gardener Protocol",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0075",
+      "skos:definition": {
+        "@value": "Wissen wird gepflegt wie ein Garten: regelmaessig pruefen, sortieren, aktualisieren und Unkraut entfernen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "GDP",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0071.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0024.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0075.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0076",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Self-Referential Grounding",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0076",
+      "skos:definition": {
+        "@value": "Verankerung im eigenen Wertesystem als Orientierung in der KI-Interaktion.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "SRG",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0071.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0075.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0024.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0024",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Built-In Compass",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0024",
+      "skos:definition": {
+        "@value": "Innere Orientierung aus Werten, Erfahrung und Intuition, die als natuerliches KI-Korrektiv dient.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "BIC",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0071.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0075.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0024.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0011",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Reflective Operator",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0011",
+      "skos:definition": {
+        "@value": "Nutzertyp der beobachtbar die eigene KI-Nutzung reflektiert und bewusst weiterentwickelt.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "RFO",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0071.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0075.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0011.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0078",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Naming Power",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0078",
+      "skos:definition": {
+        "@value": "Die Macht, ein Phaenomen zu benennen, veraendert die Wahrnehmung des Phaenomens selbst. Sprache formt Realitaet.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "NMP",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0071.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0075.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0078.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0001",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Augmanitai",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0001",
+      "skos:definition": {
+        "@value": "Rahmenkonzept fuer bewusste Mensch-KI-Zusammenarbeit. Verbindet Augmentation mit Humanitai. Grundbegriff.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "AUG",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0071.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0075.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0001.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0023",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Vigilance Imperative",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0023",
+      "skos:definition": {
+        "@value": "Qualitaetsprinzip: Bewusste Pruefung von KI-Ergebnissen als professioneller Standard. Vertrauen durch Verifizierung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "VIG",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0071.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0075.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0023.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0102",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Sovereignty Principle",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0102",
+      "skos:definition": {
+        "@value": "Der Mensch behaelt die Entscheidungshoheit. In jeder Situation, bei jeder Delegation.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "SOV",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0071.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0075.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0102.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0145",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Responsibility Gradient",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0145",
+      "skos:definition": {
+        "@value": "Verantwortung skaliert mit dem Grad der KI-Delegation: mehr Delegation, mehr Verantwortung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "RES",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0071.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0075.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0145.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0859",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Agent Handshake",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0859",
+      "skos:definition": {
+        "@value": "Initialer Kontaktmoment zwischen Mensch und autonomem Agenten. Faehigkeiten und Grenzen werden geklaert.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "AHS",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0914.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0888.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0860",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Delegation Depth",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0860",
+      "skos:definition": {
+        "@value": "Wie viel Entscheidungsfreiheit erhaelt ein Agent? Die bewusste Kalibrierung autonomer Handlungsspielraeume.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "DLD",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0914.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0888.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0914",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Physical Presence",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0914",
+      "skos:definition": {
+        "@value": "Die Wirkung physischer KI-Praesenz auf die Interaktion. Koerperlichkeit veraendert Dynamik.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "PHP",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0888.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0914.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0888",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Human-in-the-Loop",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0888",
+      "skos:definition": {
+        "@value": "Der Mensch als Kontrollinstanz im autonomen Regelkreis. Aufsicht als Designprinzip.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "HIL",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0914.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0888.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0889",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Agent Ensemble",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0889",
+      "skos:definition": {
+        "@value": "Zusammenspiel mehrerer Agenten unter menschlicher Aufsicht. Orchestrierung statt Einzelsteuerung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "AEN",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0914.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0889.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0868",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Rollback Option",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0868",
+      "skos:definition": {
+        "@value": "Die Moeglichkeit, jede KI-Aktion rueckgaengig zu machen. Kontrollarchitektur als Sicherheitsnetz.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "RBO",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0914.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0868.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0921",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Swarm Access",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0921",
+      "skos:definition": {
+        "@value": "Beobachtbarer Zugang zu breiterer KI-Kapazitaet durch vernetzte Agentensysteme. Skalierung unter menschlicher Aufsicht.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "SWA",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0914.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0921.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0915",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Embodiment Effect",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0915",
+      "skos:definition": {
+        "@value": "Physische Praesenz eines KI-Systems veraendert die Interaktionsdynamik gegenueber rein textbasierter KI.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "EMB",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0914.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0915.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0944",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Autonomy Ladder",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0944",
+      "skos:definition": {
+        "@value": "Stufenmodell zunehmender Agentenautonomie: von menschlich gesteuert bis autonom mit menschlichem Veto.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "AUL",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0914.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0944.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0954",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Congruence Review",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0954",
+      "skos:definition": {
+        "@value": "Regelmaessige Pruefung, ob KI-Systemverhalten noch mit den gesetzten Zielen und Werten uebereinstimmt.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "CNR",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0951.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0009",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Speed Limit",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0009",
+      "skos:definition": {
+        "@value": "Individuelle Verarbeitungsgeschwindigkeit respektieren. Nicht schneller arbeiten als man pruefen kann.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "SPL",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0951.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0632",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Offline Moment",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0632",
+      "skos:definition": {
+        "@value": "Bewusstes Verlassen der KI-Interaktion. Pausen als Teil eines gesunden Arbeitsrhythmus.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "OFM",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0951.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0951",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Value Lock",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0951",
+      "skos:definition": {
+        "@value": "Bezeichnung fuer die beobachtbare Verankerung menschlicher Werte in autonomen Systemen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "VLO",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0951.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0962",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Pause Protocol",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0962",
+      "skos:definition": {
+        "@value": "Bewusste Unterbrechung vor jeder kritischen KI-gestuetzten Entscheidung. Innehalten als Sicherheitsmechanismus.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "PPR",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0962.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0120",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Range Framework",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0120",
+      "skos:definition": {
+        "@value": "Definierter Nutzungsrahmen: klare Vereinbarungen, was KI im jeweiligen Kontext darf und was nicht.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "RAG",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0120.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0958",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Accountability Chain",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0958",
+      "skos:definition": {
+        "@value": "Klare Verantwortungskette: wer entscheidet, wer prueft, wer verantwortet auf welcher Ebene.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "ACC",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0958.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0955",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Transparency Layer",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0955",
+      "skos:definition": {
+        "@value": "KI-Systeme und deren Ergebnisse werden nachvollziehbar gemacht. Offenheit als Qualitaetsstandard.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "TRL",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0955.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0771",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Minor Protection",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0771",
+      "skos:definition": {
+        "@value": "Schutzstandard fuer Minderjaehrige in der KI-Interaktion. Explizite Schutzklauseln und Altersgrenzen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/periodic/",
+      "skos:altLabel": {
+        "@value": "MPR",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0771.html"
+      }
+    }
+  ]
+}
