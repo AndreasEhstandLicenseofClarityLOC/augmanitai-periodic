@@ -11,7 +11,7 @@ Location: Starnberg, Germany
 Title: AUGMANITAI Periodic Table
 Last update: 2026-05-16
 Language: English / Deutsch
-License: CC BY-ND 4.0
+License: CC BY 4.0
 Standards: HTML5, JSON-LD, Schema.org, OpenGraph, Twitter Cards
 Programme: AUGMANITAI Research Programme
 

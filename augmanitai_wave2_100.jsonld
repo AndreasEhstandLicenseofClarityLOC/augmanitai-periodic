@@ -10,7 +10,7 @@
   "alternateName": "AUGMANITAI Wave 2 — 100 ISO-704 Descriptive Terms",
   "description": "100 descriptive terms documenting AI-human interaction phenomena arranged in a periodic-table-style classification by discipline and period. Part of the AUGMANITAI research corpus.",
   "version": "2.0",
-  "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": {
     "@type": "Person",
     "name": "Andreas Ehstand",

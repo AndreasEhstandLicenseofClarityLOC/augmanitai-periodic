@@ -1,6 +1,6 @@
 # augmanitai-periodic
 
-[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3773--7796-A6CE39.svg)](https://orcid.org/0009-0006-3773-7796)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3773--7796-A6CE39.svg)](https://orcid.org/0009-0006-3773-7796)
 
 Wave 2 of the AUGMANITAI terminology corpus — 100 terms organised in a periodic-table-style structural layout that groups concepts by underlying composition rather than alphabetical accident, published as JSON-LD, plain-text, and llms-full bundles for direct ingestion.
 
@@ -34,7 +34,7 @@ The first wave (`augmanitai-tools`) demonstrated that the three-axis composition
 augmanitai-periodic/
 ├── README.md                  ← this file
 ├── AI_DISCLOSURE.md           ← EU AI Act Art. 50 disclosure
-├── LICENSE                    ← CC BY-ND 4.0
+├── LICENSE                    ← CC BY 4.0
 ├── api/
 │   ├── terms.json             ← canonical JSON dump (100 entries)
 │   └── periodic.json          ← layout coordinates (group × period × block)
@@ -84,7 +84,7 @@ A third party cannot retroactively claim earlier authorship of any term in this 
 
 ## License
 
-**CC BY-ND 4.0** — Creative Commons Attribution-NoDerivatives 4.0 International.
+**CC BY 4.0** — Creative Commons Attribution 4.0 International.
 
 Unmodified redistribution with attribution is permitted. Commercial use, derivative corpora, and re-derivation of terminologies require separate written permission.
 
