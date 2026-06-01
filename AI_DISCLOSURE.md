@@ -36,7 +36,7 @@ Human curation is primary, not ornamental. The periodic-layout in particular is 
 Every published file in this repository is anchored by:
 
 - **Multi-Hash** — SHA-256, SHA-512, SHA3-256, BLAKE3 stored in `manifests/MULTI_HASH.json`.
-- **Bitcoin OpenTimestamps** — `.ots` proofs in `manifests/` anchored across four independent calendar servers.
+- **OpenTimestamps** — `.ots` proofs in `manifests/` anchored across four independent calendar servers.
 - **DOI** — registered via Zenodo, DataCite-immutable publication date.
 
 The combination forms a defensive-publication chain.
@@ -46,7 +46,7 @@ The combination forms a defensive-publication chain.
 The repository is self-contained. An independent party can:
 
 1. Verify file integrity against `MANIFEST.sha256`.
-2. Verify timestamp against the Bitcoin OpenTimestamps proof.
+2. Verify timestamp against the OpenTimestamps proof.
 3. Re-derive the JSON-LD graphs from the canonical JSON dumps.
 4. Re-derive `llms-full.txt` from the JSON entries.
 5. Re-derive the periodic-layout visualisation from `api/periodic.json`.

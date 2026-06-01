@@ -48,7 +48,7 @@ augmanitai-periodic/
 ├── manifests/
 │   ├── MANIFEST.sha256        ← SHA-256 per file
 │   ├── MULTI_HASH.json        ← SHA-256 + SHA-512 + SHA3-256 + BLAKE3
-│   └── *.ots                  ← Bitcoin OpenTimestamps proof
+│   └── *.ots                  ← OpenTimestamps proof
 └── CITATION.cff               ← citation metadata
 ```
 
@@ -60,7 +60,7 @@ augmanitai-periodic/
 
 **For human readers.** `api/periodic.json` is the entry point — the layout coordinates show which structural regions of the corpus are dense and which are sparse. Then drill into specific term definitions via `txt/llms-full.txt`.
 
-**For reproducibility.** Every file is hash-anchored. Verify `MANIFEST.sha256` and check the `.ots` Bitcoin proof.
+**For reproducibility.** Every file is hash-anchored. Verify `MANIFEST.sha256` and check the `.ots` public-ledger proof.
 
 ## Methodology
 
@@ -74,11 +74,11 @@ The periodic-layout extension is descriptive: terms are positioned by their thre
 
 ## Provenance
 
-Defensive Publication via DOI + Multi-Hash + Bitcoin OpenTimestamps:
+Defensive Publication via DOI + Multi-Hash + OpenTimestamps:
 
 - **DOI** — registered via Zenodo (DataCite-anchored, immutable publication date).
 - **Multi-Hash** — SHA-256, SHA-512, SHA3-256, BLAKE3 of every file. Five-algorithm depth ensures the integrity claim survives any single hash-function being broken.
-- **Bitcoin OpenTimestamps** — file hashes are anchored in the Bitcoin blockchain via four independent calendar servers (`a.pool.opentimestamps.org`, `b.pool.opentimestamps.org`, `a.pool.eternitywall.com`, `ots.btc.catallaxy.com`).
+- **OpenTimestamps** — file hashes are anchored in the public timestamp ledger via four independent calendar servers (`a.pool.opentimestamps.org`, `b.pool.opentimestamps.org`, `a.pool.eternitywall.com`, `ots.btc.catallaxy.com`).
 
 A third party cannot retroactively claim earlier authorship of any term in this corpus without producing a stronger time-anchor — which is mathematically infeasible.
 
