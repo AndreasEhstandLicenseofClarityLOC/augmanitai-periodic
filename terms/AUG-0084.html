@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Glitch-Mining [GLM] — AUGMANITAI Wave 2</title>
-<meta name="description" content="KI-Fehler als Ressource: was ein Glitch ueber das System verraet, kann wertvoller sein als eine korrekte Antwort.">
+<meta name="description" content="A user practice of treating AI errors as informative, deliberately examining what a malfunction reveals about a system rather than discarding it. It denotes a discrete investigative use of an observed error.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html">
 
 <meta property="og:title" content="Glitch-Mining [GLM]">
-<meta property="og:description" content="KI-Fehler als Ressource: was ein Glitch ueber das System verraet, kann wertvoller sein als eine korrekte Antwort.">
+<meta property="og:description" content="A user practice of treating AI errors as informative, deliberately examining what a malfunction reveals about a system rather than discarding it. It denotes a discrete investigative use of an observed error.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Glitch-Mining [GLM]">
-<meta name="twitter:description" content="KI-Fehler als Ressource: was ein Glitch ueber das System verraet, kann wertvoller sein als eine korrekte Antwort.">
+<meta name="twitter:description" content="A user practice of treating AI errors as informative, deliberately examining what a malfunction reveals about a system rather than discarding it. It denotes a discrete investigative use of an observed error.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0084",
   "name": "Glitch-Mining",
-  "description": "KI-Fehler als Ressource: was ein Glitch ueber das System verraet, kann wertvoller sein als eine korrekte Antwort.",
+  "description": "A user practice of treating AI errors as informative, deliberately examining what a malfunction reveals about a system rather than discarding it. It denotes a discrete investigative use of an observed error.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0084",
   "alternateName": "GLM",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "SY",
-  "operationalDefinition": "Operational scope: an instance of 'Glitch-Mining' is counted when the observable pattern described above (KI-Fehler als Ressource: was ein Glitch ueber das System verraet, kann wertvolle...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "EVENT. Counted once per episode in which a user, upon encountering a model error, explicitly probes or analyses the error to infer system behaviour (follow-up questions about the failure, deliberate re-elicitation). Simply re-prompting for a correct answer is excluded.",
+  "measurementSchema": "Rater-coded count of error-leveraging episodes per session, conditioned on detected error turns; reported as episodes per 100 error events. Coder reliability on the leverage-vs-retry distinction via Cohen's kappa.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-system-behavior",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-system-behavior",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0524.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
 </script>
 
@@ -83,43 +83,22 @@
   Term code: <code>AUG-0084</code>
   &middot; Discipline: <strong>SY</strong> (SY)
   &middot; Period: <strong>1</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>KI-Fehler als Ressource: was ein Glitch ueber das System verraet, kann wertvoller sein als eine korrekte Antwort.</p>
+  <p>A user practice of treating AI errors as informative, deliberately examining what a malfunction reveals about a system rather than discarding it. It denotes a discrete investigative use of an observed error.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Glitch-Mining is observed when a participant intentionally probes AI behaviour at edge-cases (ambiguous prompts, contradictory framings, out-of-distribution queries) and logs the resulting failure-modes for analysis. Activity is operationalised by structured probe-logs with hypothesis-result pairs.</p>
+  <p>EVENT. Counted once per episode in which a user, upon encountering a model error, explicitly probes or analyses the error to infer system behaviour (follow-up questions about the failure, deliberate re-elicitation). Simply re-prompting for a correct answer is excluded.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Probe-log analysis: count of edge-case probes per session, hypothesis-articulation rate (proportion with stated expectation), and failure-detection rate (proportion where AI output deviates from sensible baseline as judged by two raters).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "session_id": "S072",
-  "participant": "P031",
-  "probes_n": 18,
-  "hypothesised_probes": 14,
-  "failures_detected": 7,
-  "failure_rate": 0.39,
-  "rater_agreement": 0.88
-}</pre>
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Documented probe with prior hypothesis and adjudicated outcome.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Casual unstructured complaints about AI errors without prior hypothesis.</p>
+  <p>Rater-coded count of error-leveraging episodes per session, conditioned on detected error turns; reported as episodes per 100 error events. Coder reliability on the leverage-vs-retry distinction via Cohen&#x27;s kappa.</p>
 </section>
 </section>
 

@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Speed Limit [SPL] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Individuelle Verarbeitungsgeschwindigkeit respektieren. Nicht schneller arbeiten als man pruefen kann.">
+<meta name="description" content="A working condition in which the pace of an AI-supported task is kept within the rate at which the human can review the outputs, described as the relationship between output throughput and human checking capacity rather than as advice.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html">
 
 <meta property="og:title" content="The Speed Limit [SPL]">
-<meta property="og:description" content="Individuelle Verarbeitungsgeschwindigkeit respektieren. Nicht schneller arbeiten als man pruefen kann.">
+<meta property="og:description" content="A working condition in which the pace of an AI-supported task is kept within the rate at which the human can review the outputs, described as the relationship between output throughput and human checking capacity rather than as advice.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="The Speed Limit [SPL]">
-<meta name="twitter:description" content="Individuelle Verarbeitungsgeschwindigkeit respektieren. Nicht schneller arbeiten als man pruefen kann.">
+<meta name="twitter:description" content="A working condition in which the pace of an AI-supported task is kept within the rate at which the human can review the outputs, described as the relationship between output throughput and human checking capacity rather than as advice.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0009",
   "name": "The Speed Limit",
-  "description": "Individuelle Verarbeitungsgeschwindigkeit respektieren. Nicht schneller arbeiten als man pruefen kann.",
+  "description": "A working condition in which the pace of an AI-supported task is kept within the rate at which the human can review the outputs, described as the relationship between output throughput and human checking capacity rather than as advice.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0009",
   "alternateName": "SPL",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "SF",
-  "operationalDefinition": "Operational scope: an instance of 'The Speed Limit' is counted when the observable pattern described above (Individuelle Verarbeitungsgeschwindigkeit respektieren. Nicht schneller arbeiten...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Misalignment-event coding per N turns; severity rating (1-5).",
-  "exampleData": "{\"session_id\": \"S001\", \"misalignment_events_per_10_turns\": 0, \"max_severity\": 0}",
+  "operationalDefinition": "STATE/ratio. Operationalized as a pacing index: the ratio of AI outputs reviewed by the human to AI outputs produced over a task window (0-1). Values near 1 indicate throughput stays within review capacity; low values indicate outputs accrue faster than they are checked. Computed from logs, not self-report.",
+  "measurementSchema": "Throughput/review counting from interaction logs: outputs-produced and outputs-reviewed per fixed window, expressed as the reviewed-to-produced ratio. No rater judgement is required; reliability rests on log completeness, which is reported as the proportion of outputs with a recorded review status.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0951.html"
-  ]
+  ],
+  "referentType": "STATE"
 }
 </script>
 
@@ -83,35 +83,22 @@
   Term code: <code>AUG-0009</code>
   &middot; Discipline: <strong>SF</strong> (SF)
   &middot; Period: <strong>3</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Individuelle Verarbeitungsgeschwindigkeit respektieren. Nicht schneller arbeiten als man pruefen kann.</p>
+  <p>A working condition in which the pace of an AI-supported task is kept within the rate at which the human can review the outputs, described as the relationship between output throughput and human checking capacity rather than as advice.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>The Speed Limit is observed when a participant deliberately introduces a delay or throttle on AI-mediated workflows to maintain reflective capacity, evidenced by measurable inter-prompt latency exceeding a user-defined floor and by self-reported reflection-quality remaining above threshold.</p>
+  <p>STATE/ratio. Operationalized as a pacing index: the ratio of AI outputs reviewed by the human to AI outputs produced over a task window (0-1). Values near 1 indicate throughput stays within review capacity; low values indicate outputs accrue faster than they are checked. Computed from logs, not self-report.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Inter-prompt latency analysed via Stroop-task reaction-time as a proxy attention-capacity measure at fast vs slow prompt-cadences. Reflection-quality rated on 7-point Likert post-session. Speed-limit effective when latency above 90s correlates with Stroop-RT recovery to baseline.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "session_id": "S132",
-  "participant": "P053",
-  "mean_inter_prompt_s": 142,
-  "stroop_rt_fast_ms": 712,
-  "stroop_rt_slow_ms": 598,
-  "reflection_likert": 6,
-  "limit_effective": true
-}</pre>
+  <p>Throughput/review counting from interaction logs: outputs-produced and outputs-reviewed per fixed window, expressed as the reviewed-to-produced ratio. No rater judgement is required; reliability rests on log completeness, which is reported as the proportion of outputs with a recorded review status.</p>
 </section>
 
 <section id="broader">
@@ -129,16 +116,6 @@
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0120.html" rel="noopener noreferrer">AUG-0120</a></li>
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0771.html" rel="noopener noreferrer">AUG-0771</a></li>
     </ul>
-</section>
-
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Inter-prompt latency above participant-set floor and Stroop-RT closer to baseline at slow cadence.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Latency caused by external interruption rather than participant-imposed throttle.</p>
 </section>
 
 <footer>

@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contextual Gravity [COG] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Mit wachsendem Kontext entwickelt eine KI-Sitzung eine natuerliche thematische Schwerkraft.">
+<meta name="description" content="The tendency of an AI session to develop an increasing thematic pull toward its accumulated context as that context grows over the course of the session. It describes a longitudinal drift in topical concentration.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html">
 
 <meta property="og:title" content="Contextual Gravity [COG]">
-<meta property="og:description" content="Mit wachsendem Kontext entwickelt eine KI-Sitzung eine natuerliche thematische Schwerkraft.">
+<meta property="og:description" content="The tendency of an AI session to develop an increasing thematic pull toward its accumulated context as that context grows over the course of the session. It describes a longitudinal drift in topical concentration.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Contextual Gravity [COG]">
-<meta name="twitter:description" content="Mit wachsendem Kontext entwickelt eine KI-Sitzung eine natuerliche thematische Schwerkraft.">
+<meta name="twitter:description" content="The tendency of an AI session to develop an increasing thematic pull toward its accumulated context as that context grows over the course of the session. It describes a longitudinal drift in topical concentration.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0030",
   "name": "Contextual Gravity",
-  "description": "Mit wachsendem Kontext entwickelt eine KI-Sitzung eine natuerliche thematische Schwerkraft.",
+  "description": "The tendency of an AI session to develop an increasing thematic pull toward its accumulated context as that context grows over the course of the session. It describes a longitudinal drift in topical concentration.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0030",
   "alternateName": "COG",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "SY",
-  "operationalDefinition": "Operational scope: an instance of 'Contextual Gravity' is counted when the observable pattern described above (Mit wachsendem Kontext entwickelt eine KI-Sitzung eine natuerliche thematische S...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "TREND. Tracked over the session timeline: the degree to which later turns remain within the topic established by accumulated earlier context, measured as change in topical concentration from early to late session windows. An upward trend indicates gravity.",
+  "measurementSchema": "Longitudinal topic-concentration index across binned session windows (e.g. embedding-based similarity of each turn to the running session centroid); slope over turns reported per session. Validated against coder topic-continuity ratings (ICC).",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-system-behavior",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-system-behavior",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0524.html"
-  ]
+  ],
+  "referentType": "TREND"
 }
 </script>
 
@@ -83,34 +83,22 @@
   Term code: <code>AUG-0030</code>
   &middot; Discipline: <strong>SY</strong> (SY)
   &middot; Period: <strong>2</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Mit wachsendem Kontext entwickelt eine KI-Sitzung eine natuerliche thematische Schwerkraft.</p>
+  <p>The tendency of an AI session to develop an increasing thematic pull toward its accumulated context as that context grows over the course of the session. It describes a longitudinal drift in topical concentration.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Contextual Gravity is observed when prior context-elements in a session (earlier messages, established persona, named entities) exert measurable pull on subsequent AI outputs such that later responses regress toward earlier framings even after explicit topic-shift. The effect is operationalised through within-session context-anchor probes inserted at fixed positions.</p>
+  <p>TREND. Tracked over the session timeline: the degree to which later turns remain within the topic established by accumulated earlier context, measured as change in topical concentration from early to late session windows. An upward trend indicates gravity.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Granger causality test between time-lagged context-anchor features (e.g., earlier persona-tokens) and downstream AI-output features (lexical, stylistic). Pull-strength reported as F-statistic with effect-size for each anchor-target pair across a sliding window.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "session_id": "S112",
-  "participant": "P044",
-  "anchors_inserted": 6,
-  "granger_f_stat_mean": 4.7,
-  "pull_significant_pct": 0.67,
-  "max_lag_turns": 12
-}</pre>
+  <p>Longitudinal topic-concentration index across binned session windows (e.g. embedding-based similarity of each turn to the running session centroid); slope over turns reported per session. Validated against coder topic-continuity ratings (ICC).</p>
 </section>
 
 <section id="broader">
@@ -128,16 +116,6 @@
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0135.html" rel="noopener noreferrer">AUG-0135</a></li>
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0176.html" rel="noopener noreferrer">AUG-0176</a></li>
     </ul>
-</section>
-
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Context-anchor present in early turns with downstream AI-output measurably influenced (Granger p less than 0.05).</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Anchors that are explicitly re-cited by the user in later turns, removing the pull-signal.</p>
 </section>
 
 <footer>

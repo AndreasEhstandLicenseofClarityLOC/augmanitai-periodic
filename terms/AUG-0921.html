@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Swarm Access [SWA] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Beobachtbarer Zugang zu breiterer KI-Kapazitaet durch vernetzte Agentensysteme. Skalierung unter menschlicher Aufsicht.">
+<meta name="description" content="A condition in which a user can draw on the combined capacity of multiple networked agents under human supervision, treated as a graded property of the available capability rather than as a discrete event or a scaling claim.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0921.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0921.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0921.html">
 
 <meta property="og:title" content="Swarm Access [SWA]">
-<meta property="og:description" content="Beobachtbarer Zugang zu breiterer KI-Kapazitaet durch vernetzte Agentensysteme. Skalierung unter menschlicher Aufsicht.">
+<meta property="og:description" content="A condition in which a user can draw on the combined capacity of multiple networked agents under human supervision, treated as a graded property of the available capability rather than as a discrete event or a scaling claim.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0921.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Swarm Access [SWA]">
-<meta name="twitter:description" content="Beobachtbarer Zugang zu breiterer KI-Kapazitaet durch vernetzte Agentensysteme. Skalierung unter menschlicher Aufsicht.">
+<meta name="twitter:description" content="A condition in which a user can draw on the combined capacity of multiple networked agents under human supervision, treated as a graded property of the available capability rather than as a discrete event or a scaling claim.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0921",
   "name": "Swarm Access",
-  "description": "Beobachtbarer Zugang zu breiterer KI-Kapazitaet durch vernetzte Agentensysteme. Skalierung unter menschlicher Aufsicht.",
+  "description": "A condition in which a user can draw on the combined capacity of multiple networked agents under human supervision, treated as a graded property of the available capability rather than as a discrete event or a scaling claim.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0921",
   "alternateName": "SWA",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "AG",
-  "operationalDefinition": "Operational scope: an instance of 'Swarm Access' is counted when the observable pattern described above (Beobachtbarer Zugang zu breiterer KI-Kapazitaet durch vernetzte Agentensysteme. ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.",
-  "exampleData": "{\"session_id\": \"S001\", \"ai_initiative_count_per_10_turns\": 3, \"override_rate\": 0.10}",
+  "operationalDefinition": "STATE. Coded per configuration by the number of networked agents a user can concurrently marshal and whether their outputs are aggregated under a single human-supervised control point (present/absent). It describes accessible breadth of agent capacity, not the quality of any result.",
+  "measurementSchema": "Configuration readout from orchestration logs: count of concurrently reachable agents and a binary aggregated-under-human-supervision flag; flag agreement reported as Cohen's kappa. Distinct from Agent Ensemble by indexing reachable breadth rather than active joint operation on one task.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0921.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0914.html"
-  ]
+  ],
+  "referentType": "STATE"
 }
 </script>
 
@@ -83,34 +83,22 @@
   Term code: <code>AUG-0921</code>
   &middot; Discipline: <strong>Agentic AI</strong> (AG)
   &middot; Period: <strong>4</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Beobachtbarer Zugang zu breiterer KI-Kapazitaet durch vernetzte Agentensysteme. Skalierung unter menschlicher Aufsicht.</p>
+  <p>A condition in which a user can draw on the combined capacity of multiple networked agents under human supervision, treated as a graded property of the available capability rather than as a discrete event or a scaling claim.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Swarm Access is observed when a participant simultaneously delegates a single task to multiple parallel AI agents and orchestrates their combined outputs, characterised by parallel-dispatch logs and an integration-step that merges divergent agent outputs.</p>
+  <p>STATE. Coded per configuration by the number of networked agents a user can concurrently marshal and whether their outputs are aggregated under a single human-supervised control point (present/absent). It describes accessible breadth of agent capacity, not the quality of any result.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Job Crafting Scale (orchestration sub-component) administered alongside parallel-agent-dispatch logs. Swarm-Access index = mean parallel-agents-per-task x integration-step explicitness rating.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "participant": "P067",
-  "tasks_with_swarm": 14,
-  "mean_parallel_agents": 4.2,
-  "integration_explicitness_mean": 3.8,
-  "swarm_access_index": 15.96,
-  "job_crafting_orchestration": 6.1
-}</pre>
+  <p>Configuration readout from orchestration logs: count of concurrently reachable agents and a binary aggregated-under-human-supervision flag; flag agreement reported as Cohen&#x27;s kappa. Distinct from Agent Ensemble by indexing reachable breadth rather than active joint operation on one task.</p>
 </section>
 
 <section id="broader">
@@ -128,16 +116,6 @@
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0868.html" rel="noopener noreferrer">AUG-0868</a></li>
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0888.html" rel="noopener noreferrer">AUG-0888</a></li>
     </ul>
-</section>
-
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Verifiable parallel-dispatch logs across >= 5 tasks AND integration-step coded.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Sequential agent-use mislabelled as parallel.</p>
 </section>
 
 <footer>

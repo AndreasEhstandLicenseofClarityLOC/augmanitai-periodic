@@ -409,8 +409,8 @@
       },
       "skos:notation": "AUG-0004",
       "skos:definition": {
-        "@value": "Ausgangszustand des Wissens vor jeglicher KI-Nutzung. Persoenliche Referenzlinie.",
-        "@language": "de"
+        "@value": "A person's documented baseline of knowledge or skill in a domain prior to any AI assistance, used as the individual reference point against which later AI-supported performance is compared.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -444,8 +444,8 @@
       },
       "skos:notation": "AUG-0054",
       "skos:definition": {
-        "@value": "Beobachtbarer Moment erweiterter Informationszugaenglichkeit durch KI-gestuetzte Recherche.",
-        "@language": "de"
+        "@value": "An observable instance in which AI-assisted retrieval gives a user access to information they could not obtain unaided, evidenced by a measurable gain in comprehension or recall on the topic at hand.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -474,19 +474,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0002",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Mentale Externalisierung",
+        "@value": "Cognitive Offloading Turn",
         "@language": "en"
       },
       "skos:notation": "AUG-0002",
       "skos:definition": {
-        "@value": "Gezielte Auslagerung von Denkprozessen an ein KI-System, um Raum fuer genuines menschliches Denken zu schaffen.",
-        "@language": "de"
+        "@value": "A turn in which a user deliberately hands a discrete cognitive sub-task, such as enumeration, drafting, or calculation, to an AI system to reserve attention for other reasoning, observable as an explicit delegation request.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "MES",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Mentale Externalisierung",
+          "@language": "en"
+        },
+        {
+          "@value": "MES",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -514,8 +520,8 @@
       },
       "skos:notation": "AUG-0007",
       "skos:definition": {
-        "@value": "Eigene Gedanken und KI-generierter Inhalt verbinden sich zu einem gemeinsamen Ergebnis. Ein Zuordnungsphaenomen, kein Verlustphaenomen.",
-        "@language": "de"
+        "@value": "A graded condition in which a user can no longer cleanly separate their own contributions from AI-generated material in a co-produced artifact; an attribution phenomenon about authorship boundaries, not a loss of ability.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -544,19 +550,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0035",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Epistemic Half-Life",
+        "@value": "Information Currency Duration",
         "@language": "en"
       },
       "skos:notation": "AUG-0035",
       "skos:definition": {
-        "@value": "Beobachtbare Zeitspanne, in der KI-generierte Information aktuell bleibt. Beschreibt ein Verfallsmuster.",
-        "@language": "de"
+        "@value": "The elapsed time over which a specific AI-generated factual claim stays accurate before external developments render it outdated; a duration describing how quickly such information loses currency.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "EHL",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Epistemic Half-Life",
+          "@language": "en"
+        },
+        {
+          "@value": "EHL",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -584,8 +596,8 @@
       },
       "skos:notation": "AUG-0043",
       "skos:definition": {
-        "@value": "Beobachtetes Muster situationsbezogenen Wissenszugriffs durch KI-Unterstuetzung.",
-        "@language": "de"
+        "@value": "An observable instance of accessing domain knowledge at the exact point of need through AI support, where the retrieved information immediately precedes and enables completion of the user's current task step.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -619,8 +631,8 @@
       },
       "skos:notation": "AUG-0088",
       "skos:definition": {
-        "@value": "Beobachtbare Mustererkennung bei erfahrenen KI-Nutzern: wiederkehrende Interaktionsmuster werden schneller erkannt.",
-        "@language": "de"
+        "@value": "An experienced user's implicit, practice-acquired sense for which kind of input tends to yield which kind of result, applied without deliberate analysis each time. Distinguished from explicit prompting knowledge by being tacit and predictive rather than reasoned step by step.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -649,19 +661,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0016",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Poly-Categorical Mesh",
+        "@value": "Cross-Domain Synthesis",
         "@language": "en"
       },
       "skos:notation": "AUG-0016",
       "skos:definition": {
-        "@value": "KI-gestuetzte Verknuepfung von Wissen aus verschiedenen Fachbereichen zu neuen, fachuebergreifenden Ergebnissen.",
-        "@language": "de"
+        "@value": "An output in which an AI-assisted user integrates knowledge from several distinct disciplines into a single interdisciplinary result. The referent is an instance of cross-domain synthesis produced with on-demand access to domain knowledge.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "PCM",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Poly-Categorical Mesh",
+          "@language": "en"
+        },
+        {
+          "@value": "PCM",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -689,8 +707,8 @@
       },
       "skos:notation": "AUG-0051",
       "skos:definition": {
-        "@value": "Die Faehigkeit, die Herkunft und Zuverlaessigkeit von KI-generiertem Wissen systematisch zu bewerten und einzuordnen.",
-        "@language": "de"
+        "@value": "A graded user competence in evaluating the origin, evidential basis, and reliability of AI-generated knowledge and placing it appropriately, distinguishing well-sourced claims from unsupported ones.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -724,8 +742,8 @@
       },
       "skos:notation": "AUG-0089",
       "skos:definition": {
-        "@value": "Beobachtbare Veraenderung in Denkmustern bei regelmaessiger KI-Nutzung. Ein dokumentiertes Interaktionsphaenomen.",
-        "@language": "de"
+        "@value": "A longitudinal effect in which regular AI interaction is associated with improvement in a user's ability to recognize patterns in data, texts, or arguments, such that sustained use coincides with gains in the person's own analytic pattern detection.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -759,8 +777,8 @@
       },
       "skos:notation": "AUG-0205",
       "skos:definition": {
-        "@value": "Beobachtbares Phaenomen: Zugang zu Faehigkeiten, die ohne KI-Unterstuetzung schwerer zugaenglich waeren.",
-        "@language": "de"
+        "@value": "An observable instance of completing, with AI support, a task belonging to a class the user could not previously accomplish unaided, marking newly reachable capability.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -794,8 +812,8 @@
       },
       "skos:notation": "AUG-0098",
       "skos:definition": {
-        "@value": "Beobachtbares Verhaeltnis zwischen kognitivem Aufwand und KI-gestuetztem Ergebnis. Hebel-Metapher fuer ein Interaktionsmuster.",
-        "@language": "de"
+        "@value": "The relationship between the cognitive effort a user invests and the quality or quantity of output achieved with AI support; a ratio expressing output yield per unit of human input.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -829,8 +847,8 @@
       },
       "skos:notation": "AUG-0156",
       "skos:definition": {
-        "@value": "Beobachtbarer Moment, in dem KI-Unterstuetzung bei der Formulierung eigener Gedanken hilft. Ein Artikulationsphaenomen.",
-        "@language": "de"
+        "@value": "An observable moment in which AI support helps a user put a pre-existing but unformed thought into words, evidenced by the user accepting a formulation that expresses an intent they had already signaled.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -864,8 +882,8 @@
       },
       "skos:notation": "AUG-0403",
       "skos:definition": {
-        "@value": "Beobachtbare emotionale Reaktion wenn KI sprachliche Barrieren abbaut und Uebersetzungsarbeit erleichtert.",
-        "@language": "de"
+        "@value": "A graded affective response of relief experienced by a user when AI support removes a language barrier and eases translation effort, reported by the user rather than inferred from the AI.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -894,19 +912,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0513",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Language Buddy",
+        "@value": "Conversational Language-Practice Tool",
         "@language": "en"
       },
       "skos:notation": "AUG-0513",
       "skos:definition": {
-        "@value": "KI als Sprachwerkzeug mit wiederholbarer Korrektur- und Erklaerfunktion. Beobachtbar als Ergaenzung zum Sprachunterricht.",
-        "@language": "de"
+        "@value": "A superordinate description of using an AI system as a repeatable language-practice resource that supplies correction and explanation alongside formal language instruction; a usage role rather than a single observable event.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "LBD",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Language Buddy",
+          "@language": "en"
+        },
+        {
+          "@value": "LBD",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -934,8 +958,8 @@
       },
       "skos:notation": "AUG-0478",
       "skos:definition": {
-        "@value": "Beobachtbares Phaenomen: der Zwang zur expliziten Formulierung in KI-Interaktion veraendert den Denkprozess.",
-        "@language": "de"
+        "@value": "An observable instance in which the demand to state a request explicitly to an AI prompts the user to reorganize their own understanding of a problem, changing the thinking process through the act of formulation.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -969,8 +993,8 @@
       },
       "skos:notation": "AUG-0188",
       "skos:definition": {
-        "@value": "KI passt sich dem Kommunikationsstil des Nutzers an. Ueber Zeit entsteht ein gemeinsamer, produktiver Ton.",
-        "@language": "de"
+        "@value": "A longitudinal convergence between a user's communication style and the AI's responses over repeated exchanges, in which the pair settles into a shared workable register; a stylistic adaptation, not an emotional state of the AI.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1004,8 +1028,8 @@
       },
       "skos:notation": "AUG-0169",
       "skos:definition": {
-        "@value": "Beobachtete Erleichterung fremdsprachlicher Kommunikation durch KI-Unterstuetzung.",
-        "@language": "de"
+        "@value": "A graded condition of more successful foreign-language communication achieved with AI support, observed as eased production and comprehension in a second language during AI-assisted exchanges.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1039,8 +1063,8 @@
       },
       "skos:notation": "AUG-0137",
       "skos:definition": {
-        "@value": "Sprachbasierte KI-Interaktion als eigenstaendiger Modus mit eigenen Staerken und Dynamiken.",
-        "@language": "de"
+        "@value": "A superordinate category for speech-based AI interaction treated as a distinct modality with its own affordances and dynamics, under which specific measurable voice-interaction phenomena are grouped.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1074,8 +1098,8 @@
       },
       "skos:notation": "AUG-0267",
       "skos:definition": {
-        "@value": "Beobachtbare Erweiterung des sprachlichen Repertoires durch KI-gestuetzte Interaktion.",
-        "@language": "de"
+        "@value": "An observable expansion of a user's active language repertoire through AI-assisted interaction, evidenced when a lexical or expressive item first encountered via the AI later appears in the user's own unaided production.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1109,8 +1133,8 @@
       },
       "skos:notation": "AUG-0501",
       "skos:definition": {
-        "@value": "Die Faehigkeit, mit KI-Hilfe bewusst zwischen verschiedenen Schreibstilen zu wechseln und neue Stile zu erschliessen.",
-        "@language": "de"
+        "@value": "A graded user ability to deliberately switch among distinct writing styles with AI assistance and to access registers the user could not readily produce alone.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1144,8 +1168,8 @@
       },
       "skos:notation": "AUG-0283",
       "skos:definition": {
-        "@value": "Neue Satzkonstruktionen und Ausdruecke werden Teil des eigenen sprachlichen Repertoires.",
-        "@language": "de"
+        "@value": "The gradual incorporation of new sentence constructions and expressions, first encountered through AI interaction, into a user's own habitual syntactic repertoire over time.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1174,19 +1198,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0046",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Felt Echo",
+        "@value": "Post-Session Affective Residue",
         "@language": "en"
       },
       "skos:notation": "AUG-0046",
       "skos:definition": {
-        "@value": "Emotionaler Nachhall einer intensiven KI-Sitzung. Das Erlebnis klingt nach, die Gedanken arbeiten weiter.",
-        "@language": "de"
+        "@value": "A residual affective and cognitive engagement persisting after an intense AI session, in which the user continues to feel the exchange and keeps processing its content for some time afterward; a post-session state of the user.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "FEC",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Felt Echo",
+          "@language": "en"
+        },
+        {
+          "@value": "FEC",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
       },
@@ -1214,8 +1244,8 @@
       },
       "skos:notation": "AUG-0025",
       "skos:definition": {
-        "@value": "Beobachtbare emotionale Reaktion beim Delegieren aufwaendiger Aufgaben an KI. Ein Interaktionsphaenomen.",
-        "@language": "de"
+        "@value": "A graded affective response of relief or reduced burden experienced by a user when handing an effortful task to an AI system, reported as a felt easing of workload at the point of delegation.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1249,8 +1279,8 @@
       },
       "skos:notation": "AUG-0127",
       "skos:definition": {
-        "@value": "Beobachtbares Erleben waehrend intensiver KI-Nutzung. Die eigenen Denkgrenzen scheinen sich auszudehnen.",
-        "@language": "de"
+        "@value": "A subjective experience reported during intensive AI use in which a user perceives their own thinking boundaries as widening; a phenomenal state of the user, not a claim about expanded capacity in the AI.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1279,19 +1309,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0168",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Rehumanization Moment",
+        "@value": "Non-AI Activity Transition",
         "@language": "en"
       },
       "skos:notation": "AUG-0168",
       "skos:definition": {
-        "@value": "Beobachtbarer Moment bewusster Rueckkehr zu nicht-KI-gestuetzter Taetigkeit nach intensiver KI-Arbeit.",
-        "@language": "de"
+        "@value": "An observable moment of deliberately returning to a non-AI activity after a period of intensive AI-assisted work, marking an intentional disengagement from the AI for a human-only task.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "RHM",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Rehumanization Moment",
+          "@language": "en"
+        },
+        {
+          "@value": "RHM",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
       },
@@ -1314,19 +1350,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0301",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Wonder Moment",
+        "@value": "Capability-Surprise Reaction",
         "@language": "en"
       },
       "skos:notation": "AUG-0301",
       "skos:definition": {
-        "@value": "Staunen ueber eine unerwartete KI-Leistung. Der Aha-Moment, der zeigt: das hat man nicht kommen sehen.",
-        "@language": "de"
+        "@value": "A discrete user reaction of surprise or astonishment occurring when an AI system produces output that exceeds the user's prior expectation of its capability. The reaction is a property of the human appraisal, not of the system.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "WOM",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Wonder Moment",
+          "@language": "en"
+        },
+        {
+          "@value": "WOM",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
       },
@@ -1349,19 +1391,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0245",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Seen Feeling",
+        "@value": "Perceived-Understanding State",
         "@language": "en"
       },
       "skos:notation": "AUG-0245",
       "skos:definition": {
-        "@value": "Das Gefuehl, praezise verstanden zu werden. Ein beobachtbares Interaktionsphaenomen, kein Beziehungsersatz.",
-        "@language": "de"
+        "@value": "A graded subjective state in which a user judges an AI system's response to have accurately captured their intent or meaning. It denotes perceived understanding as reported by the user, not any mental state of the system.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "TSF",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Seen Feeling",
+          "@language": "en"
+        },
+        {
+          "@value": "TSF",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
       },
@@ -1384,19 +1432,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0128",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Gratitude Response",
+        "@value": "User-Directed Thanking",
         "@language": "en"
       },
       "skos:notation": "AUG-0128",
       "skos:definition": {
-        "@value": "Spontane Dankbarkeit gegenueber einem KI-System nach einer hilfreichen Interaktion. Ein natuerlicher menschlicher Impuls.",
-        "@language": "de"
+        "@value": "A discrete instance in which a user directs an expression of thanks toward an AI system following a response they found helpful. The behaviour is an observable politeness act by the user and implies nothing about the system.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "GRR",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Gratitude Response",
+          "@language": "en"
+        },
+        {
+          "@value": "GRR",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
       },
@@ -1419,19 +1473,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0529",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Closeness Bridge",
+        "@value": "Productive-Connection State",
         "@language": "en"
       },
       "skos:notation": "AUG-0529",
       "skos:definition": {
-        "@value": "Beobachtbares Phaenomen: das Erlebnis, Gedanken strukturiert externalisieren zu koennen, erzeugt ein Gefuehl produktiver Verbundenheit.",
-        "@language": "de"
+        "@value": "A graded user-reported sense of productive connection that arises while using an AI system to externalise and structure one's own thoughts. It describes a task-coupled affective state of the user, not a social relationship.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "CLB",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Closeness Bridge",
+          "@language": "en"
+        },
+        {
+          "@value": "CLB",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
       },
@@ -1459,8 +1519,8 @@
       },
       "skos:notation": "AUG-0081",
       "skos:definition": {
-        "@value": "Stolz auf ein KI-co-erstelltes Ergebnis. Die Freude am gemeinsam Geschaffenen.",
-        "@language": "de"
+        "@value": "A graded user-reported feeling of pride in an artefact co-produced with an AI system. It is an affective appraisal the user holds toward a jointly produced output, distinct from sole-authorship pride.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1489,19 +1549,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0061",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Creator's Question",
+        "@value": "Authorship-Attribution Query",
         "@language": "en"
       },
       "skos:notation": "AUG-0061",
       "skos:definition": {
-        "@value": "Die produktive Frage: Was ist mein Beitrag, was ist KI? Foerdert Bewusstsein fuer den eigenen kreativen Anteil.",
-        "@language": "de"
+        "@value": "A discrete instance in which a user explicitly raises the attribution question of which part of a co-produced output is their own contribution versus the AI system's. It marks an observable moment of authorship reflection.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "CRQ",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Creator's Question",
+          "@language": "en"
+        },
+        {
+          "@value": "CRQ",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
       },
@@ -1529,8 +1595,8 @@
       },
       "skos:notation": "AUG-0020",
       "skos:definition": {
-        "@value": "Iterative Vertiefung: KI-Output wird bearbeitet, zurueckgegeben, weiterentwickelt. Progressive Verfeinerung.",
-        "@language": "de"
+        "@value": "An interaction pattern in which AI output is edited by the user and returned for further processing across successive turns, producing progressive refinement of the artefact. It denotes an observable iterate-and-return turn sequence.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1559,13 +1625,13 @@
       "@id": "https://augmanitai.com/terms/AUG-0005",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Integrated Operator",
+        "@value": "The Integrated Operator",
         "@language": "en"
       },
       "skos:notation": "AUG-0005",
       "skos:definition": {
-        "@value": "Beobachtbarer Arbeitsstil: Integration von KI in Denk- und Arbeitsprozesse mit fliessenden Uebergaengen.",
-        "@language": "de"
+        "@value": "A user mode in which a person no longer treats AI as a separate tool but moves fluidly between their own thinking and AI assistance without a distinct switching moment. The referent is an advanced, relatively stable working state characterised by low perceived separation between human and AI activity.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1594,19 +1660,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0008",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Polyphonic Sovereign",
+        "@value": "Multi-System Orchestration Style",
         "@language": "en"
       },
       "skos:notation": "AUG-0008",
       "skos:definition": {
-        "@value": "Bewusste Orchestrierung mehrerer KI-Systeme, deren Perspektiven gegeneinander geprueft werden.",
-        "@language": "de"
+        "@value": "A working style in which a user deliberately orchestrates several AI systems and cross-checks their differing outputs against one another. It is a graded profile of multi-system, comparison-driven use.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "PCS",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Polyphonic Sovereign",
+          "@language": "en"
+        },
+        {
+          "@value": "PCS",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -1634,8 +1706,8 @@
       },
       "skos:notation": "AUG-0021",
       "skos:definition": {
-        "@value": "Die persoenliche Eroeffnungssequenz einer KI-Sitzung. Erfahrene Nutzer entwickeln eigene Startmuster.",
-        "@language": "de"
+        "@value": "A user's personalised opening sequence at the start of an AI session, in which experienced users deploy characteristic set-up moves before substantive work. It denotes an observable session-initiation routine.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1669,8 +1741,8 @@
       },
       "skos:notation": "AUG-0133",
       "skos:definition": {
-        "@value": "Beobachtbare Fertigkeit in der Formulierung von KI-Eingaben. Entwickelt sich durch Nutzungserfahrung.",
-        "@language": "de"
+        "@value": "A graded user skill in formulating effective AI inputs, developing with usage experience. It describes a measurable competence attributed to a person rather than a discrete interaction event.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1704,8 +1776,8 @@
       },
       "skos:notation": "AUG-0134",
       "skos:definition": {
-        "@value": "Bewusstsein fuer die Mechanik des Kontextfensters und strategischer Umgang damit.",
-        "@language": "de"
+        "@value": "A graded degree to which a user understands the mechanics of a model's context window and manages interaction strategically around its limits. It is an attributed knowledge-and-behaviour state of the user.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1739,8 +1811,8 @@
       },
       "skos:notation": "AUG-0018",
       "skos:definition": {
-        "@value": "Drei-KI-Vergleichsmethode: gleiche Aufgabe, drei Systeme, Muster erkennen.",
-        "@language": "de"
+        "@value": "A user method in which the same task is issued to three AI systems and the resulting outputs are compared to identify shared and divergent patterns. It denotes a discrete three-way comparison procedure.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1774,8 +1846,8 @@
       },
       "skos:notation": "AUG-0138",
       "skos:definition": {
-        "@value": "Beobachtbare Strukturierungsmuster in KI-Sitzungen. Erfahrene Nutzer zeigen charakteristische Ablaufmuster.",
-        "@language": "de"
+        "@value": "Characteristic patterns by which users structure the flow of an AI session, with experienced users showing recognisable phase organisation. It describes a graded structural property of a session's organisation.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1809,8 +1881,8 @@
       },
       "skos:notation": "AUG-0091",
       "skos:definition": {
-        "@value": "Beobachtbarer Effizienzunterschied zwischen KI-gestuetzten und nicht-KI-gestuetzten Arbeitsprozessen.",
-        "@language": "de"
+        "@value": "The observed difference in task efficiency between AI-assisted and unassisted work processes for comparable tasks. It is a relational quantity comparing two performance conditions, not an event or feeling.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1844,8 +1916,8 @@
       },
       "skos:notation": "AUG-0092",
       "skos:definition": {
-        "@value": "Beobachtbares Verhaeltnis zwischen Input-Aufwand und Output-Umfang bei KI-gestuetzter Arbeit.",
-        "@language": "de"
+        "@value": "The relationship in which the effort needed to produce a result falls substantially under AI assistance while the quantity or quality of the result is maintained or increased. The referent is the changed ratio of input effort to output yield.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1879,8 +1951,8 @@
       },
       "skos:notation": "AUG-0095",
       "skos:definition": {
-        "@value": "Beobachtbares Phaenomen: KI-Unterstuetzung erschliesst Einzelpersonen Produktivitaet, die vorher nur groesseren Teams zugaenglich war.",
-        "@language": "de"
+        "@value": "An observed condition in which AI assistance enables a single individual to reach a level of productive output previously requiring a larger team. It describes a capacity-expansion condition at the level of an individual operator.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1909,19 +1981,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0031",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Semantic Spark",
+        "@value": "Idea-Trigger Event",
         "@language": "en"
       },
       "skos:notation": "AUG-0031",
       "skos:definition": {
-        "@value": "KI-Antwort loest unerwarteten eigenen Gedanken aus. Nicht die Antwort ist die Loesung, sondern der Funke, den sie zuendet.",
-        "@language": "de"
+        "@value": "A discrete instance in which an AI response triggers a new, unanticipated idea in the user, where the value lies in the thought it provokes rather than the answer itself. It marks an observable user-reported insight moment.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "SSP",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Semantic Spark",
+          "@language": "en"
+        },
+        {
+          "@value": "SSP",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -1949,8 +2027,8 @@
       },
       "skos:notation": "AUG-0084",
       "skos:definition": {
-        "@value": "KI-Fehler als Ressource: was ein Glitch ueber das System verraet, kann wertvoller sein als eine korrekte Antwort.",
-        "@language": "de"
+        "@value": "A user practice of treating AI errors as informative, deliberately examining what a malfunction reveals about a system rather than discarding it. It denotes a discrete investigative use of an observed error.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -1984,8 +2062,8 @@
       },
       "skos:notation": "AUG-0030",
       "skos:definition": {
-        "@value": "Mit wachsendem Kontext entwickelt eine KI-Sitzung eine natuerliche thematische Schwerkraft.",
-        "@language": "de"
+        "@value": "The tendency of an AI session to develop an increasing thematic pull toward its accumulated context as that context grows over the course of the session. It describes a longitudinal drift in topical concentration.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2019,8 +2097,8 @@
       },
       "skos:notation": "AUG-0524",
       "skos:definition": {
-        "@value": "Der aufgebaute Kontext als Arbeitsschicht: je praeziser der Kontext, desto besser die Ergebnisse.",
-        "@language": "de"
+        "@value": "The accumulated interaction context of a session treated as a working substrate that conditions subsequent system output. It is a superordinate organising concept spanning many context-related phenomena (such as how context is managed, accumulated, and reused) rather than a single observable occurrence.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2054,8 +2132,8 @@
       },
       "skos:notation": "AUG-0176",
       "skos:definition": {
-        "@value": "Das schrittweise Entdecken neuer KI-Faehigkeiten durch Exploration und Experimentieren.",
-        "@language": "de"
+        "@value": "A discrete instance in which a user identifies a previously unknown capability of an AI system through exploration or experimentation. It marks an observable moment of first encountering a new affordance.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2084,19 +2162,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0107",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Verification Principle",
+        "@value": "Output-Verification Disposition",
         "@language": "en"
       },
       "skos:notation": "AUG-0107",
       "skos:definition": {
-        "@value": "Das Prinzip der aktiven Pruefung: KI-Ergebnisse werden systematisch verifiziert und eingeordnet.",
-        "@language": "de"
+        "@value": "A user disposition toward systematically checking and contextualising AI results before relying on them. It describes a graded verification practice attributed to a user, distinct from any single checking act.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "VPR",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Verification Principle",
+          "@language": "en"
+        },
+        {
+          "@value": "VPR",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2119,19 +2203,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0126",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Semantic Saturation",
+        "@value": "Iterative Diminishing-Returns Point",
         "@language": "en"
       },
       "skos:notation": "AUG-0126",
       "skos:definition": {
-        "@value": "Der natuerliche Punkt, an dem weitere Iteration keinen Mehrwert mehr bringt. Signal zum Weitergehen.",
-        "@language": "de"
+        "@value": "The point in an iterative AI exchange at which further iteration ceases to add value, functioning as a signal to stop. It marks a discrete diminishing-returns threshold within a refinement sequence.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "SAT",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Semantic Saturation",
+          "@language": "en"
+        },
+        {
+          "@value": "SAT",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2159,8 +2249,8 @@
       },
       "skos:notation": "AUG-0142",
       "skos:definition": {
-        "@value": "Jedes KI-Modell hat einen erkennbaren Stil. Erfahrene Nutzer erkennen, welches System geantwortet hat.",
-        "@language": "de"
+        "@value": "The recognisable stylistic signature of a given AI model, such that experienced users can identify which system produced a response. It describes a distinguishable stylistic property of a model's outputs.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2194,8 +2284,8 @@
       },
       "skos:notation": "AUG-0135",
       "skos:definition": {
-        "@value": "Bewusste Gestaltung der KI-Persoenlichkeit fuer spezifische Aufgaben und Kontexte.",
-        "@language": "de"
+        "@value": "The deliberate shaping of an AI system's expressed persona via instructions to fit specific tasks or contexts. It denotes an observable user act of configuring system style, not a trait of the system itself.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2229,8 +2319,8 @@
       },
       "skos:notation": "AUG-0006",
       "skos:definition": {
-        "@value": "Jedes KI-System bringt eine eigene Perspektive mit, gepraegt durch Trainingsdaten und Architektur.",
-        "@language": "de"
+        "@value": "The set of systematic dispositions in a given AI system's outputs that derive from its training data and architecture, such that different systems produce characteristically different framings of the same prompt. A property attributed to a model configuration, not to a single reply.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2264,8 +2354,8 @@
       },
       "skos:notation": "AUG-0566",
       "skos:definition": {
-        "@value": "Die Entwicklung einer kontinuierlichen, produktiven Arbeitsbeziehung zwischen Mensch und KI-System.",
-        "@language": "de"
+        "@value": "A longitudinal pattern in which a single user's repeated working interactions with one AI system show increasing efficiency or stability over time, such as shorter prompt-to-acceptable-output paths or more reused conventions across sessions.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2299,8 +2389,8 @@
       },
       "skos:notation": "AUG-0539",
       "skos:definition": {
-        "@value": "Der beobachtbare Wandel in der Wahrnehmung der KI: vom statischen Werkzeug zum flexiblen Arbeitsinstrument.",
-        "@language": "de"
+        "@value": "A reported change over time in how an individual user characterizes an AI system, moving from describing it as a fixed single-task tool toward describing it as a flexible multi-purpose working instrument. Concerns the user's stated framing, not the system's properties.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2329,19 +2419,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0170",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Witness Effect",
+        "@value": "Articulation-to-System Effect",
         "@language": "en"
       },
       "skos:notation": "AUG-0170",
       "skos:definition": {
-        "@value": "KI als aufmerksames Gegenueber: ein System, dem man Gedanken externalisieren kann. Deskriptive Beobachtung.",
-        "@language": "de"
+        "@value": "A user-reported experience of an AI system as an attentive interlocutor to which thoughts can be externalized, where the act of articulating to the system is rated as clarifying. The construct concerns the user's subjective report and ascribes no inner states to the system.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "WIT",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Witness Effect",
+          "@language": "en"
+        },
+        {
+          "@value": "WIT",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2369,8 +2465,8 @@
       },
       "skos:notation": "AUG-0177",
       "skos:definition": {
-        "@value": "Die individuelle Kalibrierung des Vertrauensniveaus gegenueber einem KI-System. Bewusst gesteuert.",
-        "@language": "de"
+        "@value": "The graded level of reliance a user deliberately places on a given AI system's outputs for a class of tasks, expressed in how much independent verification the user applies before acting on those outputs. A consciously adjusted disposition rather than a fixed trait.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2399,19 +2495,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0577",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Calibration Dance",
+        "@value": "Early-Interaction Alignment Curve",
         "@language": "en"
       },
       "skos:notation": "AUG-0577",
       "skos:definition": {
-        "@value": "Das gegenseitige Einspielen zwischen Mensch und KI in den ersten Interaktionen einer neuen Zusammenarbeit.",
-        "@language": "de"
+        "@value": "The early phase of a new user-system working relationship during which prompts and responses progressively align, observable as a decline in clarification exchanges and reformulations across the first several sessions before reaching a plateau.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "CDA",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Calibration Dance",
+          "@language": "en"
+        },
+        {
+          "@value": "CDA",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2439,8 +2541,8 @@
       },
       "skos:notation": "AUG-0161",
       "skos:definition": {
-        "@value": "KI als produktives Hintergrund-Werkzeug im Arbeitsalltag. Verfuegbar bei Bedarf, ohne soziale Dynamik.",
-        "@language": "de"
+        "@value": "A usage configuration in which an AI system functions as an on-demand background work aid that the user invokes for discrete subtasks without sustained turn-by-turn dialogue or social framing. Characterized by short, intermittent, task-bounded calls.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2469,13 +2571,13 @@
       "@id": "https://augmanitai.com/terms/AUG-0981",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Companion Pattern",
+        "@value": "The Companion Pattern",
         "@language": "en"
       },
       "skos:notation": "AUG-0981",
       "skos:definition": {
-        "@value": "KI als wiederkehrendes Arbeitswerkzeug. Beobachtbar etablieren sich individuelle Nutzungsmuster und bevorzugte Ablaeufe.",
-        "@language": "de"
+        "@value": "A standing usage mode in which a person incorporates AI assistance into daily routines as a steady accompaniment for thinking, drafting, and exploration, operating alongside rather than in place of their own reflection. The referent is the co-present, habitual mode of use.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2504,19 +2606,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0197",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Shared Quiet",
+        "@value": "Sustained-Focus State",
         "@language": "en"
       },
       "skos:notation": "AUG-0197",
       "skos:definition": {
-        "@value": "Beobachtbarer Zustand fokussierter Konzentration waehrend produktiver KI-Arbeit. Ungestoertes Arbeiten.",
-        "@language": "de"
+        "@value": "A user-reported state of sustained, undistracted concentration during a stretch of productive work with an AI system, in which the tool fades into the background of attention. The construct is the user's focus state, attributed to the person, not jointly to the system.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "SHQ",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Shared Quiet",
+          "@language": "en"
+        },
+        {
+          "@value": "SHQ",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2539,19 +2647,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0201",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Closeness Bridge",
+        "@value": "Low-Stakes Exploration Space",
         "@language": "en"
       },
       "skos:notation": "AUG-0201",
       "skos:definition": {
-        "@value": "Beobachtbares Phaenomen: KI-Interaktion als Raum fuer strukturierte Gedankenexploration ohne sozialen Kontext.",
-        "@language": "de"
+        "@value": "A reported use of AI interaction as a low-stakes space for structured exploration of one's own ideas, absent the social considerations of a human audience. The construct concerns the user's described use of the channel, not emotional closeness to the system.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "CLB2",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Closeness Bridge",
+          "@language": "en"
+        },
+        {
+          "@value": "CLB2",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2579,8 +2693,8 @@
       },
       "skos:notation": "AUG-0080",
       "skos:definition": {
-        "@value": "Leitprinzip: Menschliche Beziehungen haben Vorrang vor KI-gestuetzter Produktivitaet. Immer.",
-        "@language": "de"
+        "@value": "A stated user value-orientation that places human relationships ahead of AI-assisted productivity when the two are in tension. As a superordinate guiding principle it organizes choices across situations rather than denoting a single observable interaction event.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2614,8 +2728,8 @@
       },
       "skos:notation": "AUG-0119",
       "skos:definition": {
-        "@value": "Beobachtbare Tendenz zur breiteren Verfuegbarkeit von Wissen und Werkzeugen durch KI-Technologien.",
-        "@language": "de"
+        "@value": "A population-level tendency for AI tools to widen access to knowledge and capabilities across user groups over time, such that gaps between previously advantaged and less advantaged groups on AI-mediated tasks narrow. A macro trend, not an interaction-level event.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2644,19 +2758,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0010",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Bridge Species",
+        "@value": "Cross-Era Cohort",
         "@language": "en"
       },
       "skos:notation": "AUG-0010",
       "skos:definition": {
-        "@value": "Menschen die beide Welten kennen: vor und nach KI. Lebende Bruecken mit einzigartiger Vergleichsperspektive.",
-        "@language": "de"
+        "@value": "A label for the cohort of people whose working lives span both the pre-AI and post-AI periods, giving them firsthand comparative experience of both. A descriptive population category, not a measurable interaction phenomenon.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "BRS",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Bridge Species",
+          "@language": "en"
+        },
+        {
+          "@value": "BRS",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2684,8 +2804,8 @@
       },
       "skos:notation": "AUG-0198",
       "skos:definition": {
-        "@value": "Beobachtbarer gesellschaftlicher Trend: KI-Kompetenz als sich entwickelnde Kulturtechnik, vergleichbar mit historischen Bildungsumbruechen.",
-        "@language": "de"
+        "@value": "A societal tendency for competence in using AI tools to consolidate into a broadly expected cultural skill, comparable to earlier shifts in expected literacy. Denotes a gradual rise in baseline expected AI competence, not a single interaction.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2719,8 +2839,8 @@
       },
       "skos:notation": "AUG-0093",
       "skos:definition": {
-        "@value": "Beobachtbare Tendenz sinkender Grenzkosten kreativer Produktion durch KI-Unterstuetzung.",
-        "@language": "de"
+        "@value": "The tendency for the incremental cost of producing one additional unit of creative or informational output to fall toward negligible levels when AI assistance is used. Expressed as cost per additional produced unit, observed at the level of a task or workflow.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2754,8 +2874,8 @@
       },
       "skos:notation": "AUG-0099",
       "skos:definition": {
-        "@value": "Beobachtbares Zeitfenster fruehphasiger Nutzungsmuster und deren dokumentierte Auswirkungen.",
-        "@language": "de"
+        "@value": "A bounded early period in the uptake of an AI technology during which usage patterns form and their downstream effects are documented. Denotes a time interval of early adoption observed at population or organizational level, not a single interaction.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2789,8 +2909,8 @@
       },
       "skos:notation": "AUG-0730",
       "skos:definition": {
-        "@value": "Beobachtbare Tendenz zu offenen KI-Modellen und deren dokumentierte Auswirkungen auf Zugaenglichkeit.",
-        "@language": "de"
+        "@value": "A tendency toward the increasing availability of openly released AI models and the documented effects of that openness on who can access and build on such models. A macro trend in the model ecosystem, not an interaction-level phenomenon.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2819,19 +2939,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0834",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Perception Wave",
+        "@value": "Public Sentiment Oscillation",
         "@language": "en"
       },
       "skos:notation": "AUG-0834",
       "skos:definition": {
-        "@value": "Gesellschaftliche Wahrnehmung von KI bewegt sich in beobachtbaren Wellen zwischen Begeisterung und Vorsicht.",
-        "@language": "de"
+        "@value": "An oscillation over time in aggregate public sentiment toward AI, cycling between phases of enthusiasm and phases of caution. Denotes a longitudinal swing in measured population sentiment, observed at the level of discourse, not individual interaction.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "MPW",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Perception Wave",
+          "@language": "en"
+        },
+        {
+          "@value": "MPW",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2859,8 +2985,8 @@
       },
       "skos:notation": "AUG-0808",
       "skos:definition": {
-        "@value": "Wie unterschiedliche Gruppen und Regionen Zugang zu KI-Wissen finden. Beschreibt Wege, nicht Barrieren.",
-        "@language": "de"
+        "@value": "A descriptive label for the different routes by which groups and regions reach AI-mediated knowledge, characterizing pathways of access rather than enumerating barriers. A superordinate descriptive category spanning many specific access routes.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2894,8 +3020,8 @@
       },
       "skos:notation": "AUG-0847",
       "skos:definition": {
-        "@value": "Generationengespraech ueber KI zwischen Digital Natives und frueheren Generationen. Gegenseitiges Lernen statt Spaltung.",
-        "@language": "de"
+        "@value": "An exchange about AI spanning generational lines, in which younger habitual technology users and members of earlier generations share perspectives, characterized by reciprocal information transfer rather than one-directional instruction. The unit is a cross-generational conversational exchange.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -2924,19 +3050,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0071",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Epistemic Hygiene",
+        "@value": "AI-Output Verification Practice",
         "@language": "en"
       },
       "skos:notation": "AUG-0071",
       "skos:definition": {
-        "@value": "Bezeichnung fuer systematische Pruefprozesse von KI-generiertem Wissen: Quellen pruefen, triangulieren, einordnen.",
-        "@language": "de"
+        "@value": "The degree to which a user applies systematic checking practices to AI-generated information, such as source-checking, cross-referencing across independent sources, and contextual appraisal before relying on it. A graded behavioral disposition in handling AI output.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "EPH",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Epistemic Hygiene",
+          "@language": "en"
+        },
+        {
+          "@value": "EPH",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2959,19 +3091,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0075",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Gardener Protocol",
+        "@value": "Knowledge-Base Curation Routine",
         "@language": "en"
       },
       "skos:notation": "AUG-0075",
       "skos:definition": {
-        "@value": "Wissen wird gepflegt wie ein Garten: regelmaessig pruefen, sortieren, aktualisieren und Unkraut entfernen.",
-        "@language": "de"
+        "@value": "A maintenance routine in which a user periodically reviews, sorts, updates, and prunes an accumulated AI-assisted knowledge base to keep it current and accurate. The construct is the regularity and completeness of this curation behavior.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "GDP",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Gardener Protocol",
+          "@language": "en"
+        },
+        {
+          "@value": "GDP",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2999,8 +3137,8 @@
       },
       "skos:notation": "AUG-0076",
       "skos:definition": {
-        "@value": "Verankerung im eigenen Wertesystem als Orientierung in der KI-Interaktion.",
-        "@language": "de"
+        "@value": "The extent to which a user anchors decisions during AI interaction in their own explicit value system, using personal criteria as the reference point when appraising or accepting AI output. A graded reliance on internally held standards.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3029,19 +3167,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0024",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Built-In Compass",
+        "@value": "Internal Judgment Anchor",
         "@language": "en"
       },
       "skos:notation": "AUG-0024",
       "skos:definition": {
-        "@value": "Innere Orientierung aus Werten, Erfahrung und Intuition, die als natuerliches KI-Korrektiv dient.",
-        "@language": "de"
+        "@value": "A user's internal orientation, formed from personal values, experience, and intuition, that they report drawing on to judge and correct AI output. The construct is the user's reliance on this internal reference, not any faculty of the AI system.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "BIC",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Built-In Compass",
+          "@language": "en"
+        },
+        {
+          "@value": "BIC",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -3069,8 +3213,8 @@
       },
       "skos:notation": "AUG-0011",
       "skos:definition": {
-        "@value": "Nutzertyp der beobachtbar die eigene KI-Nutzung reflektiert und bewusst weiterentwickelt.",
-        "@language": "de"
+        "@value": "A user profile characterized by observable reflection on one's own AI use and deliberate refinement of that use over time, such as reviewing past interactions and adjusting strategies. The construct is the degree of metacognitive, self-revising engagement with one's AI practice.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3104,8 +3248,8 @@
       },
       "skos:notation": "AUG-0078",
       "skos:definition": {
-        "@value": "Die Macht, ein Phaenomen zu benennen, veraendert die Wahrnehmung des Phaenomens selbst. Sprache formt Realitaet.",
-        "@language": "de"
+        "@value": "The general proposition that assigning a name to a phenomenon can alter how that phenomenon is subsequently perceived and discussed. A superordinate conceptual claim about language and perception, not a per-interaction occurrence.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3139,8 +3283,8 @@
       },
       "skos:notation": "AUG-0001",
       "skos:definition": {
-        "@value": "Rahmenkonzept fuer bewusste Mensch-KI-Zusammenarbeit. Verbindet Augmentation mit Humanitai. Grundbegriff.",
-        "@language": "de"
+        "@value": "A superordinate framework term for the deliberate, productive collaboration between humans and AI in everyday contexts, viewed from the human side. It blends 'augmentation' with a coined 'humanitai' root and, unlike 'artificial intelligence', foregrounds the human's experience and agency rather than the machine.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3174,8 +3318,8 @@
       },
       "skos:notation": "AUG-0023",
       "skos:definition": {
-        "@value": "Qualitaetsprinzip: Bewusste Pruefung von KI-Ergebnissen als professioneller Standard. Vertrauen durch Verifizierung.",
-        "@language": "de"
+        "@value": "A verification act in which a human user independently checks an AI-generated output against an external reference or domain knowledge before relying on it, distinguished from passive acceptance by the presence of an observable confirmation or correction step.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3204,19 +3348,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0102",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Sovereignty Principle",
+        "@value": "Decision Authority Retention",
         "@language": "en"
       },
       "skos:notation": "AUG-0102",
       "skos:definition": {
-        "@value": "Der Mensch behaelt die Entscheidungshoheit. In jeder Situation, bei jeder Delegation.",
-        "@language": "de"
+        "@value": "A configuration of a human-AI workflow in which final decision authority is retained by the human rather than transferred to the AI system, characterised by the human's capacity to set, confirm, or override any AI-proposed action across delegated tasks.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "SOV",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Sovereignty Principle",
+          "@language": "en"
+        },
+        {
+          "@value": "SOV",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -3244,8 +3394,8 @@
       },
       "skos:notation": "AUG-0145",
       "skos:definition": {
-        "@value": "Verantwortung skaliert mit dem Grad der KI-Delegation: mehr Delegation, mehr Verantwortung.",
-        "@language": "de"
+        "@value": "A proposed monotonic relationship in which the share of accountability assigned to the human increases with the extent of authority delegated to the AI, treated as a relationship between delegated scope and assigned responsibility rather than as a single event.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3279,8 +3429,8 @@
       },
       "skos:notation": "AUG-0859",
       "skos:definition": {
-        "@value": "Initialer Kontaktmoment zwischen Mensch und autonomem Agenten. Faehigkeiten und Grenzen werden geklaert.",
-        "@language": "de"
+        "@value": "The initial exchange that opens an interaction between a human and an autonomous agent, in which the agent's stated capabilities, permissions, and limits are surfaced; distinguished from later turns by being the first establishment of the working terms.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3314,8 +3464,8 @@
       },
       "skos:notation": "AUG-0860",
       "skos:definition": {
-        "@value": "Wie viel Entscheidungsfreiheit erhaelt ein Agent? Die bewusste Kalibrierung autonomer Handlungsspielraeume.",
-        "@language": "de"
+        "@value": "The breadth of decision latitude granted to an autonomous agent, ranging from narrow execution of pre-specified steps to discretionary action within broad goals; a graded property of a delegation arrangement rather than a discrete occurrence.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3349,8 +3499,8 @@
       },
       "skos:notation": "AUG-0914",
       "skos:definition": {
-        "@value": "Die Wirkung physischer KI-Praesenz auf die Interaktion. Koerperlichkeit veraendert Dynamik.",
-        "@language": "de"
+        "@value": "A condition in which an AI system has a physical, embodied form present in the user's environment, treated as a graded contextual property of the interaction setting rather than as a discrete event or an effect claim.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3384,8 +3534,8 @@
       },
       "skos:notation": "AUG-0888",
       "skos:definition": {
-        "@value": "Der Mensch als Kontrollinstanz im autonomen Regelkreis. Aufsicht als Designprinzip.",
-        "@language": "de"
+        "@value": "An established interaction-design pattern in which a human acts as a supervisory checkpoint within an otherwise automated decision loop, retaining the ability to review or intervene; a superordinate design concept rather than a single countable occurrence.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3419,8 +3569,8 @@
       },
       "skos:notation": "AUG-0889",
       "skos:definition": {
-        "@value": "Zusammenspiel mehrerer Agenten unter menschlicher Aufsicht. Orchestrierung statt Einzelsteuerung.",
-        "@language": "de"
+        "@value": "A configuration in which several AI agents operate jointly on a task under human supervision, characterised by coordination among the agents and a human orchestration role; a structural property of the setup rather than a discrete event.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3454,8 +3604,8 @@
       },
       "skos:notation": "AUG-0868",
       "skos:definition": {
-        "@value": "Die Moeglichkeit, jede KI-Aktion rueckgaengig zu machen. Kontrollarchitektur als Sicherheitsnetz.",
-        "@language": "de"
+        "@value": "A property of a control architecture in which AI-initiated actions can be reversed to a prior state, characterised by the availability and coverage of undo or restore mechanisms across the system's actions; an affordance rather than a discrete event.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3489,8 +3639,8 @@
       },
       "skos:notation": "AUG-0921",
       "skos:definition": {
-        "@value": "Beobachtbarer Zugang zu breiterer KI-Kapazitaet durch vernetzte Agentensysteme. Skalierung unter menschlicher Aufsicht.",
-        "@language": "de"
+        "@value": "A condition in which a user can draw on the combined capacity of multiple networked agents under human supervision, treated as a graded property of the available capability rather than as a discrete event or a scaling claim.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3524,8 +3674,8 @@
       },
       "skos:notation": "AUG-0915",
       "skos:definition": {
-        "@value": "Physische Praesenz eines KI-Systems veraendert die Interaktionsdynamik gegenueber rein textbasierter KI.",
-        "@language": "de"
+        "@value": "An observed difference in interaction dynamics associated with an AI system having a physical, embodied form versus a text-only form; reported as a measurable contrast condition rather than asserted as a fixed causal law.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3559,8 +3709,8 @@
       },
       "skos:notation": "AUG-0944",
       "skos:definition": {
-        "@value": "Stufenmodell zunehmender Agentenautonomie: von menschlich gesteuert bis autonom mit menschlichem Veto.",
-        "@language": "de"
+        "@value": "A staged classification of increasing agent autonomy, ordering arrangements from fully human-controlled through to agent-autonomous with a reserved human veto; a superordinate ordinal scheme used to locate cases rather than a countable occurrence.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3594,8 +3744,8 @@
       },
       "skos:notation": "AUG-0954",
       "skos:definition": {
-        "@value": "Regelmaessige Pruefung, ob KI-Systemverhalten noch mit den gesetzten Zielen und Werten uebereinstimmt.",
-        "@language": "de"
+        "@value": "A periodic review in which an AI system's observed behaviour is checked for continued correspondence with its intended goals and constraints; distinguished by a documented review occurrence that compares behaviour against a stated specification.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3629,8 +3779,8 @@
       },
       "skos:notation": "AUG-0009",
       "skos:definition": {
-        "@value": "Individuelle Verarbeitungsgeschwindigkeit respektieren. Nicht schneller arbeiten als man pruefen kann.",
-        "@language": "de"
+        "@value": "A working condition in which the pace of an AI-supported task is kept within the rate at which the human can review the outputs, described as the relationship between output throughput and human checking capacity rather than as advice.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3664,8 +3814,8 @@
       },
       "skos:notation": "AUG-0632",
       "skos:definition": {
-        "@value": "Bewusstes Verlassen der KI-Interaktion. Pausen als Teil eines gesunden Arbeitsrhythmus.",
-        "@language": "de"
+        "@value": "A discrete instance of a user deliberately ending or stepping away from AI interaction, marking a boundary in the work session; distinguished from incidental gaps by being an intentional disengagement.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3694,19 +3844,25 @@
       "@id": "https://augmanitai.com/terms/AUG-0951",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "Value Lock",
+        "@value": "Value Constraint Encoding",
         "@language": "en"
       },
       "skos:notation": "AUG-0951",
       "skos:definition": {
-        "@value": "Bezeichnung fuer die beobachtbare Verankerung menschlicher Werte in autonomen Systemen.",
-        "@language": "de"
+        "@value": "A condition in which a set of intended human values is encoded into an autonomous system's operating constraints such that the system's behaviour remains bounded by them; described as the presence and coverage of such encoded constraints rather than as a guarantee.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "VLO",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "Value Lock",
+          "@language": "en"
+        },
+        {
+          "@value": "VLO",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
       },
@@ -3734,8 +3890,8 @@
       },
       "skos:notation": "AUG-0962",
       "skos:definition": {
-        "@value": "Bewusste Unterbrechung vor jeder kritischen KI-gestuetzten Entscheidung. Innehalten als Sicherheitsmechanismus.",
-        "@language": "de"
+        "@value": "A discrete deliberate interruption inserted before a critical AI-supported decision, creating a checkpoint at which the human reconsiders before proceeding; distinguished by an observable hold step preceding the decision.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3769,8 +3925,8 @@
       },
       "skos:notation": "AUG-0120",
       "skos:definition": {
-        "@value": "Definierter Nutzungsrahmen: klare Vereinbarungen, was KI im jeweiligen Kontext darf und was nicht.",
-        "@language": "de"
+        "@value": "A defined usage boundary specifying what an AI system is permitted and not permitted to do within a given context, expressed as an explicit scope agreement; a superordinate governance construct rather than a per-interaction event.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3804,8 +3960,8 @@
       },
       "skos:notation": "AUG-0958",
       "skos:definition": {
-        "@value": "Klare Verantwortungskette: wer entscheidet, wer prueft, wer verantwortet auf welcher Ebene.",
-        "@language": "de"
+        "@value": "A defined chain of responsibility specifying, across roles and levels, who decides, who reviews, and who is answerable for AI-supported outcomes; a superordinate governance structure rather than a discrete countable event.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3839,8 +3995,8 @@
       },
       "skos:notation": "AUG-0955",
       "skos:definition": {
-        "@value": "KI-Systeme und deren Ergebnisse werden nachvollziehbar gemacht. Offenheit als Qualitaetsstandard.",
-        "@language": "de"
+        "@value": "A condition in which an AI system's processes and outputs are rendered inspectable and explainable to relevant parties, described as the graded extent of available, accurate disclosure rather than as a single event.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {
@@ -3874,8 +4030,8 @@
       },
       "skos:notation": "AUG-0771",
       "skos:definition": {
-        "@value": "Schutzstandard fuer Minderjaehrige in der KI-Interaktion. Explizite Schutzklauseln und Altersgrenzen.",
-        "@language": "de"
+        "@value": "A protective standard governing minors' interaction with AI systems, characterised by the presence and coverage of age-appropriate safeguards such as age assurance and content or contact restrictions; a graded property of a system's safeguards rather than a discrete event.",
+        "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
       "skos:altLabel": {

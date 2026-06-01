@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Range Framework [RAG] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Definierter Nutzungsrahmen: klare Vereinbarungen, was KI im jeweiligen Kontext darf und was nicht.">
+<meta name="description" content="A defined usage boundary specifying what an AI system is permitted and not permitted to do within a given context, expressed as an explicit scope agreement; a superordinate governance construct rather than a per-interaction event.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0120.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0120.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0120.html">
 
 <meta property="og:title" content="Range Framework [RAG]">
-<meta property="og:description" content="Definierter Nutzungsrahmen: klare Vereinbarungen, was KI im jeweiligen Kontext darf und was nicht.">
+<meta property="og:description" content="A defined usage boundary specifying what an AI system is permitted and not permitted to do within a given context, expressed as an explicit scope agreement; a superordinate governance construct rather than a per-interaction event.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0120.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Range Framework [RAG]">
-<meta name="twitter:description" content="Definierter Nutzungsrahmen: klare Vereinbarungen, was KI im jeweiligen Kontext darf und was nicht.">
+<meta name="twitter:description" content="A defined usage boundary specifying what an AI system is permitted and not permitted to do within a given context, expressed as an explicit scope agreement; a superordinate governance construct rather than a per-interaction event.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0120",
   "name": "Range Framework",
-  "description": "Definierter Nutzungsrahmen: klare Vereinbarungen, was KI im jeweiligen Kontext darf und was nicht.",
+  "description": "A defined usage boundary specifying what an AI system is permitted and not permitted to do within a given context, expressed as an explicit scope agreement; a superordinate governance construct rather than a per-interaction event.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0120",
   "alternateName": "RAG",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "SF",
-  "operationalDefinition": "Operational scope: an instance of 'Range Framework' is counted when the observable pattern described above (Definierter Nutzungsrahmen: klare Vereinbarungen, was KI im jeweiligen Kontext d...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Misalignment-event coding per N turns; severity rating (1-5).",
-  "exampleData": "{\"session_id\": \"S001\", \"misalignment_events_per_10_turns\": 0, \"max_severity\": 0}",
+  "operationalDefinition": "Superordinate framework term; not operationalized as a per-interaction event. It denotes the documented permitted-use scope for a context; observable measurement attaches to adherence to that scope (e.g., out-of-scope action rate) rather than to counting the framework itself.",
+  "measurementSchema": "Not directly measured; superordinate term.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0120.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html"
-  ]
+  ],
+  "referentType": "FRAMEWORK"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0120</code>
   &middot; Discipline: <strong>SF</strong> (SF)
   &middot; Period: <strong>5</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Definierter Nutzungsrahmen: klare Vereinbarungen, was KI im jeweiligen Kontext darf und was nicht.</p>
+  <p>A defined usage boundary specifying what an AI system is permitted and not permitted to do within a given context, expressed as an explicit scope agreement; a superordinate governance construct rather than a per-interaction event.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;Range Framework&#x27; is counted when the observable pattern described above (Definierter Nutzungsrahmen: klare Vereinbarungen, was KI im jeweiligen Kontext d...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>Superordinate framework term; not operationalized as a per-interaction event. It denotes the documented permitted-use scope for a context; observable measurement attaches to adherence to that scope (e.g., out-of-scope action rate) rather than to counting the framework itself.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Misalignment-event coding per N turns; severity rating (1-5).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;misalignment_events_per_10_turns&quot;: 0,
-  &quot;max_severity&quot;: 0
-}</pre>
+  <p>Not directly measured; superordinate term.</p>
 </section>
 
 <section id="broader">

@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Model Fingerprint [MFP] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Jedes KI-Modell hat einen erkennbaren Stil. Erfahrene Nutzer erkennen, welches System geantwortet hat.">
+<meta name="description" content="The recognisable stylistic signature of a given AI model, such that experienced users can identify which system produced a response. It describes a distinguishable stylistic property of a model&#x27;s outputs.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0142.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0142.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0142.html">
 
 <meta property="og:title" content="Model Fingerprint [MFP]">
-<meta property="og:description" content="Jedes KI-Modell hat einen erkennbaren Stil. Erfahrene Nutzer erkennen, welches System geantwortet hat.">
+<meta property="og:description" content="The recognisable stylistic signature of a given AI model, such that experienced users can identify which system produced a response. It describes a distinguishable stylistic property of a model&#x27;s outputs.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0142.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Model Fingerprint [MFP]">
-<meta name="twitter:description" content="Jedes KI-Modell hat einen erkennbaren Stil. Erfahrene Nutzer erkennen, welches System geantwortet hat.">
+<meta name="twitter:description" content="The recognisable stylistic signature of a given AI model, such that experienced users can identify which system produced a response. It describes a distinguishable stylistic property of a model&#x27;s outputs.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0142",
   "name": "Model Fingerprint",
-  "description": "Jedes KI-Modell hat einen erkennbaren Stil. Erfahrene Nutzer erkennen, welches System geantwortet hat.",
+  "description": "The recognisable stylistic signature of a given AI model, such that experienced users can identify which system produced a response. It describes a distinguishable stylistic property of a model's outputs.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0142",
   "alternateName": "MFP",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "SY",
-  "operationalDefinition": "Operational scope: an instance of 'Model Fingerprint' is counted when the observable pattern described above (Jedes KI-Modell hat einen erkennbaren Stil. Erfahrene Nutzer erkennen, welches S...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "STATE. Operationalised as identifiability: the degree to which a model's outputs can be correctly attributed to it. Measured by recognition accuracy in a blinded source-attribution task; higher-than-chance accuracy indicates a detectable fingerprint.",
+  "measurementSchema": "Blinded model-attribution experiment: raters assign unlabelled outputs to source models; identifiability reported as accuracy above chance and per-model confusion matrix. Stylometric feature-distance between models reported as a convergent measure.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-system-behavior",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-system-behavior",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0142.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
-  ]
+  ],
+  "referentType": "STATE"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0142</code>
   &middot; Discipline: <strong>SY</strong> (SY)
   &middot; Period: <strong>3</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Jedes KI-Modell hat einen erkennbaren Stil. Erfahrene Nutzer erkennen, welches System geantwortet hat.</p>
+  <p>The recognisable stylistic signature of a given AI model, such that experienced users can identify which system produced a response. It describes a distinguishable stylistic property of a model&#x27;s outputs.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;Model Fingerprint&#x27; is counted when the observable pattern described above (Jedes KI-Modell hat einen erkennbaren Stil. Erfahrene Nutzer erkennen, welches S...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>STATE. Operationalised as identifiability: the degree to which a model&#x27;s outputs can be correctly attributed to it. Measured by recognition accuracy in a blinded source-attribution task; higher-than-chance accuracy indicates a detectable fingerprint.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Coding-scheme occurrence count; observer agreement (Cohen&#x27;s κ).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;occurrence_count&quot;: 5,
-  &quot;kappa&quot;: 0.74
-}</pre>
+  <p>Blinded model-attribution experiment: raters assign unlabelled outputs to source models; identifiability reported as accuracy above chance and per-model confusion matrix. Stylometric feature-distance between models reported as a convergent measure.</p>
 </section>
 
 <section id="broader">

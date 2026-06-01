@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Platform Ontology [PLO] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Jedes KI-System bringt eine eigene Perspektive mit, gepraegt durch Trainingsdaten und Architektur.">
+<meta name="description" content="The set of systematic dispositions in a given AI system&#x27;s outputs that derive from its training data and architecture, such that different systems produce characteristically different framings of the same prompt. A property attributed to a model configuration, not to a single reply.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0006.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0006.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0006.html">
 
 <meta property="og:title" content="Platform Ontology [PLO]">
-<meta property="og:description" content="Jedes KI-System bringt eine eigene Perspektive mit, gepraegt durch Trainingsdaten und Architektur.">
+<meta property="og:description" content="The set of systematic dispositions in a given AI system&#x27;s outputs that derive from its training data and architecture, such that different systems produce characteristically different framings of the same prompt. A property attributed to a model configuration, not to a single reply.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0006.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Platform Ontology [PLO]">
-<meta name="twitter:description" content="Jedes KI-System bringt eine eigene Perspektive mit, gepraegt durch Trainingsdaten und Architektur.">
+<meta name="twitter:description" content="The set of systematic dispositions in a given AI system&#x27;s outputs that derive from its training data and architecture, such that different systems produce characteristically different framings of the same prompt. A property attributed to a model configuration, not to a single reply.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0006",
   "name": "Platform Ontology",
-  "description": "Jedes KI-System bringt eine eigene Perspektive mit, gepraegt durch Trainingsdaten und Architektur.",
+  "description": "The set of systematic dispositions in a given AI system's outputs that derive from its training data and architecture, such that different systems produce characteristically different framings of the same prompt. A property attributed to a model configuration, not to a single reply.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0006",
   "alternateName": "PLO",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "SY",
-  "operationalDefinition": "Operational scope: an instance of 'Platform Ontology' is counted when the observable pattern described above (Jedes KI-System bringt eine eigene Perspektive mit, gepraegt durch Trainingsdate...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "STATE. The same fixed prompt set (held constant across systems) is submitted to two or more AI systems; raters score each system's aggregate response profile for characteristic, reproducible framing tendencies (e.g. hedging, domain emphasis, refusal style) on a 0-4 anchored scale. The construct is the between-system divergence in these scored tendencies.",
+  "measurementSchema": "Held-constant prompt battery (>=30 prompts) run on each system; two raters score response-tendency dimensions on 0-4 anchors; between-system divergence reported as mean pairwise distance with inter-rater ICC(2,k) for the dimension scores.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-system-behavior",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-system-behavior",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0006.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
-  ]
+  ],
+  "referentType": "STATE"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0006</code>
   &middot; Discipline: <strong>SY</strong> (SY)
   &middot; Period: <strong>4</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Jedes KI-System bringt eine eigene Perspektive mit, gepraegt durch Trainingsdaten und Architektur.</p>
+  <p>The set of systematic dispositions in a given AI system&#x27;s outputs that derive from its training data and architecture, such that different systems produce characteristically different framings of the same prompt. A property attributed to a model configuration, not to a single reply.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;Platform Ontology&#x27; is counted when the observable pattern described above (Jedes KI-System bringt eine eigene Perspektive mit, gepraegt durch Trainingsdate...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>STATE. The same fixed prompt set (held constant across systems) is submitted to two or more AI systems; raters score each system&#x27;s aggregate response profile for characteristic, reproducible framing tendencies (e.g. hedging, domain emphasis, refusal style) on a 0-4 anchored scale. The construct is the between-system divergence in these scored tendencies.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Coding-scheme occurrence count; observer agreement (Cohen&#x27;s κ).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;occurrence_count&quot;: 5,
-  &quot;kappa&quot;: 0.74
-}</pre>
+  <p>Held-constant prompt battery (&gt;=30 prompts) run on each system; two raters score response-tendency dimensions on 0-4 anchors; between-system divergence reported as mean pairwise distance with inter-rater ICC(2,k) for the dimension scores.</p>
 </section>
 
 <section id="broader">

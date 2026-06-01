@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Thinking Leverage [THL] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Beobachtbares Verhaeltnis zwischen kognitivem Aufwand und KI-gestuetztem Ergebnis. Hebel-Metapher fuer ein Interaktionsmuster.">
+<meta name="description" content="The relationship between the cognitive effort a user invests and the quality or quantity of output achieved with AI support; a ratio expressing output yield per unit of human input.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0098.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0098.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0098.html">
 
 <meta property="og:title" content="Thinking Leverage [THL]">
-<meta property="og:description" content="Beobachtbares Verhaeltnis zwischen kognitivem Aufwand und KI-gestuetztem Ergebnis. Hebel-Metapher fuer ein Interaktionsmuster.">
+<meta property="og:description" content="The relationship between the cognitive effort a user invests and the quality or quantity of output achieved with AI support; a ratio expressing output yield per unit of human input.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0098.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Thinking Leverage [THL]">
-<meta name="twitter:description" content="Beobachtbares Verhaeltnis zwischen kognitivem Aufwand und KI-gestuetztem Ergebnis. Hebel-Metapher fuer ein Interaktionsmuster.">
+<meta name="twitter:description" content="The relationship between the cognitive effort a user invests and the quality or quantity of output achieved with AI support; a ratio expressing output yield per unit of human input.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0098",
   "name": "Thinking Leverage",
-  "description": "Beobachtbares Verhaeltnis zwischen kognitivem Aufwand und KI-gestuetztem Ergebnis. Hebel-Metapher fuer ein Interaktionsmuster.",
+  "description": "The relationship between the cognitive effort a user invests and the quality or quantity of output achieved with AI support; a ratio expressing output yield per unit of human input.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0098",
   "alternateName": "THL",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "KG",
-  "operationalDefinition": "Operational scope: an instance of 'Thinking Leverage' is counted when the observable pattern described above (Beobachtbares Verhaeltnis zwischen kognitivem Aufwand und KI-gestuetztem Ergebni...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "Computed as rated output quality, or completed work units, divided by invested effort measured in active minutes or user turns for a task; the numerator is the work product and the denominator is human effort expended.",
+  "measurementSchema": "Effort-normalized yield: rater-scored output quality (0-100) divided by active user time in minutes (or by user-turn count) per task, reported as a yield ratio together with its components.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-cognition-thought",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-cognition-thought",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0098.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
-  ]
+  ],
+  "referentType": "RATIO"
 }
 </script>
 
@@ -83,36 +83,22 @@
   Term code: <code>AUG-0098</code>
   &middot; Discipline: <strong>General Phenomenology</strong> (KG)
   &middot; Period: <strong>4</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Beobachtbares Verhaeltnis zwischen kognitivem Aufwand und KI-gestuetztem Ergebnis. Hebel-Metapher fuer ein Interaktionsmuster.</p>
+  <p>The relationship between the cognitive effort a user invests and the quality or quantity of output achieved with AI support; a ratio expressing output yield per unit of human input.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Thinking Leverage is observed when AI-augmentation enables a participant to complete cognitive tasks of higher complexity (operationalised via Bloom's taxonomy level) than their solo baseline, measured by complexity-level-achieved across matched task-pairs.</p>
+  <p>Computed as rated output quality, or completed work units, divided by invested effort measured in active minutes or user turns for a task; the numerator is the work product and the denominator is human effort expended.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Repeated-measures ANOVA with sphericity correction (Greenhouse-Geisser) applied to Bloom-level achieved across three conditions: solo, AI-assisted minimal, AI-assisted full. Leverage = F-value for AI-condition main effect; post-hoc pairwise comparisons via Tukey HSD.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "participants_n": 36,
-  "tasks_per_condition": 8,
-  "bloom_mean_solo": 3.2,
-  "bloom_mean_minimal_ai": 4.1,
-  "bloom_mean_full_ai": 4.9,
-  "f_value": 28.4,
-  "gg_epsilon": 0.87,
-  "p_value": 1e-06
-}</pre>
+  <p>Effort-normalized yield: rater-scored output quality (0-100) divided by active user time in minutes (or by user-turn count) per task, reported as a yield ratio together with its components.</p>
 </section>
 
 <section id="broader">
@@ -130,16 +116,6 @@
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0016.html" rel="noopener noreferrer">AUG-0016</a></li>
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0205.html" rel="noopener noreferrer">AUG-0205</a></li>
     </ul>
-</section>
-
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Matched task-triplets across all three conditions within-participant.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Tasks where AI-augmentation effectively performs the task rather than assisting.</p>
 </section>
 
 <footer>

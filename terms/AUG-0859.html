@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Agent Handshake [AHS] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Initialer Kontaktmoment zwischen Mensch und autonomem Agenten. Faehigkeiten und Grenzen werden geklaert.">
+<meta name="description" content="The initial exchange that opens an interaction between a human and an autonomous agent, in which the agent&#x27;s stated capabilities, permissions, and limits are surfaced; distinguished from later turns by being the first establishment of the working terms.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html">
 
 <meta property="og:title" content="Agent Handshake [AHS]">
-<meta property="og:description" content="Initialer Kontaktmoment zwischen Mensch und autonomem Agenten. Faehigkeiten und Grenzen werden geklaert.">
+<meta property="og:description" content="The initial exchange that opens an interaction between a human and an autonomous agent, in which the agent&#x27;s stated capabilities, permissions, and limits are surfaced; distinguished from later turns by being the first establishment of the working terms.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Agent Handshake [AHS]">
-<meta name="twitter:description" content="Initialer Kontaktmoment zwischen Mensch und autonomem Agenten. Faehigkeiten und Grenzen werden geklaert.">
+<meta name="twitter:description" content="The initial exchange that opens an interaction between a human and an autonomous agent, in which the agent&#x27;s stated capabilities, permissions, and limits are surfaced; distinguished from later turns by being the first establishment of the working terms.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0859",
   "name": "Agent Handshake",
-  "description": "Initialer Kontaktmoment zwischen Mensch und autonomem Agenten. Faehigkeiten und Grenzen werden geklaert.",
+  "description": "The initial exchange that opens an interaction between a human and an autonomous agent, in which the agent's stated capabilities, permissions, and limits are surfaced; distinguished from later turns by being the first establishment of the working terms.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0859",
   "alternateName": "AHS",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "AG",
-  "operationalDefinition": "Operational scope: an instance of 'Agent Handshake' is counted when the observable pattern described above (Initialer Kontaktmoment zwischen Mensch und autonomem Agenten. Faehigkeiten und ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.",
-  "exampleData": "{\"session_id\": \"S001\", \"ai_initiative_count_per_10_turns\": 3, \"override_rate\": 0.10}",
+  "operationalDefinition": "EVENT. One occurrence is counted at the first turn of a human-agent session in which the agent discloses, or the human sets, the agent's scope (capabilities, permissions, or constraints) before task work begins. A session in which work starts with no such scope-setting exchange is coded as absent.",
+  "measurementSchema": "Presence/absence coding of the opening scope-setting exchange per session from transcripts, plus latency measured as number of turns until first task action. Two raters code an overlap sample; agreement on the present/absent judgement reported as Cohen's kappa.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0914.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0888.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
 </script>
 
@@ -83,35 +83,22 @@
   Term code: <code>AUG-0859</code>
   &middot; Discipline: <strong>Agentic AI</strong> (AG)
   &middot; Period: <strong>1</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Initialer Kontaktmoment zwischen Mensch und autonomem Agenten. Faehigkeiten und Grenzen werden geklaert.</p>
+  <p>The initial exchange that opens an interaction between a human and an autonomous agent, in which the agent&#x27;s stated capabilities, permissions, and limits are surfaced; distinguished from later turns by being the first establishment of the working terms.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>An Agent Handshake is recorded when two or more AI agents exchange a structured capability-declaration and task-acceptance message before commencing joint work, verified by presence of an explicit handshake-payload in the inter-agent message log.</p>
+  <p>EVENT. One occurrence is counted at the first turn of a human-agent session in which the agent discloses, or the human sets, the agent&#x27;s scope (capabilities, permissions, or constraints) before task work begins. A session in which work starts with no such scope-setting exchange is coded as absent.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Protocol-conformance check via F1-score (precision-recall) on handshake-payload fields against a reference schema (capability-list, task-id, accept/reject, version). Reported per agent-pair with field-level recall.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "session_id": "MAS-014",
-  "agent_pair": "A1-A2",
-  "handshakes_n": 8,
-  "f1_score": 0.91,
-  "precision": 0.94,
-  "recall": 0.88,
-  "field_recall_min": "version-field"
-}</pre>
+  <p>Presence/absence coding of the opening scope-setting exchange per session from transcripts, plus latency measured as number of turns until first task action. Two raters code an overlap sample; agreement on the present/absent judgement reported as Cohen&#x27;s kappa.</p>
 </section>
 
 <section id="broader">
@@ -129,16 +116,6 @@
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0915.html" rel="noopener noreferrer">AUG-0915</a></li>
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0868.html" rel="noopener noreferrer">AUG-0868</a></li>
     </ul>
-</section>
-
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Structured handshake-payload present before joint-task initiation with F1 greater than 0.7.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Ad-hoc agent-to-agent messaging without schema-conformant handshake.</p>
 </section>
 
 <footer>

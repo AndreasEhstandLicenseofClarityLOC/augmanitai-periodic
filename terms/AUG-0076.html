@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Self-Referential Grounding [SRG] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Verankerung im eigenen Wertesystem als Orientierung in der KI-Interaktion.">
+<meta name="description" content="The extent to which a user anchors decisions during AI interaction in their own explicit value system, using personal criteria as the reference point when appraising or accepting AI output. A graded reliance on internally held standards.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html">
 
 <meta property="og:title" content="Self-Referential Grounding [SRG]">
-<meta property="og:description" content="Verankerung im eigenen Wertesystem als Orientierung in der KI-Interaktion.">
+<meta property="og:description" content="The extent to which a user anchors decisions during AI interaction in their own explicit value system, using personal criteria as the reference point when appraising or accepting AI output. A graded reliance on internally held standards.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Self-Referential Grounding [SRG]">
-<meta name="twitter:description" content="Verankerung im eigenen Wertesystem als Orientierung in der KI-Interaktion.">
+<meta name="twitter:description" content="The extent to which a user anchors decisions during AI interaction in their own explicit value system, using personal criteria as the reference point when appraising or accepting AI output. A graded reliance on internally held standards.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0076",
   "name": "Self-Referential Grounding",
-  "description": "Verankerung im eigenen Wertesystem als Orientierung in der KI-Interaktion.",
+  "description": "The extent to which a user anchors decisions during AI interaction in their own explicit value system, using personal criteria as the reference point when appraising or accepting AI output. A graded reliance on internally held standards.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0076",
   "alternateName": "SRG",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "MT",
-  "operationalDefinition": "Operational scope: an instance of 'Self-Referential Grounding' is counted when the observable pattern described above (Verankerung im eigenen Wertesystem als Orientierung in der KI-Interaktion....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "STATE. Rated from think-aloud or annotated decisions: the share of AI-output acceptance/rejection decisions the user justifies by reference to stated personal values or criteria, versus deferring without such reference. The construct is the degree of value-anchored appraisal.",
+  "measurementSchema": "Rater coding of decision rationales (think-aloud or written) for explicit value-criterion references; reported as proportion of value-anchored decisions; inter-rater agreement via Cohen's kappa on the rationale-type code.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-meta-reflection",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-meta-reflection",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0071.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0075.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0024.html"
-  ]
+  ],
+  "referentType": "STATE"
 }
 </script>
 
@@ -83,34 +83,22 @@
   Term code: <code>AUG-0076</code>
   &middot; Discipline: <strong>MT</strong> (MT)
   &middot; Period: <strong>3</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Verankerung im eigenen Wertesystem als Orientierung in der KI-Interaktion.</p>
+  <p>The extent to which a user anchors decisions during AI interaction in their own explicit value system, using personal criteria as the reference point when appraising or accepting AI output. A graded reliance on internally held standards.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Self-Referential Grounding is observed when a participant anchors AI-mediated reasoning to their own first-person experience or stated values, evidenced by recurrent self-reference markers ('in my experience', 'for me', 'my values say') that appear at decision-points rather than throughout the transcript.</p>
+  <p>STATE. Rated from think-aloud or annotated decisions: the share of AI-output acceptance/rejection decisions the user justifies by reference to stated personal values or criteria, versus deferring without such reference. The construct is the degree of value-anchored appraisal.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Lexical-diversity index (MTLD) applied to self-reference markers across transcript segments, paired with positional analysis (proportion of self-references at decision-points vs filler turns). Grounding-index = MTLD(self-refs) x decision-point-concentration ratio.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "session_id": "S088",
-  "participant": "P037",
-  "self_ref_count": 18,
-  "mtld_self_refs": 64.2,
-  "decision_point_concentration": 0.71,
-  "grounding_index": 45.6
-}</pre>
+  <p>Rater coding of decision rationales (think-aloud or written) for explicit value-criterion references; reported as proportion of value-anchored decisions; inter-rater agreement via Cohen&#x27;s kappa on the rationale-type code.</p>
 </section>
 
 <section id="broader">
@@ -128,16 +116,6 @@
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0011.html" rel="noopener noreferrer">AUG-0011</a></li>
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0001.html" rel="noopener noreferrer">AUG-0001</a></li>
     </ul>
-</section>
-
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Self-reference markers appearing at identified decision-points with lexical diversity above MTLD 50.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Generic conversational self-references that do not anchor a decision or value judgement.</p>
 </section>
 
 <footer>

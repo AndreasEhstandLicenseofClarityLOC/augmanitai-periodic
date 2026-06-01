@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Initialization Cascade [INC] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Die persoenliche Eroeffnungssequenz einer KI-Sitzung. Erfahrene Nutzer entwickeln eigene Startmuster.">
+<meta name="description" content="A user&#x27;s personalised opening sequence at the start of an AI session, in which experienced users deploy characteristic set-up moves before substantive work. It denotes an observable session-initiation routine.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0021.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0021.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0021.html">
 
 <meta property="og:title" content="Initialization Cascade [INC]">
-<meta property="og:description" content="Die persoenliche Eroeffnungssequenz einer KI-Sitzung. Erfahrene Nutzer entwickeln eigene Startmuster.">
+<meta property="og:description" content="A user&#x27;s personalised opening sequence at the start of an AI session, in which experienced users deploy characteristic set-up moves before substantive work. It denotes an observable session-initiation routine.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0021.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Initialization Cascade [INC]">
-<meta name="twitter:description" content="Die persoenliche Eroeffnungssequenz einer KI-Sitzung. Erfahrene Nutzer entwickeln eigene Startmuster.">
+<meta name="twitter:description" content="A user&#x27;s personalised opening sequence at the start of an AI session, in which experienced users deploy characteristic set-up moves before substantive work. It denotes an observable session-initiation routine.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0021",
   "name": "Initialization Cascade",
-  "description": "Die persoenliche Eroeffnungssequenz einer KI-Sitzung. Erfahrene Nutzer entwickeln eigene Startmuster.",
+  "description": "A user's personalised opening sequence at the start of an AI session, in which experienced users deploy characteristic set-up moves before substantive work. It denotes an observable session-initiation routine.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0021",
   "alternateName": "INC",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "AV",
-  "operationalDefinition": "Operational scope: an instance of 'Initialization Cascade' is counted when the observable pattern described above (Die persoenliche Eroeffnungssequenz einer KI-Sitzung. Erfahrene Nutzer entwickel...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "EVENT. Counted once per session in which the opening turns before the first task-bearing request match a recurring user-specific set-up template (e.g. role priming, context loading). Sessions opening directly with a task are scored as absent.",
+  "measurementSchema": "Sequence detection over the first N opening turns against a per-user template library; reported as presence rate across sessions and mean opening length (turns) before first task. Template membership validated by coder agreement (Cohen's kappa).",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-work-behavior",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-work-behavior",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0021.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
 </script>
 
@@ -83,35 +83,22 @@
   Term code: <code>AUG-0021</code>
   &middot; Discipline: <strong>Agentic AI (Verification)</strong> (AV)
   &middot; Period: <strong>3</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Die persoenliche Eroeffnungssequenz einer KI-Sitzung. Erfahrene Nutzer entwickeln eigene Startmuster.</p>
+  <p>A user&#x27;s personalised opening sequence at the start of an AI session, in which experienced users deploy characteristic set-up moves before substantive work. It denotes an observable session-initiation routine.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>An Initialization Cascade is observed when the first 3-5 turns of an AI session set framings, vocabulary, or constraints that propagate measurably through subsequent turns even after topic-shifts. Cascade-strength is operationalised by token-overlap between initialization-window and downstream turns.</p>
+  <p>EVENT. Counted once per session in which the opening turns before the first task-bearing request match a recurring user-specific set-up template (e.g. role priming, context loading). Sessions opening directly with a task are scored as absent.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>BLEU-score / METEOR computed between the initialization-window text (turns 1-5) and each subsequent turn-block (turns 6-10, 11-15, etc). Cascade-strength = mean BLEU across blocks; decay-rate fitted via exponential regression.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "session_id": "S158",
-  "participant": "P085",
-  "init_window_turns": 5,
-  "downstream_blocks": 6,
-  "mean_bleu": 0.34,
-  "meteor_mean": 0.41,
-  "decay_half_life_turns": 18
-}</pre>
+  <p>Sequence detection over the first N opening turns against a per-user template library; reported as presence rate across sessions and mean opening length (turns) before first task. Template membership validated by coder agreement (Cohen&#x27;s kappa).</p>
 </section>
 
 <section id="broader">
@@ -129,16 +116,6 @@
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0018.html" rel="noopener noreferrer">AUG-0018</a></li>
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0138.html" rel="noopener noreferrer">AUG-0138</a></li>
     </ul>
-</section>
-
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Mean BLEU above 0.15 across at least 4 downstream blocks with measurable decay-pattern.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Sessions with explicit context-reset commands that flush the initialization-window.</p>
 </section>
 
 <footer>

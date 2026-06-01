@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Trust Setting [TRS] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Die individuelle Kalibrierung des Vertrauensniveaus gegenueber einem KI-System. Bewusst gesteuert.">
+<meta name="description" content="The graded level of reliance a user deliberately places on a given AI system&#x27;s outputs for a class of tasks, expressed in how much independent verification the user applies before acting on those outputs. A consciously adjusted disposition rather than a fixed trait.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0177.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0177.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0177.html">
 
 <meta property="og:title" content="The Trust Setting [TRS]">
-<meta property="og:description" content="Die individuelle Kalibrierung des Vertrauensniveaus gegenueber einem KI-System. Bewusst gesteuert.">
+<meta property="og:description" content="The graded level of reliance a user deliberately places on a given AI system&#x27;s outputs for a class of tasks, expressed in how much independent verification the user applies before acting on those outputs. A consciously adjusted disposition rather than a fixed trait.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0177.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="The Trust Setting [TRS]">
-<meta name="twitter:description" content="Die individuelle Kalibrierung des Vertrauensniveaus gegenueber einem KI-System. Bewusst gesteuert.">
+<meta name="twitter:description" content="The graded level of reliance a user deliberately places on a given AI system&#x27;s outputs for a class of tasks, expressed in how much independent verification the user applies before acting on those outputs. A consciously adjusted disposition rather than a fixed trait.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0177",
   "name": "The Trust Setting",
-  "description": "Die individuelle Kalibrierung des Vertrauensniveaus gegenueber einem KI-System. Bewusst gesteuert.",
+  "description": "The graded level of reliance a user deliberately places on a given AI system's outputs for a class of tasks, expressed in how much independent verification the user applies before acting on those outputs. A consciously adjusted disposition rather than a fixed trait.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0177",
   "alternateName": "TRS",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "RL",
-  "operationalDefinition": "Operational scope: an instance of 'The Trust Setting' is counted when the observable pattern described above (Die individuelle Kalibrierung des Vertrauensniveaus gegenueber einem KI-System. ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "STATE. Operationalized as the user's stated reliance level plus a behavioral proxy: the proportion of AI outputs the user independently verifies before use within a task class. Lower verification proportion indicates a higher trust setting. Rated/logged per task class.",
+  "measurementSchema": "Composite: self-reported reliance (single 0-10 item) plus behavioral verification ratio (independently-checked outputs / total used outputs) over >=20 outputs; reported jointly; self-report vs behavior concordance via correlation.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-relation-trust",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-relation-trust",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0177.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0539.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0170.html"
-  ]
+  ],
+  "referentType": "STATE"
 }
 </script>
 
@@ -83,35 +83,22 @@
   Term code: <code>AUG-0177</code>
   &middot; Discipline: <strong>RL</strong> (RL)
   &middot; Period: <strong>2</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Die individuelle Kalibrierung des Vertrauensniveaus gegenueber einem KI-System. Bewusst gesteuert.</p>
+  <p>The graded level of reliance a user deliberately places on a given AI system&#x27;s outputs for a class of tasks, expressed in how much independent verification the user applies before acting on those outputs. A consciously adjusted disposition rather than a fixed trait.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>A Trust Setting is observed when a participant adjusts their disclosure-threshold and verification-effort with an AI system over time based on accumulated experience, evidenced by changes in private-information-disclosed and verification-events-per-claim across a longitudinal window.</p>
+  <p>STATE. Operationalized as the user&#x27;s stated reliance level plus a behavioral proxy: the proportion of AI outputs the user independently verifies before use within a task class. Lower verification proportion indicates a higher trust setting. Rated/logged per task class.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Hedonic and eudaimonic well-being scale (8-item) administered monthly alongside disclosure-log analysis (sensitive-token frequency) and verification-event count. Trust-setting trajectory fitted with linear mixed-effects model with random intercepts per participant.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "participant_id": "P091",
-  "weeks_observed": 12,
-  "disclosure_tokens_w1": 14,
-  "disclosure_tokens_w12": 38,
-  "verification_per_claim_w1": 0.62,
-  "verification_per_claim_w12": 0.21,
-  "well_being_delta": 1.4
-}</pre>
+  <p>Composite: self-reported reliance (single 0-10 item) plus behavioral verification ratio (independently-checked outputs / total used outputs) over &gt;=20 outputs; reported jointly; self-report vs behavior concordance via correlation.</p>
 </section>
 
 <section id="broader">
@@ -129,16 +116,6 @@
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0080.html" rel="noopener noreferrer">AUG-0080</a></li>
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0197.html" rel="noopener noreferrer">AUG-0197</a></li>
     </ul>
-</section>
-
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>At least 12 weeks observation with monotonic disclosure-trend and verification-trend in opposite directions.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Trajectories driven by external trust-shock events (data-breach news, platform-policy change) within the window.</p>
 </section>
 
 <footer>

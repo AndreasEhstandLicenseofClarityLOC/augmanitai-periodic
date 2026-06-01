@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Invisible Colleague [INV] — AUGMANITAI Wave 2</title>
-<meta name="description" content="KI als produktives Hintergrund-Werkzeug im Arbeitsalltag. Verfuegbar bei Bedarf, ohne soziale Dynamik.">
+<meta name="description" content="A usage configuration in which an AI system functions as an on-demand background work aid that the user invokes for discrete subtasks without sustained turn-by-turn dialogue or social framing. Characterized by short, intermittent, task-bounded calls.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0161.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0161.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0161.html">
 
 <meta property="og:title" content="Invisible Colleague [INV]">
-<meta property="og:description" content="KI als produktives Hintergrund-Werkzeug im Arbeitsalltag. Verfuegbar bei Bedarf, ohne soziale Dynamik.">
+<meta property="og:description" content="A usage configuration in which an AI system functions as an on-demand background work aid that the user invokes for discrete subtasks without sustained turn-by-turn dialogue or social framing. Characterized by short, intermittent, task-bounded calls.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0161.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Invisible Colleague [INV]">
-<meta name="twitter:description" content="KI als produktives Hintergrund-Werkzeug im Arbeitsalltag. Verfuegbar bei Bedarf, ohne soziale Dynamik.">
+<meta name="twitter:description" content="A usage configuration in which an AI system functions as an on-demand background work aid that the user invokes for discrete subtasks without sustained turn-by-turn dialogue or social framing. Characterized by short, intermittent, task-bounded calls.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0161",
   "name": "Invisible Colleague",
-  "description": "KI als produktives Hintergrund-Werkzeug im Arbeitsalltag. Verfuegbar bei Bedarf, ohne soziale Dynamik.",
+  "description": "A usage configuration in which an AI system functions as an on-demand background work aid that the user invokes for discrete subtasks without sustained turn-by-turn dialogue or social framing. Characterized by short, intermittent, task-bounded calls.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0161",
   "alternateName": "INV",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "RL",
-  "operationalDefinition": "Operational scope: an instance of 'Invisible Colleague' is counted when the observable pattern described above (KI als produktives Hintergrund-Werkzeug im Arbeitsalltag. Verfuegbar bei Bedarf,...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "STATE. Classified from interaction logs over a period: a user-system relationship is in this state when sessions are predominantly short, single-purpose invocations (e.g. median <=3 turns) interspersed across work rather than sustained conversational sessions. The construct is this session-shape profile.",
+  "measurementSchema": "Log-derived session-shape metrics over a usage window: median turns per session, share of single-turn invocations, inter-invocation gap; state assigned by threshold rule; no rater required (objective telemetry).",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-relation-trust",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-relation-trust",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0161.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0539.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0170.html"
-  ]
+  ],
+  "referentType": "STATE"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0161</code>
   &middot; Discipline: <strong>RL</strong> (RL)
   &middot; Period: <strong>3</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>KI als produktives Hintergrund-Werkzeug im Arbeitsalltag. Verfuegbar bei Bedarf, ohne soziale Dynamik.</p>
+  <p>A usage configuration in which an AI system functions as an on-demand background work aid that the user invokes for discrete subtasks without sustained turn-by-turn dialogue or social framing. Characterized by short, intermittent, task-bounded calls.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;Invisible Colleague&#x27; is counted when the observable pattern described above (KI als produktives Hintergrund-Werkzeug im Arbeitsalltag. Verfuegbar bei Bedarf,...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>STATE. Classified from interaction logs over a period: a user-system relationship is in this state when sessions are predominantly short, single-purpose invocations (e.g. median &lt;=3 turns) interspersed across work rather than sustained conversational sessions. The construct is this session-shape profile.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Coding-scheme occurrence count; observer agreement (Cohen&#x27;s κ).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;occurrence_count&quot;: 5,
-  &quot;kappa&quot;: 0.74
-}</pre>
+  <p>Log-derived session-shape metrics over a usage window: median turns per session, share of single-turn invocations, inter-invocation gap; state assigned by threshold rule; no rater required (objective telemetry).</p>
 </section>
 
 <section id="broader">

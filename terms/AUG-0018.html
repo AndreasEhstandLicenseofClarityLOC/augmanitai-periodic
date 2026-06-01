@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Trinaug Protocol [TRI] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Drei-KI-Vergleichsmethode: gleiche Aufgabe, drei Systeme, Muster erkennen.">
+<meta name="description" content="A user method in which the same task is issued to three AI systems and the resulting outputs are compared to identify shared and divergent patterns. It denotes a discrete three-way comparison procedure.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0018.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0018.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0018.html">
 
 <meta property="og:title" content="Trinaug Protocol [TRI]">
-<meta property="og:description" content="Drei-KI-Vergleichsmethode: gleiche Aufgabe, drei Systeme, Muster erkennen.">
+<meta property="og:description" content="A user method in which the same task is issued to three AI systems and the resulting outputs are compared to identify shared and divergent patterns. It denotes a discrete three-way comparison procedure.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0018.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Trinaug Protocol [TRI]">
-<meta name="twitter:description" content="Drei-KI-Vergleichsmethode: gleiche Aufgabe, drei Systeme, Muster erkennen.">
+<meta name="twitter:description" content="A user method in which the same task is issued to three AI systems and the resulting outputs are compared to identify shared and divergent patterns. It denotes a discrete three-way comparison procedure.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0018",
   "name": "Trinaug Protocol",
-  "description": "Drei-KI-Vergleichsmethode: gleiche Aufgabe, drei Systeme, Muster erkennen.",
+  "description": "A user method in which the same task is issued to three AI systems and the resulting outputs are compared to identify shared and divergent patterns. It denotes a discrete three-way comparison procedure.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0018",
   "alternateName": "TRI",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "AV",
-  "operationalDefinition": "Operational scope: an instance of 'Trinaug Protocol' is counted when the observable pattern described above (Drei-KI-Vergleichsmethode: gleiche Aufgabe, drei Systeme, Muster erkennen....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "EVENT. Counted once per task for which a user obtains outputs from three distinct systems for the same prompt and produces an explicit comparison. Two-system or uncompared multi-system uses do not satisfy the criterion.",
+  "measurementSchema": "Procedure detection: same-prompt dispatch to exactly three distinct systems plus a comparison artefact; reported as count of three-way comparisons per project. Coder confirmation of the comparison step via Cohen's kappa.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-work-behavior",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-work-behavior",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0018.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0018</code>
   &middot; Discipline: <strong>Agentic AI (Verification)</strong> (AV)
   &middot; Period: <strong>3</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Drei-KI-Vergleichsmethode: gleiche Aufgabe, drei Systeme, Muster erkennen.</p>
+  <p>A user method in which the same task is issued to three AI systems and the resulting outputs are compared to identify shared and divergent patterns. It denotes a discrete three-way comparison procedure.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;Trinaug Protocol&#x27; is counted when the observable pattern described above (Drei-KI-Vergleichsmethode: gleiche Aufgabe, drei Systeme, Muster erkennen....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>EVENT. Counted once per task for which a user obtains outputs from three distinct systems for the same prompt and produces an explicit comparison. Two-system or uncompared multi-system uses do not satisfy the criterion.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Coding-scheme occurrence count; observer agreement (Cohen&#x27;s κ).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;occurrence_count&quot;: 5,
-  &quot;kappa&quot;: 0.74
-}</pre>
+  <p>Procedure detection: same-prompt dispatch to exactly three distinct systems plus a comparison artefact; reported as count of three-way comparisons per project. Coder confirmation of the comparison step via Cohen&#x27;s kappa.</p>
 </section>
 
 <section id="broader">

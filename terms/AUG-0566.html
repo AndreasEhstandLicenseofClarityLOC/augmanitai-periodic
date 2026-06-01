@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ongoing Partnership [OGP] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Die Entwicklung einer kontinuierlichen, produktiven Arbeitsbeziehung zwischen Mensch und KI-System.">
+<meta name="description" content="A longitudinal pattern in which a single user&#x27;s repeated working interactions with one AI system show increasing efficiency or stability over time, such as shorter prompt-to-acceptable-output paths or more reused conventions across sessions.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html">
 
 <meta property="og:title" content="Ongoing Partnership [OGP]">
-<meta property="og:description" content="Die Entwicklung einer kontinuierlichen, produktiven Arbeitsbeziehung zwischen Mensch und KI-System.">
+<meta property="og:description" content="A longitudinal pattern in which a single user&#x27;s repeated working interactions with one AI system show increasing efficiency or stability over time, such as shorter prompt-to-acceptable-output paths or more reused conventions across sessions.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ongoing Partnership [OGP]">
-<meta name="twitter:description" content="Die Entwicklung einer kontinuierlichen, produktiven Arbeitsbeziehung zwischen Mensch und KI-System.">
+<meta name="twitter:description" content="A longitudinal pattern in which a single user&#x27;s repeated working interactions with one AI system show increasing efficiency or stability over time, such as shorter prompt-to-acceptable-output paths or more reused conventions across sessions.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0566",
   "name": "Ongoing Partnership",
-  "description": "Die Entwicklung einer kontinuierlichen, produktiven Arbeitsbeziehung zwischen Mensch und KI-System.",
+  "description": "A longitudinal pattern in which a single user's repeated working interactions with one AI system show increasing efficiency or stability over time, such as shorter prompt-to-acceptable-output paths or more reused conventions across sessions.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0566",
   "alternateName": "OGP",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "RL",
-  "operationalDefinition": "Operational scope: an instance of 'Ongoing Partnership' is counted when the observable pattern described above (Die Entwicklung einer kontinuierlichen, produktiven Arbeitsbeziehung zwischen Me...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "TREND. Tracked per user-system pair across successive sessions over a defined window (e.g. 8 weeks). Indicators logged per session: turns-to-accepted-output, count of reused user-defined conventions, and session-level task-completion rate. The construct is the slope of these indicators over the window.",
+  "measurementSchema": "Per-session telemetry over >=6 sessions: turns-to-accepted-output, reused-convention count, completion rate; trend estimated by linear mixed-effects slope per user; effect reported with 95% CI.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-relation-trust",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-relation-trust",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0566.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0539.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0170.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0177.html"
-  ]
+  ],
+  "referentType": "TREND"
 }
 </script>
 
@@ -83,44 +83,22 @@
   Term code: <code>AUG-0566</code>
   &middot; Discipline: <strong>RL</strong> (RL)
   &middot; Period: <strong>2</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Die Entwicklung einer kontinuierlichen, produktiven Arbeitsbeziehung zwischen Mensch und KI-System.</p>
+  <p>A longitudinal pattern in which a single user&#x27;s repeated working interactions with one AI system show increasing efficiency or stability over time, such as shorter prompt-to-acceptable-output paths or more reused conventions across sessions.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Ongoing Partnership is observed when a participant maintains a sustained AI-collaboration on a single project across at least 12 weeks, with documented continuity of context (named project, recurring references, evolving artifacts) and a stable working-cadence at least once weekly.</p>
+  <p>TREND. Tracked per user-system pair across successive sessions over a defined window (e.g. 8 weeks). Indicators logged per session: turns-to-accepted-output, count of reused user-defined conventions, and session-level task-completion rate. The construct is the slope of these indicators over the window.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Project-log audit: weeks-active, session-cadence (mean inter-session days), artifact-evolution count (versions / drafts referenced), and continuity-index = proportion of sessions referencing prior session content. Partnership-strength = weeks-active x continuity-index.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "project_id": "PR003",
-  "participant": "P005",
-  "weeks_active": 18,
-  "sessions_total": 24,
-  "mean_intersession_days": 5.2,
-  "artifact_versions": 9,
-  "continuity_index": 0.87,
-  "partnership_strength": 15.7
-}</pre>
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Twelve weeks or more of activity with continuity-index above 0.7 and at least weekly cadence.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>General-purpose assistant use without an identifiable single project.</p>
+  <p>Per-session telemetry over &gt;=6 sessions: turns-to-accepted-output, reused-convention count, completion rate; trend estimated by linear mixed-effects slope per user; effect reported with 95% CI.</p>
 </section>
 </section>
 

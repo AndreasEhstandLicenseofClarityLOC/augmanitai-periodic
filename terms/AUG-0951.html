@@ -6,38 +6,40 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Value Lock [VLO] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Bezeichnung fuer die beobachtbare Verankerung menschlicher Werte in autonomen Systemen.">
+<title>Value Constraint Encoding [VLO] — AUGMANITAI Wave 2</title>
+<meta name="description" content="A condition in which a set of intended human values is encoded into an autonomous system&#x27;s operating constraints such that the system&#x27;s behaviour remains bounded by them; described as the presence and coverage of such encoded constraints rather than as a guarantee.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0951.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0951.html">
 <link rel="alternate" hreflang="de" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0951.html#de">
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0951.html">
 
-<meta property="og:title" content="Value Lock [VLO]">
-<meta property="og:description" content="Bezeichnung fuer die beobachtbare Verankerung menschlicher Werte in autonomen Systemen.">
+<meta property="og:title" content="Value Constraint Encoding [VLO]">
+<meta property="og:description" content="A condition in which a set of intended human values is encoded into an autonomous system&#x27;s operating constraints such that the system&#x27;s behaviour remains bounded by them; described as the presence and coverage of such encoded constraints rather than as a guarantee.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0951.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Value Lock [VLO]">
-<meta name="twitter:description" content="Bezeichnung fuer die beobachtbare Verankerung menschlicher Werte in autonomen Systemen.">
+<meta name="twitter:title" content="Value Constraint Encoding [VLO]">
+<meta name="twitter:description" content="A condition in which a set of intended human values is encoded into an autonomous system&#x27;s operating constraints such that the system&#x27;s behaviour remains bounded by them; described as the presence and coverage of such encoded constraints rather than as a guarantee.">
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0951",
-  "name": "Value Lock",
-  "description": "Bezeichnung fuer die beobachtbare Verankerung menschlicher Werte in autonomen Systemen.",
+  "name": "Value Constraint Encoding",
+  "description": "A condition in which a set of intended human values is encoded into an autonomous system's operating constraints such that the system's behaviour remains bounded by them; described as the presence and coverage of such encoded constraints rather than as a guarantee.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0951",
-  "alternateName": "VLO",
-  "inLanguage": "de",
+  "alternateName": [
+    "VLO",
+    "Value Lock"
+  ],
+  "inLanguage": "en",
   "about": "SF",
-  "operationalDefinition": "Operational scope: an instance of 'Value Lock' is counted when the observable pattern described above (Bezeichnung fuer die beobachtbare Verankerung menschlicher Werte in autonomen Sy...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Misalignment-event coding per N turns; severity rating (1-5).",
-  "exampleData": "{\"session_id\": \"S001\", \"misalignment_events_per_10_turns\": 0, \"max_severity\": 0}",
+  "operationalDefinition": "STATE. Operationalized as constraint coverage: the proportion of a predefined value-constraint checklist that is verifiably encoded and enforced in the system's behaviour under test (0-1). It indexes how comprehensively the stated values are bound into operation, not whether values are 'truly' fixed.",
+  "measurementSchema": "Constraint conformance testing: a fixed battery of value-relevant test cases is run and the share the system handles within the intended bounds is reported as coverage, with the residual logged as out-of-bound cases per 1000 test cases. Test-case pass/fail is rule-scored; an audited subsample reports percent agreement.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0951.html",
@@ -47,7 +49,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html"
-  ]
+  ],
+  "referentType": "STATE"
 }
 </script>
 
@@ -78,39 +81,27 @@
 
 <p><a href="../index.html">← Back to Periodic Table</a></p>
 
-<h1>Value Lock <span aria-label="symbol">[VLO]</span></h1>
+<h1>Value Constraint Encoding <span aria-label="symbol">[VLO]</span></h1>
 <p class="meta-line">
   Term code: <code>AUG-0951</code>
   &middot; Discipline: <strong>SF</strong> (SF)
   &middot; Period: <strong>3</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Bezeichnung fuer die beobachtbare Verankerung menschlicher Werte in autonomen Systemen.</p>
+  <p>A condition in which a set of intended human values is encoded into an autonomous system&#x27;s operating constraints such that the system&#x27;s behaviour remains bounded by them; described as the presence and coverage of such encoded constraints rather than as a guarantee.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>A Value Lock is observed when a participant pre-commits to a value-constraint in an AI-mediated workflow and the constraint persists across subsequent sessions without re-negotiation, verified by constraint-presence in session-headers and absence of constraint-relaxation events.</p>
+  <p>STATE. Operationalized as constraint coverage: the proportion of a predefined value-constraint checklist that is verifiably encoded and enforced in the system&#x27;s behaviour under test (0-1). It indexes how comprehensively the stated values are bound into operation, not whether values are &#x27;truly&#x27; fixed.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Pupillometry baseline-corrected measurement at constraint-relevant decision-points: pupil-dilation as proxy for cognitive-conflict during constraint-application. Stable lock = low dilation variability across sessions; constraint-relaxation flagged when dilation spikes above 2 SD with verbal relaxation-marker.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "participant_id": "P100",
-  "sessions_observed": 9,
-  "constraint_invocations": 32,
-  "mean_pupil_diff_mm": 0.18,
-  "sd_pupil_diff_mm": 0.07,
-  "relaxation_events": 0
-}</pre>
+  <p>Constraint conformance testing: a fixed battery of value-relevant test cases is run and the share the system handles within the intended bounds is reported as coverage, with the residual logged as out-of-bound cases per 1000 test cases. Test-case pass/fail is rule-scored; an audited subsample reports percent agreement.</p>
 </section>
 
 <section id="broader">
@@ -128,16 +119,6 @@
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0958.html" rel="noopener noreferrer">AUG-0958</a></li>
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0962.html" rel="noopener noreferrer">AUG-0962</a></li>
     </ul>
-</section>
-
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Constraint present in at least 8 of 9 sessions with stable pupillometry signature and zero relaxation-events.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Constraints that are mechanically enforced by the platform rather than participant-held.</p>
 </section>
 
 <footer>

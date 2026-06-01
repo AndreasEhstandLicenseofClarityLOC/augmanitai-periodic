@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vigilance Imperative [VIG] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Qualitaetsprinzip: Bewusste Pruefung von KI-Ergebnissen als professioneller Standard. Vertrauen durch Verifizierung.">
+<meta name="description" content="A verification act in which a human user independently checks an AI-generated output against an external reference or domain knowledge before relying on it, distinguished from passive acceptance by the presence of an observable confirmation or correction step.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0023.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0023.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0023.html">
 
 <meta property="og:title" content="Vigilance Imperative [VIG]">
-<meta property="og:description" content="Qualitaetsprinzip: Bewusste Pruefung von KI-Ergebnissen als professioneller Standard. Vertrauen durch Verifizierung.">
+<meta property="og:description" content="A verification act in which a human user independently checks an AI-generated output against an external reference or domain knowledge before relying on it, distinguished from passive acceptance by the presence of an observable confirmation or correction step.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0023.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Vigilance Imperative [VIG]">
-<meta name="twitter:description" content="Qualitaetsprinzip: Bewusste Pruefung von KI-Ergebnissen als professioneller Standard. Vertrauen durch Verifizierung.">
+<meta name="twitter:description" content="A verification act in which a human user independently checks an AI-generated output against an external reference or domain knowledge before relying on it, distinguished from passive acceptance by the presence of an observable confirmation or correction step.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0023",
   "name": "Vigilance Imperative",
-  "description": "Qualitaetsprinzip: Bewusste Pruefung von KI-Ergebnissen als professioneller Standard. Vertrauen durch Verifizierung.",
+  "description": "A verification act in which a human user independently checks an AI-generated output against an external reference or domain knowledge before relying on it, distinguished from passive acceptance by the presence of an observable confirmation or correction step.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0023",
   "alternateName": "VIG",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "MT",
-  "operationalDefinition": "Operational scope: an instance of 'Vigilance Imperative' is counted when the observable pattern described above (Qualitaetsprinzip: Bewusste Pruefung von KI-Ergebnissen als professioneller Stan...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "EVENT. One occurrence is counted when, following an AI output, the user performs an observable checking action against an independent source (cross-reference lookup, recomputation, citation follow-up, or explicit correction of the output) before acting on it. Mere re-reading of the AI text without an external check does not count.",
+  "measurementSchema": "Behavioural event coding from interaction logs: count of verification acts per task, with each act tagged by check type (source lookup / recomputation / correction). Two raters double-code a 20% sample; inter-rater agreement reported as Cohen's kappa on the present/absent decision.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-meta-reflection",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-meta-reflection",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0023.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0071.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0075.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0023</code>
   &middot; Discipline: <strong>MT</strong> (MT)
   &middot; Period: <strong>5</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Qualitaetsprinzip: Bewusste Pruefung von KI-Ergebnissen als professioneller Standard. Vertrauen durch Verifizierung.</p>
+  <p>A verification act in which a human user independently checks an AI-generated output against an external reference or domain knowledge before relying on it, distinguished from passive acceptance by the presence of an observable confirmation or correction step.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;Vigilance Imperative&#x27; is counted when the observable pattern described above (Qualitaetsprinzip: Bewusste Pruefung von KI-Ergebnissen als professioneller Stan...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>EVENT. One occurrence is counted when, following an AI output, the user performs an observable checking action against an independent source (cross-reference lookup, recomputation, citation follow-up, or explicit correction of the output) before acting on it. Mere re-reading of the AI text without an external check does not count.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Coding-scheme occurrence count; observer agreement (Cohen&#x27;s κ).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;occurrence_count&quot;: 5,
-  &quot;kappa&quot;: 0.74
-}</pre>
+  <p>Behavioural event coding from interaction logs: count of verification acts per task, with each act tagged by check type (source lookup / recomputation / correction). Two raters double-code a 20% sample; inter-rater agreement reported as Cohen&#x27;s kappa on the present/absent decision.</p>
 </section>
 
 <section id="broader">

@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Rollback Option [RBO] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Die Moeglichkeit, jede KI-Aktion rueckgaengig zu machen. Kontrollarchitektur als Sicherheitsnetz.">
+<meta name="description" content="A property of a control architecture in which AI-initiated actions can be reversed to a prior state, characterised by the availability and coverage of undo or restore mechanisms across the system&#x27;s actions; an affordance rather than a discrete event.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0868.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0868.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0868.html">
 
 <meta property="og:title" content="The Rollback Option [RBO]">
-<meta property="og:description" content="Die Moeglichkeit, jede KI-Aktion rueckgaengig zu machen. Kontrollarchitektur als Sicherheitsnetz.">
+<meta property="og:description" content="A property of a control architecture in which AI-initiated actions can be reversed to a prior state, characterised by the availability and coverage of undo or restore mechanisms across the system&#x27;s actions; an affordance rather than a discrete event.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0868.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="The Rollback Option [RBO]">
-<meta name="twitter:description" content="Die Moeglichkeit, jede KI-Aktion rueckgaengig zu machen. Kontrollarchitektur als Sicherheitsnetz.">
+<meta name="twitter:description" content="A property of a control architecture in which AI-initiated actions can be reversed to a prior state, characterised by the availability and coverage of undo or restore mechanisms across the system&#x27;s actions; an affordance rather than a discrete event.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0868",
   "name": "The Rollback Option",
-  "description": "Die Moeglichkeit, jede KI-Aktion rueckgaengig zu machen. Kontrollarchitektur als Sicherheitsnetz.",
+  "description": "A property of a control architecture in which AI-initiated actions can be reversed to a prior state, characterised by the availability and coverage of undo or restore mechanisms across the system's actions; an affordance rather than a discrete event.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0868",
   "alternateName": "RBO",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "AG",
-  "operationalDefinition": "Operational scope: an instance of 'The Rollback Option' is counted when the observable pattern described above (Die Moeglichkeit, jede KI-Aktion rueckgaengig zu machen. Kontrollarchitektur als...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.",
-  "exampleData": "{\"session_id\": \"S001\", \"ai_initiative_count_per_10_turns\": 3, \"override_rate\": 0.10}",
+  "operationalDefinition": "STATE. Operationalized as reversibility coverage: the proportion of the system's consequential action types for which a documented undo/restore path exists, scored 0-1 from the system specification. Optionally banded (none / partial / full). It indexes designed affordance, not how often undo is used.",
+  "measurementSchema": "Specification audit enumerating consequential action types and checking each for a documented reversal path; reversibility coverage reported as the proportion reversible. Two auditors independently classify a sample; agreement on the per-action reversible/irreversible decision reported as Cohen's kappa.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0868.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0914.html"
-  ]
+  ],
+  "referentType": "STATE"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0868</code>
   &middot; Discipline: <strong>Agentic AI</strong> (AG)
   &middot; Period: <strong>3</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Die Moeglichkeit, jede KI-Aktion rueckgaengig zu machen. Kontrollarchitektur als Sicherheitsnetz.</p>
+  <p>A property of a control architecture in which AI-initiated actions can be reversed to a prior state, characterised by the availability and coverage of undo or restore mechanisms across the system&#x27;s actions; an affordance rather than a discrete event.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;The Rollback Option&#x27; is counted when the observable pattern described above (Die Moeglichkeit, jede KI-Aktion rueckgaengig zu machen. Kontrollarchitektur als...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>STATE. Operationalized as reversibility coverage: the proportion of the system&#x27;s consequential action types for which a documented undo/restore path exists, scored 0-1 from the system specification. Optionally banded (none / partial / full). It indexes designed affordance, not how often undo is used.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;ai_initiative_count_per_10_turns&quot;: 3,
-  &quot;override_rate&quot;: 0.1
-}</pre>
+  <p>Specification audit enumerating consequential action types and checking each for a documented reversal path; reversibility coverage reported as the proportion reversible. Two auditors independently classify a sample; agreement on the per-action reversible/irreversible decision reported as Cohen&#x27;s kappa.</p>
 </section>
 
 <section id="broader">

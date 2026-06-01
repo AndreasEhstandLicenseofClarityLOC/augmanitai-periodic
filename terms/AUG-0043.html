@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Just-in-Time Competence [JTC] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Beobachtetes Muster situationsbezogenen Wissenszugriffs durch KI-Unterstuetzung.">
+<meta name="description" content="An observable instance of accessing domain knowledge at the exact point of need through AI support, where the retrieved information immediately precedes and enables completion of the user&#x27;s current task step.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0043.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0043.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0043.html">
 
 <meta property="og:title" content="Just-in-Time Competence [JTC]">
-<meta property="og:description" content="Beobachtetes Muster situationsbezogenen Wissenszugriffs durch KI-Unterstuetzung.">
+<meta property="og:description" content="An observable instance of accessing domain knowledge at the exact point of need through AI support, where the retrieved information immediately precedes and enables completion of the user&#x27;s current task step.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0043.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Just-in-Time Competence [JTC]">
-<meta name="twitter:description" content="Beobachtetes Muster situationsbezogenen Wissenszugriffs durch KI-Unterstuetzung.">
+<meta name="twitter:description" content="An observable instance of accessing domain knowledge at the exact point of need through AI support, where the retrieved information immediately precedes and enables completion of the user&#x27;s current task step.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0043",
   "name": "Just-in-Time Competence",
-  "description": "Beobachtetes Muster situationsbezogenen Wissenszugriffs durch KI-Unterstuetzung.",
+  "description": "An observable instance of accessing domain knowledge at the exact point of need through AI support, where the retrieved information immediately precedes and enables completion of the user's current task step.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0043",
   "alternateName": "JTC",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "KG",
-  "operationalDefinition": "Operational scope: an instance of 'Just-in-Time Competence' is counted when the observable pattern described above (Beobachtetes Muster situationsbezogenen Wissenszugriffs durch KI-Unterstuetzung....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "One occurrence is coded when a point-of-need query returns information the user applies in the immediately following action to complete a task step; the successful task step is the observable marker.",
+  "measurementSchema": "Task-contingent retrieval count plus latency: number of point-of-need retrievals per task, and time from query to the first correct task action in seconds, both derived from interaction timestamps.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-cognition-thought",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-cognition-thought",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0043.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0043</code>
   &middot; Discipline: <strong>General Phenomenology</strong> (KG)
   &middot; Period: <strong>2</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Beobachtetes Muster situationsbezogenen Wissenszugriffs durch KI-Unterstuetzung.</p>
+  <p>An observable instance of accessing domain knowledge at the exact point of need through AI support, where the retrieved information immediately precedes and enables completion of the user&#x27;s current task step.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;Just-in-Time Competence&#x27; is counted when the observable pattern described above (Beobachtetes Muster situationsbezogenen Wissenszugriffs durch KI-Unterstuetzung....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>One occurrence is coded when a point-of-need query returns information the user applies in the immediately following action to complete a task step; the successful task step is the observable marker.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Coding-scheme occurrence count; observer agreement (Cohen&#x27;s κ).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;occurrence_count&quot;: 5,
-  &quot;kappa&quot;: 0.74
-}</pre>
+  <p>Task-contingent retrieval count plus latency: number of point-of-need retrievals per task, and time from query to the first correct task action in seconds, both derived from interaction timestamps.</p>
 </section>
 
 <section id="broader">

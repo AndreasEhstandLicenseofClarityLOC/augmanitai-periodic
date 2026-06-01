@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Prompt Craftsmanship [PMC] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Beobachtbare Fertigkeit in der Formulierung von KI-Eingaben. Entwickelt sich durch Nutzungserfahrung.">
+<meta name="description" content="A graded user skill in formulating effective AI inputs, developing with usage experience. It describes a measurable competence attributed to a person rather than a discrete interaction event.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0133.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0133.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0133.html">
 
 <meta property="og:title" content="Prompt Craftsmanship [PMC]">
-<meta property="og:description" content="Beobachtbare Fertigkeit in der Formulierung von KI-Eingaben. Entwickelt sich durch Nutzungserfahrung.">
+<meta property="og:description" content="A graded user skill in formulating effective AI inputs, developing with usage experience. It describes a measurable competence attributed to a person rather than a discrete interaction event.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0133.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Prompt Craftsmanship [PMC]">
-<meta name="twitter:description" content="Beobachtbare Fertigkeit in der Formulierung von KI-Eingaben. Entwickelt sich durch Nutzungserfahrung.">
+<meta name="twitter:description" content="A graded user skill in formulating effective AI inputs, developing with usage experience. It describes a measurable competence attributed to a person rather than a discrete interaction event.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0133",
   "name": "Prompt Craftsmanship",
-  "description": "Beobachtbare Fertigkeit in der Formulierung von KI-Eingaben. Entwickelt sich durch Nutzungserfahrung.",
+  "description": "A graded user skill in formulating effective AI inputs, developing with usage experience. It describes a measurable competence attributed to a person rather than a discrete interaction event.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0133",
   "alternateName": "PMC",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "AV",
-  "operationalDefinition": "Operational scope: an instance of 'Prompt Craftsmanship' is counted when the observable pattern described above (Beobachtbare Fertigkeit in der Formulierung von KI-Eingaben. Entwickelt sich dur...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "STATE. Rated, not counted: prompt quality is scored against a defined rubric (specificity, constraint use, context provisioning, iteration efficiency) over a sample of a user's prompts; competence is the rubric-mean. Trend variant tracks the mean across time.",
+  "measurementSchema": "Rater-applied prompt-quality rubric (multi-criterion, anchored scale) over a fixed prompt sample per user; inter-rater reliability via ICC. Optionally validated against downstream task-success rate.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-work-behavior",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-work-behavior",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0133.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html"
-  ]
+  ],
+  "referentType": "STATE"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0133</code>
   &middot; Discipline: <strong>Agentic AI (Verification)</strong> (AV)
   &middot; Period: <strong>3</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Beobachtbare Fertigkeit in der Formulierung von KI-Eingaben. Entwickelt sich durch Nutzungserfahrung.</p>
+  <p>A graded user skill in formulating effective AI inputs, developing with usage experience. It describes a measurable competence attributed to a person rather than a discrete interaction event.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;Prompt Craftsmanship&#x27; is counted when the observable pattern described above (Beobachtbare Fertigkeit in der Formulierung von KI-Eingaben. Entwickelt sich dur...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>STATE. Rated, not counted: prompt quality is scored against a defined rubric (specificity, constraint use, context provisioning, iteration efficiency) over a sample of a user&#x27;s prompts; competence is the rubric-mean. Trend variant tracks the mean across time.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Coding-scheme occurrence count; observer agreement (Cohen&#x27;s κ).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;occurrence_count&quot;: 5,
-  &quot;kappa&quot;: 0.74
-}</pre>
+  <p>Rater-applied prompt-quality rubric (multi-criterion, anchored scale) over a fixed prompt sample per user; inter-rater reliability via ICC. Optionally validated against downstream task-success rate.</p>
 </section>
 
 <section id="broader">

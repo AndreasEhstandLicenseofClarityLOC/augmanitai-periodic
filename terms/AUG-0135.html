@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Persona Engineering [PEN] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Bewusste Gestaltung der KI-Persoenlichkeit fuer spezifische Aufgaben und Kontexte.">
+<meta name="description" content="The deliberate shaping of an AI system&#x27;s expressed persona via instructions to fit specific tasks or contexts. It denotes an observable user act of configuring system style, not a trait of the system itself.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0135.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0135.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0135.html">
 
 <meta property="og:title" content="Persona Engineering [PEN]">
-<meta property="og:description" content="Bewusste Gestaltung der KI-Persoenlichkeit fuer spezifische Aufgaben und Kontexte.">
+<meta property="og:description" content="The deliberate shaping of an AI system&#x27;s expressed persona via instructions to fit specific tasks or contexts. It denotes an observable user act of configuring system style, not a trait of the system itself.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0135.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Persona Engineering [PEN]">
-<meta name="twitter:description" content="Bewusste Gestaltung der KI-Persoenlichkeit fuer spezifische Aufgaben und Kontexte.">
+<meta name="twitter:description" content="The deliberate shaping of an AI system&#x27;s expressed persona via instructions to fit specific tasks or contexts. It denotes an observable user act of configuring system style, not a trait of the system itself.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0135",
   "name": "Persona Engineering",
-  "description": "Bewusste Gestaltung der KI-Persoenlichkeit fuer spezifische Aufgaben und Kontexte.",
+  "description": "The deliberate shaping of an AI system's expressed persona via instructions to fit specific tasks or contexts. It denotes an observable user act of configuring system style, not a trait of the system itself.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0135",
   "alternateName": "PEN",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "SY",
-  "operationalDefinition": "Operational scope: an instance of 'Persona Engineering' is counted when the observable pattern described above (Bewusste Gestaltung der KI-Persoenlichkeit fuer spezifische Aufgaben und Kontext...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "EVENT. Counted once per session in which a user issues explicit persona-shaping instructions (role, tone, or character directives intended to set the system's expressed style). Ordinary task instructions without a persona directive are excluded.",
+  "measurementSchema": "Rater-coded count of persona-directive turns per session; reported as rate per session and share of sessions containing at least one directive. Coder reliability on the persona-vs-task-instruction distinction via Cohen's kappa.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-system-behavior",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-system-behavior",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0135.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0135</code>
   &middot; Discipline: <strong>SY</strong> (SY)
   &middot; Period: <strong>3</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Bewusste Gestaltung der KI-Persoenlichkeit fuer spezifische Aufgaben und Kontexte.</p>
+  <p>The deliberate shaping of an AI system&#x27;s expressed persona via instructions to fit specific tasks or contexts. It denotes an observable user act of configuring system style, not a trait of the system itself.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;Persona Engineering&#x27; is counted when the observable pattern described above (Bewusste Gestaltung der KI-Persoenlichkeit fuer spezifische Aufgaben und Kontext...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>EVENT. Counted once per session in which a user issues explicit persona-shaping instructions (role, tone, or character directives intended to set the system&#x27;s expressed style). Ordinary task instructions without a persona directive are excluded.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Coding-scheme occurrence count; observer agreement (Cohen&#x27;s κ).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;occurrence_count&quot;: 5,
-  &quot;kappa&quot;: 0.74
-}</pre>
+  <p>Rater-coded count of persona-directive turns per session; reported as rate per session and share of sessions containing at least one directive. Coder reliability on the persona-vs-task-instruction distinction via Cohen&#x27;s kappa.</p>
 </section>
 
 <section id="broader">

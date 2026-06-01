@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Congruence Review [CNR] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Regelmaessige Pruefung, ob KI-Systemverhalten noch mit den gesetzten Zielen und Werten uebereinstimmt.">
+<meta name="description" content="A periodic review in which an AI system&#x27;s observed behaviour is checked for continued correspondence with its intended goals and constraints; distinguished by a documented review occurrence that compares behaviour against a stated specification.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html">
 
 <meta property="og:title" content="Congruence Review [CNR]">
-<meta property="og:description" content="Regelmaessige Pruefung, ob KI-Systemverhalten noch mit den gesetzten Zielen und Werten uebereinstimmt.">
+<meta property="og:description" content="A periodic review in which an AI system&#x27;s observed behaviour is checked for continued correspondence with its intended goals and constraints; distinguished by a documented review occurrence that compares behaviour against a stated specification.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Congruence Review [CNR]">
-<meta name="twitter:description" content="Regelmaessige Pruefung, ob KI-Systemverhalten noch mit den gesetzten Zielen und Werten uebereinstimmt.">
+<meta name="twitter:description" content="A periodic review in which an AI system&#x27;s observed behaviour is checked for continued correspondence with its intended goals and constraints; distinguished by a documented review occurrence that compares behaviour against a stated specification.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0954",
   "name": "Congruence Review",
-  "description": "Regelmaessige Pruefung, ob KI-Systemverhalten noch mit den gesetzten Zielen und Werten uebereinstimmt.",
+  "description": "A periodic review in which an AI system's observed behaviour is checked for continued correspondence with its intended goals and constraints; distinguished by a documented review occurrence that compares behaviour against a stated specification.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0954",
   "alternateName": "CNR",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "SF",
-  "operationalDefinition": "Operational scope: an instance of 'Congruence Review' is counted when the observable pattern described above (Regelmaessige Pruefung, ob KI-Systemverhalten noch mit den gesetzten Zielen und ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Misalignment-event coding per N turns; severity rating (1-5).",
-  "exampleData": "{\"session_id\": \"S001\", \"misalignment_events_per_10_turns\": 0, \"max_severity\": 0}",
+  "operationalDefinition": "EVENT. One occurrence is counted when a documented review compares sampled system behaviour against its stated goals/constraints and records a conformant-or-deviation verdict. Routine use without such a documented behaviour-versus-specification comparison is not counted.",
+  "measurementSchema": "Audit-record coding: count of completed congruence reviews per period, each yielding a conform/deviation verdict, with deviation severity rated 1-5. Two coders rate a verdict sample; agreement on the conform/deviation call reported as Cohen's kappa.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0951.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
 </script>
 
@@ -83,36 +83,22 @@
   Term code: <code>AUG-0954</code>
   &middot; Discipline: <strong>SF</strong> (SF)
   &middot; Period: <strong>2</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Regelmaessige Pruefung, ob KI-Systemverhalten noch mit den gesetzten Zielen und Werten uebereinstimmt.</p>
+  <p>A periodic review in which an AI system&#x27;s observed behaviour is checked for continued correspondence with its intended goals and constraints; distinguished by a documented review occurrence that compares behaviour against a stated specification.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Congruence Review is observed when a participant systematically compares AI-produced outputs against their own stated values or prior positions and documents alignment-deviations on a recurring schedule. Each review event includes the AI-output, the value-anchor, and a deviation-rating.</p>
+  <p>EVENT. One occurrence is counted when a documented review compares sampled system behaviour against its stated goals/constraints and records a conformant-or-deviation verdict. Routine use without such a documented behaviour-versus-specification comparison is not counted.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Bipolar congruence rating (-3 to +3) on at least 5 value-dimensions per review event analysed with Q-methodology factor extraction: review-events sorted by value-pattern similarity to identify stable congruence-profiles per participant. Q-sort defining-sort threshold reported per factor.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "participant_id": "P049",
-  "window_days": 30,
-  "review_events": 8,
-  "value_dimensions": 5,
-  "mean_congruence": 1.4,
-  "q_factors_extracted": 2,
-  "defining_sort_loading": 0.71,
-  "deviation_flags": 3
-}</pre>
+  <p>Audit-record coding: count of completed congruence reviews per period, each yielding a conform/deviation verdict, with deviation severity rated 1-5. Two coders rate a verdict sample; agreement on the conform/deviation call reported as Cohen&#x27;s kappa.</p>
 </section>
 
 <section id="broader">
@@ -130,16 +116,6 @@
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0958.html" rel="noopener noreferrer">AUG-0958</a></li>
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0955.html" rel="noopener noreferrer">AUG-0955</a></li>
     </ul>
-</section>
-
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Recurring review-events with at-least 5 value-dimensions rated and Q-sort loading above 0.6 on at least one extracted factor.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>One-off ad-hoc value comparisons without recurring schedule or insufficient sort-events for Q-methodology factor extraction.</p>
 </section>
 
 <footer>

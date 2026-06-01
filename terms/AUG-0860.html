@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Delegation Depth [DLD] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Wie viel Entscheidungsfreiheit erhaelt ein Agent? Die bewusste Kalibrierung autonomer Handlungsspielraeume.">
+<meta name="description" content="The breadth of decision latitude granted to an autonomous agent, ranging from narrow execution of pre-specified steps to discretionary action within broad goals; a graded property of a delegation arrangement rather than a discrete occurrence.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html">
 
 <meta property="og:title" content="Delegation Depth [DLD]">
-<meta property="og:description" content="Wie viel Entscheidungsfreiheit erhaelt ein Agent? Die bewusste Kalibrierung autonomer Handlungsspielraeume.">
+<meta property="og:description" content="The breadth of decision latitude granted to an autonomous agent, ranging from narrow execution of pre-specified steps to discretionary action within broad goals; a graded property of a delegation arrangement rather than a discrete occurrence.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Delegation Depth [DLD]">
-<meta name="twitter:description" content="Wie viel Entscheidungsfreiheit erhaelt ein Agent? Die bewusste Kalibrierung autonomer Handlungsspielraeume.">
+<meta name="twitter:description" content="The breadth of decision latitude granted to an autonomous agent, ranging from narrow execution of pre-specified steps to discretionary action within broad goals; a graded property of a delegation arrangement rather than a discrete occurrence.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0860",
   "name": "Delegation Depth",
-  "description": "Wie viel Entscheidungsfreiheit erhaelt ein Agent? Die bewusste Kalibrierung autonomer Handlungsspielraeume.",
+  "description": "The breadth of decision latitude granted to an autonomous agent, ranging from narrow execution of pre-specified steps to discretionary action within broad goals; a graded property of a delegation arrangement rather than a discrete occurrence.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0860",
   "alternateName": "DLD",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "AG",
-  "operationalDefinition": "Operational scope: an instance of 'Delegation Depth' is counted when the observable pattern described above (Wie viel Entscheidungsfreiheit erhaelt ein Agent? Die bewusste Kalibrierung auto...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.",
-  "exampleData": "{\"session_id\": \"S001\", \"ai_initiative_count_per_10_turns\": 3, \"override_rate\": 0.10}",
+  "operationalDefinition": "STATE (graded). The granted latitude is rated per delegation arrangement on a 1-5 ordinal scale, anchored 1 = agent may only execute explicitly enumerated steps, 5 = agent may choose means and sub-goals within a high-level objective without per-step approval. Scoring is from the configured permission set, not from observed outcomes.",
+  "measurementSchema": "Rater coding of the agent's permission configuration onto the 1-5 latitude scale; inter-rater reliability reported as ordinal ICC. Objective complement: mean number of distinct action types the agent may perform without seeking approval.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0860.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0859.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0914.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0888.html"
-  ]
+  ],
+  "referentType": "STATE"
 }
 </script>
 
@@ -83,35 +83,22 @@
   Term code: <code>AUG-0860</code>
   &middot; Discipline: <strong>Agentic AI</strong> (AG)
   &middot; Period: <strong>2</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Wie viel Entscheidungsfreiheit erhaelt ein Agent? Die bewusste Kalibrierung autonomer Handlungsspielraeume.</p>
+  <p>The breadth of decision latitude granted to an autonomous agent, ranging from narrow execution of pre-specified steps to discretionary action within broad goals; a graded property of a delegation arrangement rather than a discrete occurrence.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Delegation Depth is observed when a participant assigns a multi-step task to an AI agent and the agent executes nested sub-tasks autonomously across at least three levels of decomposition before returning a consolidated output. Depth is counted as the longest sub-task chain.</p>
+  <p>STATE (graded). The granted latitude is rated per delegation arrangement on a 1-5 ordinal scale, anchored 1 = agent may only execute explicitly enumerated steps, 5 = agent may choose means and sub-goals within a high-level objective without per-step approval. Scoring is from the configured permission set, not from observed outcomes.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Agent-trace parsing: tree-depth analysis of agent action-graph per delegated task. Reported as maximum-depth, mean-depth across branches, and branching-factor. Success-rate at each depth-level tracked via mixed-effects model time-to-completion.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "task_id": "T044",
-  "participant": "P058",
-  "max_depth": 5,
-  "mean_depth": 3.2,
-  "branching_factor": 2.1,
-  "completion_time_min": 14.3,
-  "success_at_depth_5": true
-}</pre>
+  <p>Rater coding of the agent&#x27;s permission configuration onto the 1-5 latitude scale; inter-rater reliability reported as ordinal ICC. Objective complement: mean number of distinct action types the agent may perform without seeking approval.</p>
 </section>
 
 <section id="broader">
@@ -129,16 +116,6 @@
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0868.html" rel="noopener noreferrer">AUG-0868</a></li>
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0915.html" rel="noopener noreferrer">AUG-0915</a></li>
     </ul>
-</section>
-
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Documented action-graph with at-least depth 3 and consolidated final output returned to participant.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Linear single-chain tasks without true branching or human intervention at intermediate steps.</p>
 </section>
 
 <footer>

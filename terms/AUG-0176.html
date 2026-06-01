@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Capability Discovery [CPD] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Das schrittweise Entdecken neuer KI-Faehigkeiten durch Exploration und Experimentieren.">
+<meta name="description" content="A discrete instance in which a user identifies a previously unknown capability of an AI system through exploration or experimentation. It marks an observable moment of first encountering a new affordance.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0176.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0176.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0176.html">
 
 <meta property="og:title" content="Capability Discovery [CPD]">
-<meta property="og:description" content="Das schrittweise Entdecken neuer KI-Faehigkeiten durch Exploration und Experimentieren.">
+<meta property="og:description" content="A discrete instance in which a user identifies a previously unknown capability of an AI system through exploration or experimentation. It marks an observable moment of first encountering a new affordance.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0176.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Capability Discovery [CPD]">
-<meta name="twitter:description" content="Das schrittweise Entdecken neuer KI-Faehigkeiten durch Exploration und Experimentieren.">
+<meta name="twitter:description" content="A discrete instance in which a user identifies a previously unknown capability of an AI system through exploration or experimentation. It marks an observable moment of first encountering a new affordance.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0176",
   "name": "Capability Discovery",
-  "description": "Das schrittweise Entdecken neuer KI-Faehigkeiten durch Exploration und Experimentieren.",
+  "description": "A discrete instance in which a user identifies a previously unknown capability of an AI system through exploration or experimentation. It marks an observable moment of first encountering a new affordance.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0176",
   "alternateName": "CPD",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "SY",
-  "operationalDefinition": "Operational scope: an instance of 'Capability Discovery' is counted when the observable pattern described above (Das schrittweise Entdecken neuer KI-Faehigkeiten durch Exploration und Experimen...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "EVENT. Counted once per session in which a user first elicits and recognises a system capability they had not previously used, evidenced by exploratory prompting followed by a recognition marker ('oh, it can also...'). Re-use of known capabilities is excluded.",
+  "measurementSchema": "Rater-coded count of first-encounter capability events per user over a usage period, cross-referenced against the user's prior capability set; reported as discoveries per session. Coder agreement on novelty judgement via Cohen's kappa.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-system-behavior",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-system-behavior",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0176.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0031.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0084.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0030.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0176</code>
   &middot; Discipline: <strong>SY</strong> (SY)
   &middot; Period: <strong>2</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Das schrittweise Entdecken neuer KI-Faehigkeiten durch Exploration und Experimentieren.</p>
+  <p>A discrete instance in which a user identifies a previously unknown capability of an AI system through exploration or experimentation. It marks an observable moment of first encountering a new affordance.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;Capability Discovery&#x27; is counted when the observable pattern described above (Das schrittweise Entdecken neuer KI-Faehigkeiten durch Exploration und Experimen...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>EVENT. Counted once per session in which a user first elicits and recognises a system capability they had not previously used, evidenced by exploratory prompting followed by a recognition marker (&#x27;oh, it can also...&#x27;). Re-use of known capabilities is excluded.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Coding-scheme occurrence count; observer agreement (Cohen&#x27;s κ).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;occurrence_count&quot;: 5,
-  &quot;kappa&quot;: 0.74
-}</pre>
+  <p>Rater-coded count of first-encounter capability events per user over a usage period, cross-referenced against the user&#x27;s prior capability set; reported as discoveries per session. Coder agreement on novelty judgement via Cohen&#x27;s kappa.</p>
 </section>
 
 <section id="broader">

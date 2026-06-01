@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Pause Protocol [PPR] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Bewusste Unterbrechung vor jeder kritischen KI-gestuetzten Entscheidung. Innehalten als Sicherheitsmechanismus.">
+<meta name="description" content="A discrete deliberate interruption inserted before a critical AI-supported decision, creating a checkpoint at which the human reconsiders before proceeding; distinguished by an observable hold step preceding the decision.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0962.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0962.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0962.html">
 
 <meta property="og:title" content="The Pause Protocol [PPR]">
-<meta property="og:description" content="Bewusste Unterbrechung vor jeder kritischen KI-gestuetzten Entscheidung. Innehalten als Sicherheitsmechanismus.">
+<meta property="og:description" content="A discrete deliberate interruption inserted before a critical AI-supported decision, creating a checkpoint at which the human reconsiders before proceeding; distinguished by an observable hold step preceding the decision.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0962.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="The Pause Protocol [PPR]">
-<meta name="twitter:description" content="Bewusste Unterbrechung vor jeder kritischen KI-gestuetzten Entscheidung. Innehalten als Sicherheitsmechanismus.">
+<meta name="twitter:description" content="A discrete deliberate interruption inserted before a critical AI-supported decision, creating a checkpoint at which the human reconsiders before proceeding; distinguished by an observable hold step preceding the decision.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0962",
   "name": "The Pause Protocol",
-  "description": "Bewusste Unterbrechung vor jeder kritischen KI-gestuetzten Entscheidung. Innehalten als Sicherheitsmechanismus.",
+  "description": "A discrete deliberate interruption inserted before a critical AI-supported decision, creating a checkpoint at which the human reconsiders before proceeding; distinguished by an observable hold step preceding the decision.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0962",
   "alternateName": "PPR",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "SF",
-  "operationalDefinition": "Operational scope: an instance of 'The Pause Protocol' is counted when the observable pattern described above (Bewusste Unterbrechung vor jeder kritischen KI-gestuetzten Entscheidung. Innehal...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Misalignment-event coding per N turns; severity rating (1-5).",
-  "exampleData": "{\"session_id\": \"S001\", \"misalignment_events_per_10_turns\": 0, \"max_severity\": 0}",
+  "operationalDefinition": "EVENT. One occurrence is counted when an observable hold step is recorded immediately before a designated critical decision, operationalized as an explicit confirmation prompt, an enforced wait, or a logged user-initiated stop preceding commitment. Proceeding to the critical decision with no such hold step is coded as absent.",
+  "measurementSchema": "Event coding from decision logs: count of decisions preceded by a qualifying hold step, expressed as a proportion of critical decisions, plus mean hold duration. Two coders judge the hold-present/absent marker on a sample; agreement reported as Cohen's kappa.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0962.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0962</code>
   &middot; Discipline: <strong>SF</strong> (SF)
   &middot; Period: <strong>3</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Bewusste Unterbrechung vor jeder kritischen KI-gestuetzten Entscheidung. Innehalten als Sicherheitsmechanismus.</p>
+  <p>A discrete deliberate interruption inserted before a critical AI-supported decision, creating a checkpoint at which the human reconsiders before proceeding; distinguished by an observable hold step preceding the decision.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;The Pause Protocol&#x27; is counted when the observable pattern described above (Bewusste Unterbrechung vor jeder kritischen KI-gestuetzten Entscheidung. Innehal...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>EVENT. One occurrence is counted when an observable hold step is recorded immediately before a designated critical decision, operationalized as an explicit confirmation prompt, an enforced wait, or a logged user-initiated stop preceding commitment. Proceeding to the critical decision with no such hold step is coded as absent.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Misalignment-event coding per N turns; severity rating (1-5).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;misalignment_events_per_10_turns&quot;: 0,
-  &quot;max_severity&quot;: 0
-}</pre>
+  <p>Event coding from decision logs: count of decisions preceded by a qualifying hold step, expressed as a proportion of critical decisions, plus mean hold duration. Two coders judge the hold-present/absent marker on a sample; agreement reported as Cohen&#x27;s kappa.</p>
 </section>
 
 <section id="broader">

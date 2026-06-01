@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Transparency Layer [TRL] — AUGMANITAI Wave 2</title>
-<meta name="description" content="KI-Systeme und deren Ergebnisse werden nachvollziehbar gemacht. Offenheit als Qualitaetsstandard.">
+<meta name="description" content="A condition in which an AI system&#x27;s processes and outputs are rendered inspectable and explainable to relevant parties, described as the graded extent of available, accurate disclosure rather than as a single event.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0955.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0955.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0955.html">
 
 <meta property="og:title" content="Transparency Layer [TRL]">
-<meta property="og:description" content="KI-Systeme und deren Ergebnisse werden nachvollziehbar gemacht. Offenheit als Qualitaetsstandard.">
+<meta property="og:description" content="A condition in which an AI system&#x27;s processes and outputs are rendered inspectable and explainable to relevant parties, described as the graded extent of available, accurate disclosure rather than as a single event.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0955.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Transparency Layer [TRL]">
-<meta name="twitter:description" content="KI-Systeme und deren Ergebnisse werden nachvollziehbar gemacht. Offenheit als Qualitaetsstandard.">
+<meta name="twitter:description" content="A condition in which an AI system&#x27;s processes and outputs are rendered inspectable and explainable to relevant parties, described as the graded extent of available, accurate disclosure rather than as a single event.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0955",
   "name": "Transparency Layer",
-  "description": "KI-Systeme und deren Ergebnisse werden nachvollziehbar gemacht. Offenheit als Qualitaetsstandard.",
+  "description": "A condition in which an AI system's processes and outputs are rendered inspectable and explainable to relevant parties, described as the graded extent of available, accurate disclosure rather than as a single event.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0955",
   "alternateName": "TRL",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "SF",
-  "operationalDefinition": "Operational scope: an instance of 'Transparency Layer' is counted when the observable pattern described above (KI-Systeme und deren Ergebnisse werden nachvollziehbar gemacht. Offenheit als Qu...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Misalignment-event coding per N turns; severity rating (1-5).",
-  "exampleData": "{\"session_id\": \"S001\", \"misalignment_events_per_10_turns\": 0, \"max_severity\": 0}",
+  "operationalDefinition": "STATE (graded). Rated per system on a defined transparency rubric covering disclosure of AI involvement, of provenance/sources, and of decision rationale, each scored 0-2 and summed to an ordinal index. Scoring is from inspectable system artefacts (notices, logs, explanations), not from user opinion.",
+  "measurementSchema": "Rubric-based rater scoring of the disclosure dimensions (AI-use notice / source provenance / rationale availability) to form the transparency index; inter-rater reliability reported as ordinal ICC. Items map to concrete artefacts so scoring is auditable.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0955.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html"
-  ]
+  ],
+  "referentType": "STATE"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0955</code>
   &middot; Discipline: <strong>SF</strong> (SF)
   &middot; Period: <strong>5</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>KI-Systeme und deren Ergebnisse werden nachvollziehbar gemacht. Offenheit als Qualitaetsstandard.</p>
+  <p>A condition in which an AI system&#x27;s processes and outputs are rendered inspectable and explainable to relevant parties, described as the graded extent of available, accurate disclosure rather than as a single event.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;Transparency Layer&#x27; is counted when the observable pattern described above (KI-Systeme und deren Ergebnisse werden nachvollziehbar gemacht. Offenheit als Qu...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>STATE (graded). Rated per system on a defined transparency rubric covering disclosure of AI involvement, of provenance/sources, and of decision rationale, each scored 0-2 and summed to an ordinal index. Scoring is from inspectable system artefacts (notices, logs, explanations), not from user opinion.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Misalignment-event coding per N turns; severity rating (1-5).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;misalignment_events_per_10_turns&quot;: 0,
-  &quot;max_severity&quot;: 0
-}</pre>
+  <p>Rubric-based rater scoring of the disclosure dimensions (AI-use notice / source provenance / rationale availability) to form the transparency index; inter-rater reliability reported as ordinal ICC. Items map to concrete artefacts so scoring is auditable.</p>
 </section>
 
 <section id="broader">

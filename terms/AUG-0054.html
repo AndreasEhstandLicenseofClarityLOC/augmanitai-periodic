@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Augmented Understanding [AUN] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Beobachtbarer Moment erweiterter Informationszugaenglichkeit durch KI-gestuetzte Recherche.">
+<meta name="description" content="An observable instance in which AI-assisted retrieval gives a user access to information they could not obtain unaided, evidenced by a measurable gain in comprehension or recall on the topic at hand.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html">
 
 <meta property="og:title" content="Augmented Understanding [AUN]">
-<meta property="og:description" content="Beobachtbarer Moment erweiterter Informationszugaenglichkeit durch KI-gestuetzte Recherche.">
+<meta property="og:description" content="An observable instance in which AI-assisted retrieval gives a user access to information they could not obtain unaided, evidenced by a measurable gain in comprehension or recall on the topic at hand.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Augmented Understanding [AUN]">
-<meta name="twitter:description" content="Beobachtbarer Moment erweiterter Informationszugaenglichkeit durch KI-gestuetzte Recherche.">
+<meta name="twitter:description" content="An observable instance in which AI-assisted retrieval gives a user access to information they could not obtain unaided, evidenced by a measurable gain in comprehension or recall on the topic at hand.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0054",
   "name": "Augmented Understanding",
-  "description": "Beobachtbarer Moment erweiterter Informationszugaenglichkeit durch KI-gestuetzte Recherche.",
+  "description": "An observable instance in which AI-assisted retrieval gives a user access to information they could not obtain unaided, evidenced by a measurable gain in comprehension or recall on the topic at hand.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0054",
   "alternateName": "AUN",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "KG",
-  "operationalDefinition": "Operational scope: an instance of 'Augmented Understanding' is counted when the observable pattern described above (Beobachtbarer Moment erweiterter Informationszugaenglichkeit durch KI-gestuetzte...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "One occurrence is coded when, within a task, the user obtains via the AI a specific fact or explanation absent from their prior statements and then correctly applies or restates it; the applied item is the observable marker.",
+  "measurementSchema": "Pre/post comprehension delta: a short topic probe (3-5 items) given before and after the AI exchange; an occurrence counts when the post-score exceeds the pre-score on items covered by the retrieved content.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-cognition-thought",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-cognition-thought",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0007.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
 </script>
 
@@ -83,43 +83,22 @@
   Term code: <code>AUG-0054</code>
   &middot; Discipline: <strong>General Phenomenology</strong> (KG)
   &middot; Period: <strong>1</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Beobachtbarer Moment erweiterter Informationszugaenglichkeit durch KI-gestuetzte Recherche.</p>
+  <p>An observable instance in which AI-assisted retrieval gives a user access to information they could not obtain unaided, evidenced by a measurable gain in comprehension or recall on the topic at hand.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Augmented Understanding is recorded when a participant demonstrates improved comprehension of a target concept after AI-mediated explanation, measured by pre-post comprehension delta on a domain-specific concept-inventory administered before and after the AI interaction.</p>
+  <p>One occurrence is coded when, within a task, the user obtains via the AI a specific fact or explanation absent from their prior statements and then correctly applies or restates it; the applied item is the observable marker.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Pre-post quasi-experimental design with validated concept-inventory (10-15 items per domain). Primary metric: normalized gain g = (post - pre) / (max - pre). Secondary: self-rated understanding on 7-point Likert at both timepoints.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "participant_id": "P038",
-  "domain": "statistics",
-  "pre_score": 6,
-  "post_score": 11,
-  "max_score": 15,
-  "normalized_gain_g": 0.56,
-  "likert_delta": 2.5
-}</pre>
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Positive normalized gain g > 0.2 on a validated concept-inventory tied to the AI session.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Gains attributable to test-retest familiarity without AI exposure (assessed via control arm).</p>
+  <p>Pre/post comprehension delta: a short topic probe (3-5 items) given before and after the AI exchange; an occurrence counts when the post-score exceeds the pre-score on items covered by the retrieved content.</p>
 </section>
 </section>
 

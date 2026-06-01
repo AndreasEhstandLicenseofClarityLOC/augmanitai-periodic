@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Offline Moment [OFM] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Bewusstes Verlassen der KI-Interaktion. Pausen als Teil eines gesunden Arbeitsrhythmus.">
+<meta name="description" content="A discrete instance of a user deliberately ending or stepping away from AI interaction, marking a boundary in the work session; distinguished from incidental gaps by being an intentional disengagement.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html">
 
 <meta property="og:title" content="The Offline Moment [OFM]">
-<meta property="og:description" content="Bewusstes Verlassen der KI-Interaktion. Pausen als Teil eines gesunden Arbeitsrhythmus.">
+<meta property="og:description" content="A discrete instance of a user deliberately ending or stepping away from AI interaction, marking a boundary in the work session; distinguished from incidental gaps by being an intentional disengagement.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="The Offline Moment [OFM]">
-<meta name="twitter:description" content="Bewusstes Verlassen der KI-Interaktion. Pausen als Teil eines gesunden Arbeitsrhythmus.">
+<meta name="twitter:description" content="A discrete instance of a user deliberately ending or stepping away from AI interaction, marking a boundary in the work session; distinguished from incidental gaps by being an intentional disengagement.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0632",
   "name": "The Offline Moment",
-  "description": "Bewusstes Verlassen der KI-Interaktion. Pausen als Teil eines gesunden Arbeitsrhythmus.",
+  "description": "A discrete instance of a user deliberately ending or stepping away from AI interaction, marking a boundary in the work session; distinguished from incidental gaps by being an intentional disengagement.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0632",
   "alternateName": "OFM",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "SF",
-  "operationalDefinition": "Operational scope: an instance of 'The Offline Moment' is counted when the observable pattern described above (Bewusstes Verlassen der KI-Interaktion. Pausen als Teil eines gesunden Arbeitsrh...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Misalignment-event coding per N turns; severity rating (1-5).",
-  "exampleData": "{\"session_id\": \"S001\", \"misalignment_events_per_10_turns\": 0, \"max_severity\": 0}",
+  "operationalDefinition": "EVENT. One occurrence is counted when a session log shows an intentional disengagement marker, operationalized as a user-initiated session close or an idle gap exceeding a pre-set threshold (e.g., >= 30 minutes) that is not an automatic timeout. Brief within-task pauses below threshold do not count.",
+  "measurementSchema": "Session-log event extraction: count of qualifying disengagement events per day, with each event timestamped and its duration recorded. Threshold and user-initiated-close detection are rule-based; a manual audit sample verifies classification, reported as percent agreement with the rule.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0632.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0954.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0951.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
 </script>
 
@@ -83,35 +83,22 @@
   Term code: <code>AUG-0632</code>
   &middot; Discipline: <strong>SF</strong> (SF)
   &middot; Period: <strong>3</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Bewusstes Verlassen der KI-Interaktion. Pausen als Teil eines gesunden Arbeitsrhythmus.</p>
+  <p>A discrete instance of a user deliberately ending or stepping away from AI interaction, marking a boundary in the work session; distinguished from incidental gaps by being an intentional disengagement.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>An Offline Moment is recorded when a participant disengages from AI-mediated channels for a defined window (minimum 60 minutes) and reports a phenomenologically distinct cognitive or affective state during and after the offline period, captured via experience-sampling.</p>
+  <p>EVENT. One occurrence is counted when a session log shows an intentional disengagement marker, operationalized as a user-initiated session close or an idle gap exceeding a pre-set threshold (e.g., &gt;= 30 minutes) that is not an automatic timeout. Brief within-task pauses below threshold do not count.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Flow-state experience sampling method: random prompts (4-6 per offline window) measuring concentration, intrinsic-enjoyment, sense-of-control on 9-point scales. Offline-quality index = mean across all sampling points; comparison vs online-baseline via paired t-test.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "participant_id": "P070",
-  "offline_window_min": 90,
-  "esm_prompts": 5,
-  "concentration_mean": 7.4,
-  "enjoyment_mean": 6.8,
-  "control_mean": 7.1,
-  "online_baseline_diff": 1.6
-}</pre>
+  <p>Session-log event extraction: count of qualifying disengagement events per day, with each event timestamped and its duration recorded. Threshold and user-initiated-close detection are rule-based; a manual audit sample verifies classification, reported as percent agreement with the rule.</p>
 </section>
 
 <section id="broader">
@@ -129,16 +116,6 @@
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0120.html" rel="noopener noreferrer">AUG-0120</a></li>
     <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0962.html" rel="noopener noreferrer">AUG-0962</a></li>
     </ul>
-</section>
-
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Offline window above 60 minutes with at least 4 ESM responses and online-baseline available for comparison.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Disengagement caused by device-failure rather than deliberate offline choice.</p>
 </section>
 
 <footer>

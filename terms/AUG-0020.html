@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Recursive Feedback Loop [RFL] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Iterative Vertiefung: KI-Output wird bearbeitet, zurueckgegeben, weiterentwickelt. Progressive Verfeinerung.">
+<meta name="description" content="An interaction pattern in which AI output is edited by the user and returned for further processing across successive turns, producing progressive refinement of the artefact. It denotes an observable iterate-and-return turn sequence.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html">
 
 <meta property="og:title" content="Recursive Feedback Loop [RFL]">
-<meta property="og:description" content="Iterative Vertiefung: KI-Output wird bearbeitet, zurueckgegeben, weiterentwickelt. Progressive Verfeinerung.">
+<meta property="og:description" content="An interaction pattern in which AI output is edited by the user and returned for further processing across successive turns, producing progressive refinement of the artefact. It denotes an observable iterate-and-return turn sequence.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Recursive Feedback Loop [RFL]">
-<meta name="twitter:description" content="Iterative Vertiefung: KI-Output wird bearbeitet, zurueckgegeben, weiterentwickelt. Progressive Verfeinerung.">
+<meta name="twitter:description" content="An interaction pattern in which AI output is edited by the user and returned for further processing across successive turns, producing progressive refinement of the artefact. It denotes an observable iterate-and-return turn sequence.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0020",
   "name": "Recursive Feedback Loop",
-  "description": "Iterative Vertiefung: KI-Output wird bearbeitet, zurueckgegeben, weiterentwickelt. Progressive Verfeinerung.",
+  "description": "An interaction pattern in which AI output is edited by the user and returned for further processing across successive turns, producing progressive refinement of the artefact. It denotes an observable iterate-and-return turn sequence.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0020",
   "alternateName": "RFL",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "AV",
-  "operationalDefinition": "Operational scope: an instance of 'Recursive Feedback Loop' is counted when the observable pattern described above (Iterative Vertiefung: KI-Output wird bearbeitet, zurueckgegeben, weiterentwickel...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "EVENT. Counted once per detected cycle in which user-modified content from a prior AI turn is resubmitted and the system produces a revised version. A run of k such cycles on one artefact is recorded as a chain of length k.",
+  "measurementSchema": "Turn-graph analysis of resubmission edges (content overlap between a user turn and the preceding AI turn above a similarity threshold); reported as cycle count and mean chain length per task. Coder validation of detected cycles via Cohen's kappa.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-work-behavior",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-work-behavior",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0020.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0005.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0008.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0021.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
 </script>
 
@@ -83,42 +83,22 @@
   Term code: <code>AUG-0020</code>
   &middot; Discipline: <strong>Agentic AI (Verification)</strong> (AV)
   &middot; Period: <strong>2</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Iterative Vertiefung: KI-Output wird bearbeitet, zurueckgegeben, weiterentwickelt. Progressive Verfeinerung.</p>
+  <p>An interaction pattern in which AI output is edited by the user and returned for further processing across successive turns, producing progressive refinement of the artefact. It denotes an observable iterate-and-return turn sequence.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>A Recursive Feedback Loop is recorded when a participant iteratively refines an AI output by feeding modifications back into the next prompt at least three times within a single task, with each iteration measurably altering the AI response. Each cycle must reference content from the prior cycle.</p>
+  <p>EVENT. Counted once per detected cycle in which user-modified content from a prior AI turn is resubmitted and the system produces a revised version. A run of k such cycles on one artefact is recorded as a chain of length k.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Iteration-count per task plus edit-distance (Levenshtein) between successive AI outputs. Loop-quality coded on a 4-point rubric (1=no change, 2=surface edit, 3=substantive refinement, 4=structural reframe). Convergence detected when consecutive edit-distances drop below 10% of initial.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "task_id": "T012",
-  "participant": "P027",
-  "iterations": 6,
-  "mean_edit_distance": 142,
-  "convergence_iteration": 5,
-  "mean_loop_quality": 3.2
-}</pre>
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Three or more iterations each referencing prior cycle content with measurable AI-output change.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Repeated identical prompts or simple typo-corrections without content change.</p>
+  <p>Turn-graph analysis of resubmission edges (content overlap between a user turn and the preceding AI turn above a similarity threshold); reported as cycle count and mean chain length per task. Coder validation of detected cycles via Cohen&#x27;s kappa.</p>
 </section>
 </section>
 

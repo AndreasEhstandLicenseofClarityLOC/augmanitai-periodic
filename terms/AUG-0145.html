@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Responsibility Gradient [RES] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Verantwortung skaliert mit dem Grad der KI-Delegation: mehr Delegation, mehr Verantwortung.">
+<meta name="description" content="A proposed monotonic relationship in which the share of accountability assigned to the human increases with the extent of authority delegated to the AI, treated as a relationship between delegated scope and assigned responsibility rather than as a single event.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0145.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0145.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0145.html">
 
 <meta property="og:title" content="Responsibility Gradient [RES]">
-<meta property="og:description" content="Verantwortung skaliert mit dem Grad der KI-Delegation: mehr Delegation, mehr Verantwortung.">
+<meta property="og:description" content="A proposed monotonic relationship in which the share of accountability assigned to the human increases with the extent of authority delegated to the AI, treated as a relationship between delegated scope and assigned responsibility rather than as a single event.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0145.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Responsibility Gradient [RES]">
-<meta name="twitter:description" content="Verantwortung skaliert mit dem Grad der KI-Delegation: mehr Delegation, mehr Verantwortung.">
+<meta name="twitter:description" content="A proposed monotonic relationship in which the share of accountability assigned to the human increases with the extent of authority delegated to the AI, treated as a relationship between delegated scope and assigned responsibility rather than as a single event.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0145",
   "name": "Responsibility Gradient",
-  "description": "Verantwortung skaliert mit dem Grad der KI-Delegation: mehr Delegation, mehr Verantwortung.",
+  "description": "A proposed monotonic relationship in which the share of accountability assigned to the human increases with the extent of authority delegated to the AI, treated as a relationship between delegated scope and assigned responsibility rather than as a single event.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0145",
   "alternateName": "RES",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "MT",
-  "operationalDefinition": "Operational scope: an instance of 'Responsibility Gradient' is counted when the observable pattern described above (Verantwortung skaliert mit dem Grad der KI-Delegation: mehr Delegation, mehr Ver...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "TREND/relationship. Operationalized as the monotonic association between (a) delegated-authority level, scored per task on a defined 1-5 delegation scale, and (b) the share of outcome accountability formally assigned to the human, expressed as a 0-1 proportion from a responsibility-assignment matrix. The construct is the direction and strength of the relationship (rank correlation / slope) between (a) and (b) across a task set, not a single ratio value and not a per-turn count.",
+  "measurementSchema": "Per-task coding of delegation level and of assigned human-accountability share, then estimation of the rank correlation (Spearman's rho) between the two across tasks; positive monotonic association supports the construct. Delegation-level coding agreement reported as weighted kappa.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-meta-reflection",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-meta-reflection",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0145.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0071.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0075.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0076.html"
-  ]
+  ],
+  "referentType": "TREND"
 }
 </script>
 
@@ -83,31 +83,22 @@
   Term code: <code>AUG-0145</code>
   &middot; Discipline: <strong>MT</strong> (MT)
   &middot; Period: <strong>5</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Verantwortung skaliert mit dem Grad der KI-Delegation: mehr Delegation, mehr Verantwortung.</p>
+  <p>A proposed monotonic relationship in which the share of accountability assigned to the human increases with the extent of authority delegated to the AI, treated as a relationship between delegated scope and assigned responsibility rather than as a single event.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Operational scope: an instance of &#x27;Responsibility Gradient&#x27; is counted when the observable pattern described above (Verantwortung skaliert mit dem Grad der KI-Delegation: mehr Delegation, mehr Ver...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.</p>
+  <p>TREND/relationship. Operationalized as the monotonic association between (a) delegated-authority level, scored per task on a defined 1-5 delegation scale, and (b) the share of outcome accountability formally assigned to the human, expressed as a 0-1 proportion from a responsibility-assignment matrix. The construct is the direction and strength of the relationship (rank correlation / slope) between (a) and (b) across a task set, not a single ratio value and not a per-turn count.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Coding-scheme occurrence count; observer agreement (Cohen&#x27;s κ).</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  &quot;session_id&quot;: &quot;S001&quot;,
-  &quot;occurrence_count&quot;: 5,
-  &quot;kappa&quot;: 0.74
-}</pre>
+  <p>Per-task coding of delegation level and of assigned human-accountability share, then estimation of the rank correlation (Spearman&#x27;s rho) between the two across tasks; positive monotonic association supports the construct. Delegation-level coding agreement reported as weighted kappa.</p>
 </section>
 
 <section id="broader">

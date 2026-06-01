@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Algorithmic Intuition [ALI] — AUGMANITAI Wave 2</title>
-<meta name="description" content="Beobachtbare Mustererkennung bei erfahrenen KI-Nutzern: wiederkehrende Interaktionsmuster werden schneller erkannt.">
+<meta name="description" content="A graded user skill, observed in experienced operators, of rapidly recognizing recurring AI-interaction patterns and selecting effective prompting strategies with little deliberation, distinguishing them from novices.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0088.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0088.html">
@@ -15,13 +15,13 @@
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0088.html">
 
 <meta property="og:title" content="Algorithmic Intuition [ALI]">
-<meta property="og:description" content="Beobachtbare Mustererkennung bei erfahrenen KI-Nutzern: wiederkehrende Interaktionsmuster werden schneller erkannt.">
+<meta property="og:description" content="A graded user skill, observed in experienced operators, of rapidly recognizing recurring AI-interaction patterns and selecting effective prompting strategies with little deliberation, distinguishing them from novices.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0088.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Algorithmic Intuition [ALI]">
-<meta name="twitter:description" content="Beobachtbare Mustererkennung bei erfahrenen KI-Nutzern: wiederkehrende Interaktionsmuster werden schneller erkannt.">
+<meta name="twitter:description" content="A graded user skill, observed in experienced operators, of rapidly recognizing recurring AI-interaction patterns and selecting effective prompting strategies with little deliberation, distinguishing them from novices.">
 
 <script type="application/ld+json">
 {
@@ -29,15 +29,14 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0088",
   "name": "Algorithmic Intuition",
-  "description": "Beobachtbare Mustererkennung bei erfahrenen KI-Nutzern: wiederkehrende Interaktionsmuster werden schneller erkannt.",
+  "description": "A graded user skill, observed in experienced operators, of rapidly recognizing recurring AI-interaction patterns and selecting effective prompting strategies with little deliberation, distinguishing them from novices.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0088",
   "alternateName": "ALI",
-  "inLanguage": "de",
+  "inLanguage": "en",
   "about": "KG",
-  "operationalDefinition": "Operational scope: an instance of 'Algorithmic Intuition' is counted when the observable pattern described above (Beobachtbare Mustererkennung bei erfahrenen KI-Nutzern: wiederkehrende Interakti...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "Operationalized via the speed and success with which a user formulates an effective prompt for a familiar task type, rated as pattern-recognition proficiency and compared across experience levels.",
+  "measurementSchema": "Between-groups comparison: median prompt-formulation latency (seconds to first effective prompt) and task-success rate for experienced vs. novice users on matched tasks; the group difference is reported with an effect size.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-cognition-thought",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-cognition-thought",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0088.html",
@@ -47,7 +46,8 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0004.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0054.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0002.html"
-  ]
+  ],
+  "referentType": "STATE"
 }
 </script>
 
@@ -83,43 +83,22 @@
   Term code: <code>AUG-0088</code>
   &middot; Discipline: <strong>General Phenomenology</strong> (KG)
   &middot; Period: <strong>3</strong>
-  &middot; Language: <code>de</code>
+  &middot; Language: <code>en</code>
 </p>
 
 <section id="description">
   <h2>Description</h2>
-  <p>Beobachtbare Mustererkennung bei erfahrenen KI-Nutzern: wiederkehrende Interaktionsmuster werden schneller erkannt.</p>
+  <p>A graded user skill, observed in experienced operators, of rapidly recognizing recurring AI-interaction patterns and selecting effective prompting strategies with little deliberation, distinguishing them from novices.</p>
 </section>
 
 <section id="operationalDefinition">
   <h2>Operational definition</h2>
-  <p>Algorithmic Intuition is recorded when a participant produces a correct or near-correct prediction of an AI system's output before viewing it, accompanied by a verbal rationale that references prior interaction patterns rather than guessing. Operationally instantiated as a pre-output prediction task with confidence rating.</p>
+  <p>Operationalized via the speed and success with which a user formulates an effective prompt for a familiar task type, rated as pattern-recognition proficiency and compared across experience levels.</p>
 </section>
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Prediction-accuracy task: participants predict AI output on n=20 standardized prompts before reveal, scored by semantic-similarity (BERTScore) between prediction and actual output. Confidence reported on 5-point scale per item. Composite score = accuracy x confidence calibration.</p>
-</section>
-
-<section id="exampleData">
-  <h2>Example data</h2>
-  <pre>{
-  "session_id": "S031",
-  "participant": "P003",
-  "prompts_n": 20,
-  "mean_bertscore": 0.71,
-  "mean_confidence": 3.8,
-  "calibration_error": 0.12,
-  "experience_months": 14
-}</pre>
-
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Pre-output prediction grounded in stated prior-interaction reasoning.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Random guesses or predictions made after partial output reveal.</p>
+  <p>Between-groups comparison: median prompt-formulation latency (seconds to first effective prompt) and task-success rate for experienced vs. novice users on matched tasks; the group difference is reported with an effect size.</p>
 </section>
 </section>
 
