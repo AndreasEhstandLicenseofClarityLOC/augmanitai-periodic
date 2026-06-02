@@ -515,7 +515,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0007",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Blending Effect",
+        "@value": "Blending Effect",
         "@language": "en"
       },
       "skos:notation": "AUG-0007",
@@ -524,10 +524,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "BLE",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Blending Effect",
+          "@language": "en"
+        },
+        {
+          "@value": "BLE",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -737,7 +743,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0089",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Pattern Sharpening",
+        "@value": "Pattern Sharpening",
         "@language": "en"
       },
       "skos:notation": "AUG-0089",
@@ -746,10 +752,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "PTS",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Pattern Sharpening",
+          "@language": "en"
+        },
+        {
+          "@value": "PTS",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -772,7 +784,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0205",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Skill Unlock",
+        "@value": "Skill Unlock",
         "@language": "en"
       },
       "skos:notation": "AUG-0205",
@@ -781,10 +793,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "SUL",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Skill Unlock",
+          "@language": "en"
+        },
+        {
+          "@value": "SUL",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -877,7 +895,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0403",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Translation Relief",
+        "@value": "Translation Relief",
         "@language": "en"
       },
       "skos:notation": "AUG-0403",
@@ -886,10 +904,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "TRR",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Translation Relief",
+          "@language": "en"
+        },
+        {
+          "@value": "TRR",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -953,7 +977,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0478",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Clarity Catalyst",
+        "@value": "Clarity Catalyst",
         "@language": "en"
       },
       "skos:notation": "AUG-0478",
@@ -962,10 +986,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "CLC",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Clarity Catalyst",
+          "@language": "en"
+        },
+        {
+          "@value": "CLC",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -1093,7 +1123,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0267",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Language Unlock",
+        "@value": "Language Unlock",
         "@language": "en"
       },
       "skos:notation": "AUG-0267",
@@ -1102,10 +1132,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "LUN",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Language Unlock",
+          "@language": "en"
+        },
+        {
+          "@value": "LUN",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -1128,7 +1164,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0501",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Style Shifter",
+        "@value": "Style Shifter",
         "@language": "en"
       },
       "skos:notation": "AUG-0501",
@@ -1137,10 +1173,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "SSF",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Style Shifter",
+          "@language": "en"
+        },
+        {
+          "@value": "SSF",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -1163,7 +1205,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0283",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Syntax Voice",
+        "@value": "Syntax Voice",
         "@language": "en"
       },
       "skos:notation": "AUG-0283",
@@ -1172,10 +1214,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "SVO",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Syntax Voice",
+          "@language": "en"
+        },
+        {
+          "@value": "SVO",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -1239,7 +1287,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0025",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Offload Lift",
+        "@value": "Offload Lift",
         "@language": "en"
       },
       "skos:notation": "AUG-0025",
@@ -1248,10 +1296,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "OFL",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Offload Lift",
+          "@language": "en"
+        },
+        {
+          "@value": "OFL",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-embodied-ai"
       },
@@ -1625,7 +1679,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0005",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Integrated Operator",
+        "@value": "Integrated Operator",
         "@language": "en"
       },
       "skos:notation": "AUG-0005",
@@ -1634,10 +1688,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "INO",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Integrated Operator",
+          "@language": "en"
+        },
+        {
+          "@value": "INO",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2092,7 +2152,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0524",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Context Layer",
+        "@value": "Context Layer",
         "@language": "en"
       },
       "skos:notation": "AUG-0524",
@@ -2101,10 +2161,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "CTL",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Context Layer",
+          "@language": "en"
+        },
+        {
+          "@value": "CTL",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2384,7 +2450,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0539",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Companion Shift",
+        "@value": "Companion Shift",
         "@language": "en"
       },
       "skos:notation": "AUG-0539",
@@ -2393,10 +2459,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "CPS",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Companion Shift",
+          "@language": "en"
+        },
+        {
+          "@value": "CPS",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2460,7 +2532,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0177",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Trust Setting",
+        "@value": "Trust Setting",
         "@language": "en"
       },
       "skos:notation": "AUG-0177",
@@ -2469,10 +2541,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "TRS",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Trust Setting",
+          "@language": "en"
+        },
+        {
+          "@value": "TRS",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2571,7 +2649,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0981",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Companion Pattern",
+        "@value": "Companion Pattern",
         "@language": "en"
       },
       "skos:notation": "AUG-0981",
@@ -2580,10 +2658,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "CPP",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Companion Pattern",
+          "@language": "en"
+        },
+        {
+          "@value": "CPP",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2799,7 +2883,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0198",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The New Literacy",
+        "@value": "New Literacy",
         "@language": "en"
       },
       "skos:notation": "AUG-0198",
@@ -2808,10 +2892,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "NLI",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The New Literacy",
+          "@language": "en"
+        },
+        {
+          "@value": "NLI",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -2904,7 +2994,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0730",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Open-Source Path",
+        "@value": "Open-Source Path",
         "@language": "en"
       },
       "skos:notation": "AUG-0730",
@@ -2913,10 +3003,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "OSP",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Open-Source Path",
+          "@language": "en"
+        },
+        {
+          "@value": "OSP",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-general-phenomenology"
       },
@@ -3599,7 +3695,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0868",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Rollback Option",
+        "@value": "Rollback Option",
         "@language": "en"
       },
       "skos:notation": "AUG-0868",
@@ -3608,10 +3704,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "RBO",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Rollback Option",
+          "@language": "en"
+        },
+        {
+          "@value": "RBO",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-agentic-ai"
       },
@@ -3774,7 +3876,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0009",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Speed Limit",
+        "@value": "Speed Limit",
         "@language": "en"
       },
       "skos:notation": "AUG-0009",
@@ -3783,10 +3885,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "SPL",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Speed Limit",
+          "@language": "en"
+        },
+        {
+          "@value": "SPL",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
       },
@@ -3809,7 +3917,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0632",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Offline Moment",
+        "@value": "Offline Moment",
         "@language": "en"
       },
       "skos:notation": "AUG-0632",
@@ -3818,10 +3926,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "OFM",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Offline Moment",
+          "@language": "en"
+        },
+        {
+          "@value": "OFM",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
       },
@@ -3885,7 +3999,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0962",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Pause Protocol",
+        "@value": "Pause Protocol",
         "@language": "en"
       },
       "skos:notation": "AUG-0962",
@@ -3894,10 +4008,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/periodic/",
-      "skos:altLabel": {
-        "@value": "PPR",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Pause Protocol",
+          "@language": "en"
+        },
+        {
+          "@value": "PPR",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment"
       },

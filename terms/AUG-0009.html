@@ -6,21 +6,20 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Speed Limit [SPL] — AUGMANITAI Wave 2</title>
+<title>Speed Limit [SPL] — AUGMANITAI Wave 2</title>
 <meta name="description" content="A working condition in which the pace of an AI-supported task is kept within the rate at which the human can review the outputs, described as the relationship between output throughput and human checking capacity rather than as advice.">
 <meta name="ai-content-disclosure" content="Human-authored research corpus contribution. Drafting and formatting assisted by large language models; final wording and classification by the human author.">
 <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html">
 <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html">
-<link rel="alternate" hreflang="de" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html#de">
 <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html">
 
-<meta property="og:title" content="The Speed Limit [SPL]">
+<meta property="og:title" content="Speed Limit [SPL]">
 <meta property="og:description" content="A working condition in which the pace of an AI-supported task is kept within the rate at which the human can review the outputs, described as the relationship between output throughput and human checking capacity rather than as advice.">
 <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html">
 <meta property="og:type" content="article">
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="The Speed Limit [SPL]">
+<meta name="twitter:title" content="Speed Limit [SPL]">
 <meta name="twitter:description" content="A working condition in which the pace of an AI-supported task is kept within the rate at which the human can review the outputs, described as the relationship between output throughput and human checking capacity rather than as advice.">
 
 <script type="application/ld+json">
@@ -28,15 +27,18 @@
   "@context": "https://schema.org",
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0009",
-  "name": "The Speed Limit",
+  "name": "Speed Limit",
   "description": "A working condition in which the pace of an AI-supported task is kept within the rate at which the human can review the outputs, described as the relationship between output throughput and human checking capacity rather than as advice.",
   "inDefinedTermSet": "https://augmanitai.com/terms/periodic/",
   "termCode": "AUG-0009",
-  "alternateName": "SPL",
+  "alternateName": [
+    "SPL",
+    "The Speed Limit"
+  ],
   "inLanguage": "en",
   "about": "SF",
   "operationalDefinition": "STATE/ratio. Operationalized as a pacing index: the ratio of AI outputs reviewed by the human to AI outputs produced over a task window (0-1). Values near 1 indicate throughput stays within review capacity; low values indicate outputs accrue faster than they are checked. Computed from logs, not self-report.",
-  "measurementSchema": "Throughput/review counting from interaction logs: outputs-produced and outputs-reviewed per fixed window, expressed as the reviewed-to-produced ratio. No rater judgement is required; reliability rests on log completeness, which is reported as the proportion of outputs with a recorded review status.",
+  "measurementSchema": "Proposed measurement protocol (not yet empirically validated): Throughput/review counting from interaction logs: outputs-produced and outputs-reviewed per fixed window, expressed as the reviewed-to-produced ratio. No rater judgement is required; reliability rests on log completeness, which is could be reported as the proportion of outputs with a recorded review status.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#topic-safety-alignment",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/terms/AUG-0009.html",
@@ -78,7 +80,7 @@
 
 <p><a href="../index.html">← Back to Periodic Table</a></p>
 
-<h1>The Speed Limit <span aria-label="symbol">[SPL]</span></h1>
+<h1>Speed Limit <span aria-label="symbol">[SPL]</span></h1>
 <p class="meta-line">
   Term code: <code>AUG-0009</code>
   &middot; Discipline: <strong>SF</strong> (SF)
@@ -98,7 +100,7 @@
 
 <section id="measurementSchema">
   <h2>Measurement schema</h2>
-  <p>Throughput/review counting from interaction logs: outputs-produced and outputs-reviewed per fixed window, expressed as the reviewed-to-produced ratio. No rater judgement is required; reliability rests on log completeness, which is reported as the proportion of outputs with a recorded review status.</p>
+  <p>Proposed measurement protocol (not yet empirically validated): Throughput/review counting from interaction logs: outputs-produced and outputs-reviewed per fixed window, expressed as the reviewed-to-produced ratio. No rater judgement is required; reliability rests on log completeness, which is could be reported as the proportion of outputs with a recorded review status.</p>
 </section>
 
 <section id="broader">

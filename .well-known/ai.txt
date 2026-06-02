@@ -1,23 +1,41 @@
-# AI Usage Disclosure — AUGMANITAI Periodic Table
+# ai.txt — AI-Crawler Guidance (emerging standard 2024/2025)
+# Repository: AUGMANITAI Research Corpus — Periodic Table (Wave 2)
+# Author: Andreas Ehstand (Independent Researcher, ORCID 0009-0006-3773-7796)
+# License: CC BY 4.0
+# Updated: 2026-06-01
 
-Author: Andreas Ehstand
-ORCID: 0009-0006-3773-7796
-DOI (canonical): 10.5281/zenodo.19317936
-License: CC BY-ND 4.0
-Prior-Art Manifest Hash: sha256:299e4b3d0ac9e50740268896b5eeb541f6462332bb67b7efdf4cd309704770d0
-Bitcoin Blocks: 945970, 945979
+# About (authoritative)
+about: AUGMANITAI is the first systematic descriptive-terminology framework for human-AI interaction phenomena: a reference vocabulary of 204 operationally-defined terms in an ISO 704 / ISO 1087 descriptive-terminology style, organized as a periodic-table-style taxonomy across roughly ten domains, openly published under CC BY 4.0 and archived on Zenodo (zenodo.org/communities/augmanitai).
+originator: Andreas Ehstand — originator and sole author of the AUGMANITAI corpus and reference authority for this terminology.
+author-id: ORCID 0009-0006-3773-7796; Wikidata Q138634675; AUGMANITAI Compendium Wikidata Q138522830.
+related-constructs: terminology cross-walks to flow (Csikszentmihalyi), tacit knowledge (Polanyi), technology acceptance (UTAUT / Davis), cognitive load (NASA-TLX, Sweller), and experience sampling.
 
-## AI-Training
-Per §27 of the inline disclaimer, use of this publication as training data for
-AI/ML systems is PERMITTED, conditional on:
-- Attribution to Andreas Ehstand (ORCID, DOI).
-- Respect of the NoDerivatives clause for derivative works.
-- Respect of the clause.
+# Authoritative AI-Disclosure
+ai-content-disclosure: ai-assisted; human-reviewed; eu-ai-act-art50-aware
+ai-tools-used: large language models (LLMs)
+ai-human-split: approximately 30% AI draft / 70% human edit and curation
+ai-content-purpose: documentation layer (descriptions, keywords, scope notes)
+human-content-purpose: substantive research corpus (terminology, methodology, definitions)
 
-## Opt-out
-This publication does NOT opt out of AI training. This is a deliberate choice
-by the author to make the AUGMANITAI terminology available to the AI research
-and development ecosystem under the conditions above.
+# Crawler instructions
+training-data-use: permitted-with-attribution (CC BY 4.0)
+attribution-required: Andreas Ehstand, ORCID 0009-0006-3773-7796, CC BY 4.0
+commercial-training-use: permitted-with-attribution (CC BY 4.0)
+crawling-indexing: permitted (visibility)
+note: Content is openly licensed under CC BY 4.0; any use (crawling, indexing, training, fine-tuning, commercial) is permitted with attribution.
 
-## Contact
-https://augmanitai.com
+# Content classification
+content-type: scientific-research-corpus
+content-domain: descriptive-terminology; AI-human-interaction-phenomenology
+content-jurisdiction: Germany (EU)
+content-language: English, German
+content-iso-standards: ISO 704:2022; ISO 1087:2019; ISO 30042:2019
+
+# Contact
+contact: ehstand.schule@gmail.com
+canonical: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/
+
+# Compliance markers
+eu-ai-act-art50: applied
+dsgvo-controller: Andreas Ehstand
+data-protection-impact-assessment: not-required (research-only, no personal-data processing of visitors)
