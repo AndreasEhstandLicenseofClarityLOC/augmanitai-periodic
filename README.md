@@ -86,7 +86,7 @@ A third party cannot retroactively claim earlier authorship of any term in this 
 
 **CC BY 4.0** — Creative Commons Attribution 4.0 International.
 
-Unmodified redistribution with attribution is permitted. Commercial use, derivative corpora, and re-derivation of terminologies require separate written permission.
+You may share and adapt the corpus — including commercially and to create derivative corpora — with attribution (CC BY 4.0).
 
 ## EU AI Act Art. 50 Disclosure
 

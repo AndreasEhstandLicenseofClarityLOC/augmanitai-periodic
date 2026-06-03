@@ -49,12 +49,12 @@
     "vanilla JS"
   ],
   "codeRepository": "https://github.com/AndreasEhstandLicenseofClarityLOC/augmanitai-periodic",
-  "identifier": "https://doi.org/10.5281/zenodo.19317936",
+  "identifier": "https://doi.org/10.5281/zenodo.20161494",
   "referencePublication": {
     "@type": "ScholarlyArticle",
     "name": "AUGMANITAI Research Programme: terminology and phenomenology of human-AI interaction",
     "author": "Andreas Ehstand",
     "datePublished": "2024",
-    "identifier": "https://doi.org/10.5281/zenodo.19317936"
+    "identifier": "https://doi.org/10.5281/zenodo.20161494"
   }
 }
