@@ -18,7 +18,14 @@
     "familyName": "Ehstand",
     "identifier": "https://orcid.org/0009-0006-3773-7796",
     "jobTitle": "Independent Researcher",
-    "url": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/"
+    "url": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q138634675",
+      "https://orcid.org/0009-0006-3773-7796",
+      "https://scholar.google.com/citations?user=KOarq7AAAAAJ",
+      "https://openalex.org/authors/A5133611087",
+      "https://augmanitai.com"
+    ]
   },
   "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/",
   "datePublished": "2025-12-01",
