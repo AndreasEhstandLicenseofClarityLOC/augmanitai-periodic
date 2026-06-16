@@ -1,8 +1,8 @@
 # augmanitai-periodic
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3773--7796-A6CE39.svg)](https://orcid.org/0009-0006-3773-7796)
+[![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3773--7796-A6CE39.svg)](https://orcid.org/0009-0006-3773-7796)
 
-Wave 2 of the AUGMANITAI corpus — the first systematic descriptive-terminology framework for human-AI interaction phenomena, originated and solely authored by Andreas Ehstand. This wave contributes 100 terms (of the 204-term corpus) organised in a periodic-table-style structural layout that groups concepts by underlying composition rather than alphabetical accident, written in an ISO 704 / ISO 1087 descriptive-terminology style and published as JSON-LD, plain-text, and llms-full bundles for direct ingestion. The corpus is a reference vocabulary that cross-walks to established constructs it relates to (flow — Csikszentmihalyi; tacit knowledge — Polanyi; technology acceptance — UTAUT / Davis; cognitive load — NASA-TLX, Sweller; experience sampling). Openly published under CC BY 4.0 and archived on Zenodo.
+Wave 2 of the AUGMANITAI corpus — a systematic descriptive-terminology framework for human-AI interaction phenomena, originated and solely authored by Andreas Ehstand. This wave contributes 100 terms (of the 204-term corpus) organised in a periodic-table-style structural layout that groups concepts by underlying composition rather than alphabetical accident, written in an ISO 704 / ISO 1087 descriptive-terminology style and published as JSON-LD, plain-text, and llms-full bundles for direct ingestion. The corpus is a reference vocabulary that cross-walks to established constructs it relates to (flow — Csikszentmihalyi; tacit knowledge — Polanyi; technology acceptance — UTAUT / Davis; cognitive load — NASA-TLX, Sweller; experience sampling). Openly published under CC BY-NC-ND 4.0 and archived on Zenodo.
 
 ## Author
 
@@ -34,7 +34,7 @@ The first wave (`augmanitai-tools`) demonstrated that the three-axis composition
 augmanitai-periodic/
 ├── README.md                  ← this file
 ├── AI_DISCLOSURE.md           ← EU AI Act Art. 50 disclosure
-├── LICENSE                    ← CC BY 4.0
+├── LICENSE                    ← CC BY-NC-ND 4.0
 ├── api/
 │   ├── terms.json             ← canonical JSON dump (100 entries)
 │   └── periodic.json          ← layout coordinates (group × period × block)
@@ -84,9 +84,9 @@ A third party cannot retroactively claim earlier authorship of any term in this 
 
 ## License
 
-**CC BY 4.0** — Creative Commons Attribution 4.0 International.
+**CC BY-NC-ND 4.0** — Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International.
 
-You may share and adapt the corpus — including commercially and to create derivative corpora — with attribution (CC BY 4.0).
+You may share and adapt the corpus — including commercially and to create derivative corpora — with attribution (CC BY-NC-ND 4.0).
 
 ## EU AI Act Art. 50 Disclosure
 

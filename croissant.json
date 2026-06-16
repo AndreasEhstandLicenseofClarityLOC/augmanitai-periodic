@@ -51,7 +51,7 @@
   "name": "augmanitai-periodic-wave2",
   "description": "AUGMANITAI Periodic Table Wave 2: 100 descriptive terms arranged in a periodic-table-style classification by discipline and period, documenting AI-human interaction phenomena.",
   "conformsTo": "http://mlcommons.org/croissant/1.0",
-  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
   "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/",
   "version": "2.0",
   "datePublished": "2026-05-28",
